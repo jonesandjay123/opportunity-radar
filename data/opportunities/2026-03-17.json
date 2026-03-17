@@ -1,0 +1,232 @@
+[
+  {
+    "id": "opp_20260317_001",
+    "title": "AI-Powered Founder Knowledge Transfer & Marketing Onboarding Tool",
+    "problem": "Founders who've been doing all marketing solo for 12+ months have critical business context trapped in their heads. When they hire their first marketer, the onboarding fails because there's no way to transfer gut-level knowledge about what's working, customer insights, and undocumented decisions.",
+    "who": "Solo founders / early-stage startup CEOs hiring their first marketing person (typically Series A, 20-60 employees)",
+    "currentSolution": "Messy handoff via Slack messages, ad hoc docs, and weeks of the new hire 'figuring it out'. Some use Notion wikis but they're always incomplete.",
+    "whyItSucks": "Takes 3+ months for the new hire to become effective. Founder still micromanages. Critical context about what's 'working by accident vs on purpose' is never transferred. $14k/month tool stacks get requested because the hire doesn't understand what already works.",
+    "opportunityAngle": "Build an AI-powered 'founder brain dump' tool that interviews the founder (voice/chat), extracts marketing knowledge into structured playbooks, and creates an interactive onboarding portal for the new hire. Think 'Loom meets Notion AI' specifically for marketing handoffs.",
+    "evidence": [
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1rw42xd/hired_my_first_fulltime_marketer_after_doing/",
+        "quote": "You've been making marketing decisions based on gut and customer conversations for over a year. You have context that lives nowhere. Not in docs, not in Slack, not in your CRM. It's just in your head. And you'll get frustrated when they don't 'get it' even though you never actually transferred any of it."
+      },
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1rw42xd/hired_my_first_fulltime_marketer_after_doing/",
+        "quote": "I handed someone the keys to a car with no manual, half the dashboard lights on, and said 'you're the expert, figure it out.'"
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 3,
+      "willingnessToPay": 4,
+      "automationPotential": 5,
+      "jonesFit": 4,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 2,
+      "total": 26
+    },
+    "tags": ["AI", "SaaS", "onboarding", "knowledge-management", "marketing"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-17T21:30:00Z",
+    "updatedAt": "2026-03-17T21:30:00Z",
+    "sourceDate": "2026-03-17"
+  },
+  {
+    "id": "opp_20260317_002",
+    "title": "School Management SaaS for Non-English-Speaking Markets",
+    "problem": "Schools in developing / non-English markets run on spreadsheets, paper folders, and WhatsApp chaos. Existing school management software is English-centric, expensive, and not adapted to local needs (billing models, parent communication via WhatsApp/LINE, local regulatory compliance).",
+    "who": "Private schools and school directors in Taiwan, Southeast Asia, Latin America — markets where WhatsApp/LINE is the default parent communication channel",
+    "currentSolution": "Excel spreadsheets, paper attendance, WhatsApp group chaos, hiring cheap developers who never deliver. Some try English-language SaaS tools that don't fit local workflows.",
+    "whyItSucks": "Data is scattered across 10+ places. Inspection reports take weeks to compile manually. Cheap developer projects fail repeatedly. English tools lack local payment integration, LINE/WhatsApp notifications, and local language support.",
+    "opportunityAngle": "Jones's cross-cultural advantage is huge here. A bilingual (Traditional Chinese + English) school management SaaS specifically targeting Taiwan/Asia private schools, with built-in LINE notifications, local payment (convenience store payment), and AI-powered report generation. Start with one school, expand via word-of-mouth in the tight-knit school director community.",
+    "evidence": [
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/search.json?q=school&restrict_sr=on&sort=new&t=month",
+        "quote": "My wife is a school director... every school in our area runs on spreadsheets, paper folders, and WhatsApp chaos. So from day one I architected it as a multi-tenant SaaS."
+      },
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/search.json?q=school&restrict_sr=on&sort=new&t=month",
+        "quote": "She got more done in the first month of using it than in that entire year of waiting on the other developer."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 3,
+      "automationPotential": 5,
+      "jonesFit": 5,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 5,
+      "total": 31
+    },
+    "tags": ["SaaS", "education", "cross-border", "localization", "Taiwan", "LINE"],
+    "category": "cross-border",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-17T21:30:00Z",
+    "updatedAt": "2026-03-17T21:30:00Z",
+    "sourceDate": "2026-03-17"
+  },
+  {
+    "id": "opp_20260317_003",
+    "title": "AI Outbound Lead Research Agent for Startups",
+    "problem": "Startup founders doing outbound sales waste 2-4 hours daily manually researching leads across LinkedIn, news, blogs, and X. Existing tools like ZoomInfo provide low-quality data, and the choice is 'spray and pray' or 'spend 15 min per lead' — neither scales.",
+    "who": "B2B SaaS founders and early-stage sales teams (1-5 people) doing outbound without dedicated SDR teams",
+    "currentSolution": "Manual LinkedIn browsing, ZoomInfo/Leadpoet (limited credits, poor quality), spreadsheet-based lead tracking. People literally scroll through job postings and news to find buying signals.",
+    "whyItSucks": "ZoomInfo costs $15k+/year and data is often stale. Cheaper tools have credit limits. Manual research doesn't scale past 20-30 leads/day. The signal-to-noise ratio is terrible — 200 leads yield only 10 good fits.",
+    "opportunityAngle": "Build an AI agent that continuously monitors hiring pages, news, funding announcements, tech stack changes, and social signals to identify high-intent accounts, then generates personalized research briefs per lead. Jones's AI engineering skills + understanding of developer/startup personas = strong product-market fit. Could start as a focused tool for the Asia-US corridor (Taiwan companies selling to US enterprises).",
+    "evidence": [
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1rwj03o/outbound_research_is_killing_me_need/",
+        "quote": "id have to go through like 200 leads just to find 10 solid relevant people. wasted a few hours every single day doing this crap"
+      },
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1rwj03o/outbound_research_is_killing_me_need/",
+        "quote": "it was always either spray and pray every account with cold emails or spend 15 minutes researching every single account. second option worked better but took way too much time"
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 5,
+      "jonesFit": 4,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 3,
+      "total": 28
+    },
+    "tags": ["AI", "sales", "outbound", "lead-gen", "automation", "B2B"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-17T21:30:00Z",
+    "updatedAt": "2026-03-17T21:30:00Z",
+    "sourceDate": "2026-03-17"
+  },
+  {
+    "id": "opp_20260317_004",
+    "title": "Ultra-Cheap Shift Scheduling for Micro-Businesses (<$10/mo)",
+    "problem": "Small businesses with 10-30 hourly employees are stuck using Excel and paper for scheduling because every scheduling platform charges per-user fees that add up fast. They need basic scheduling + clock-in/out + payroll export but can't justify $50-200/month.",
+    "who": "Small retail, restaurant, and service businesses with 10-30 hourly workers, especially immigrant-owned businesses in the US",
+    "currentSolution": "Excel spreadsheets, paper schedules posted on the wall, WhatsApp groups for shift swaps. Some try free tiers of apps but hit user limits quickly.",
+    "whyItSucks": "Per-user pricing means 20 employees × $3-5/user = $60-100/month for basic scheduling. Free tiers cap at 5-10 users. Paper scheduling leads to no-shows, miscommunication, and payroll errors.",
+    "opportunityAngle": "Build an ultra-simple scheduling app with flat pricing ($5-9/mo unlimited users). Target immigrant-owned small businesses in NYC (Jones's local network). Bilingual English/Chinese interface is a differentiator. Use AI to auto-generate optimal schedules from availability. Revenue comes from volume — thousands of tiny businesses rather than enterprise contracts.",
+    "evidence": [
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1rwenhx/is_there_any_staff_scheduling_app_for_20/",
+        "quote": "I'm desperately trying to move away from using Excel and paper for shift scheduling and time-tracking. The problem is, every platform I look at either charges a per-user fee that adds up way too fast, or has a high base monthly subscription."
+      },
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1rwenhx/is_there_any_staff_scheduling_app_for_20/",
+        "quote": "Does a completely free or ultra-cheap (under $10 total per month) platform actually exist for a team this size? Or am I stuck with spreadsheets until we can increase our software budget?"
+      }
+    ],
+    "scores": {
+      "painIntensity": 3,
+      "frequency": 5,
+      "willingnessToPay": 2,
+      "automationPotential": 5,
+      "jonesFit": 4,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 3,
+      "total": 25
+    },
+    "tags": ["SaaS", "scheduling", "small-business", "flat-pricing", "bilingual"],
+    "category": "life-friction",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-17T21:30:00Z",
+    "updatedAt": "2026-03-17T21:30:00Z",
+    "sourceDate": "2026-03-17"
+  },
+  {
+    "id": "opp_20260317_005",
+    "title": "AI Code Verification & Spec-Driven Development Tooling",
+    "problem": "Developers using AI coding agents (Claude Code, Cursor, Copilot) are generating large amounts of code that nobody reviews. Tests written by the same AI are unreliable. The gap between 'code that works' and 'code that's correct and maintainable' is growing fast.",
+    "who": "Software developers and small engineering teams using AI coding assistants daily, especially solo developers and small startups shipping fast",
+    "currentSolution": "Manual code review (doesn't scale), AI-generated tests (circular validation problem), spec-driven development with hand-written specs (time-consuming). Some use property-based testing and mutation testing but these are computationally expensive.",
+    "whyItSucks": "AI writes code that passes its own tests but fails on edge cases. 'Sycophantic' AI agents write tests that make the user happy rather than catching bugs. Teams skip reviews entirely because 'the AI wrote it and the tests pass'. Debugging AI-generated code at 3am is a nightmare when you've never read it.",
+    "opportunityAngle": "Build a 'second opinion' AI code verification service — not another coding agent, but a dedicated adversarial reviewer. Jones's dev background + AI expertise = natural fit. The tool generates counter-examples, identifies unhandled edge cases, checks for architectural drift, and produces trust scores. Position it as 'the code review your AI agent can't give itself'. Huge HN/dev community interest signals strong early-adopter market.",
+    "evidence": [
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47397367",
+        "quote": "I frequently see agents write code that's functionally correct but that they won't be able to evolve for long... They fixed one bug only to create another."
+      },
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47397367",
+        "quote": "The core of the issue is that LLMs are sycophants, they want to make the user happy above all... I've seen some really wild things where LLM jumps through hoops to get tests to pass, even when they actually should be failing because the logic is wrong."
+      },
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47417804",
+        "quote": "Get Shit Done: A Meta-Prompting, Context Engineering and Spec-Driven Dev System (48 points, 19 comments in 1 hour — high engagement signal)"
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 4,
+      "jonesFit": 5,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 2,
+      "total": 28
+    },
+    "tags": ["AI", "developer-tools", "code-review", "quality-assurance", "devtools"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-17T21:30:00Z",
+    "updatedAt": "2026-03-17T21:30:00Z",
+    "sourceDate": "2026-03-17"
+  }
+]
