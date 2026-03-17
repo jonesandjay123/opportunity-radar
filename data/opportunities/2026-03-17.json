@@ -27,9 +27,16 @@
       "jonesFit": 4,
       "competitionGap": 4,
       "crossBorderArbitrage": 2,
-      "total": 26
+      "total": 26,
+      "scrappiness": 2
     },
-    "tags": ["AI", "SaaS", "onboarding", "knowledge-management", "marketing"],
+    "tags": [
+      "AI",
+      "SaaS",
+      "onboarding",
+      "knowledge-management",
+      "marketing"
+    ],
     "category": "tech-gap",
     "signals": {
       "workaroundDetected": true,
@@ -42,7 +49,17 @@
     "assignedTo": "jarvis",
     "createdAt": "2026-03-17T21:30:00Z",
     "updatedAt": "2026-03-17T21:30:00Z",
-    "sourceDate": "2026-03-17"
+    "sourceDate": "2026-03-17",
+    "firstTest": {
+      "type": "reddit_post",
+      "description": "在 r/Entrepreneur 發文問：你第一次雇行銷人員時，知識轉移最痛的是什麼？測試需求共鳴度",
+      "timeEstimate": "30 min"
+    },
+    "signalStrength": {
+      "numMentions": 3,
+      "recency": "high",
+      "trend": "stable"
+    }
   },
   {
     "id": "opp_20260317_002",
@@ -72,9 +89,17 @@
       "jonesFit": 5,
       "competitionGap": 4,
       "crossBorderArbitrage": 5,
-      "total": 31
+      "total": 31,
+      "scrappiness": 3
     },
-    "tags": ["SaaS", "education", "cross-border", "localization", "Taiwan", "LINE"],
+    "tags": [
+      "SaaS",
+      "education",
+      "cross-border",
+      "localization",
+      "Taiwan",
+      "LINE"
+    ],
     "category": "cross-border",
     "signals": {
       "workaroundDetected": true,
@@ -87,7 +112,17 @@
     "assignedTo": "jarvis",
     "createdAt": "2026-03-17T21:30:00Z",
     "updatedAt": "2026-03-17T21:30:00Z",
-    "sourceDate": "2026-03-17"
+    "sourceDate": "2026-03-17",
+    "firstTest": {
+      "type": "manual_service",
+      "description": "用 Jones 的 AI 技能，手動幫台灣/亞洲一間補習班或幼兒園做一套簡單的管理表單（Google Sheet + LINE Bot），測試他們願不願意付費",
+      "timeEstimate": "2-3 hours"
+    },
+    "signalStrength": {
+      "numMentions": 5,
+      "recency": "high",
+      "trend": "increasing"
+    }
   },
   {
     "id": "opp_20260317_003",
@@ -117,9 +152,17 @@
       "jonesFit": 4,
       "competitionGap": 3,
       "crossBorderArbitrage": 3,
-      "total": 28
+      "total": 28,
+      "scrappiness": 2
     },
-    "tags": ["AI", "sales", "outbound", "lead-gen", "automation", "B2B"],
+    "tags": [
+      "AI",
+      "sales",
+      "outbound",
+      "lead-gen",
+      "automation",
+      "B2B"
+    ],
     "category": "tech-gap",
     "signals": {
       "workaroundDetected": true,
@@ -132,7 +175,17 @@
     "assignedTo": "jarvis",
     "createdAt": "2026-03-17T21:30:00Z",
     "updatedAt": "2026-03-17T21:30:00Z",
-    "sourceDate": "2026-03-17"
+    "sourceDate": "2026-03-17",
+    "firstTest": {
+      "type": "content_test",
+      "description": "寫一篇 Medium/Dev.to 文章：AI Code Review 工具比較，附上自己用 LLM 做 code review 的 workflow，看流量和回應",
+      "timeEstimate": "1-2 hours"
+    },
+    "signalStrength": {
+      "numMentions": 8,
+      "recency": "high",
+      "trend": "increasing"
+    }
   },
   {
     "id": "opp_20260317_004",
@@ -162,9 +215,16 @@
       "jonesFit": 4,
       "competitionGap": 3,
       "crossBorderArbitrage": 3,
-      "total": 25
+      "total": 25,
+      "scrappiness": 4
     },
-    "tags": ["SaaS", "scheduling", "small-business", "flat-pricing", "bilingual"],
+    "tags": [
+      "SaaS",
+      "scheduling",
+      "small-business",
+      "flat-pricing",
+      "bilingual"
+    ],
     "category": "life-friction",
     "signals": {
       "workaroundDetected": true,
@@ -177,7 +237,17 @@
     "assignedTo": "jarvis",
     "createdAt": "2026-03-17T21:30:00Z",
     "updatedAt": "2026-03-17T21:30:00Z",
-    "sourceDate": "2026-03-17"
+    "sourceDate": "2026-03-17",
+    "firstTest": {
+      "type": "dm",
+      "description": "在 r/smallbusiness 找 5 個用 Excel 排班的老闆 DM 問：如果有免費的排班工具你會用嗎？最大痛點是什麼？",
+      "timeEstimate": "45 min"
+    },
+    "signalStrength": {
+      "numMentions": 12,
+      "recency": "high",
+      "trend": "stable"
+    }
   },
   {
     "id": "opp_20260317_005",
@@ -212,9 +282,16 @@
       "jonesFit": 5,
       "competitionGap": 4,
       "crossBorderArbitrage": 2,
-      "total": 28
+      "total": 28,
+      "scrappiness": 2
     },
-    "tags": ["AI", "developer-tools", "code-review", "quality-assurance", "devtools"],
+    "tags": [
+      "AI",
+      "developer-tools",
+      "code-review",
+      "quality-assurance",
+      "devtools"
+    ],
     "category": "tech-gap",
     "signals": {
       "workaroundDetected": true,
@@ -227,6 +304,16 @@
     "assignedTo": "jarvis",
     "createdAt": "2026-03-17T21:30:00Z",
     "updatedAt": "2026-03-17T21:30:00Z",
-    "sourceDate": "2026-03-17"
+    "sourceDate": "2026-03-17",
+    "firstTest": {
+      "type": "competitor_test",
+      "description": "試用 Clay/Apollo 等現有 outbound 工具，記錄哪裡最爛，發 Reddit post 分享體驗 + 你的 AI 替代方案構想",
+      "timeEstimate": "1-2 hours"
+    },
+    "signalStrength": {
+      "numMentions": 6,
+      "recency": "medium",
+      "trend": "stable"
+    }
   }
 ]

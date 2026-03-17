@@ -32,7 +32,25 @@
         "jonesFit": { "type": "number", "minimum": 1, "maximum": 5 },
         "competitionGap": { "type": "number", "minimum": 1, "maximum": 5 },
         "crossBorderArbitrage": { "type": "number", "minimum": 1, "maximum": 5 },
+        "scrappiness": { "type": "number", "minimum": 1, "maximum": 5, "description": "5=今天就能測, 1=要半年開發" },
         "total": { "type": "number" }
+      }
+    },
+    "firstTest": {
+      "type": "object",
+      "description": "今天就能做的最小驗證行動",
+      "properties": {
+        "type": { "type": "string", "enum": ["reddit_post", "landing_page", "dm", "manual_service", "survey", "competitor_test", "content_test"] },
+        "description": { "type": "string" },
+        "timeEstimate": { "type": "string", "description": "e.g., 30-60 min" }
+      }
+    },
+    "signalStrength": {
+      "type": "object",
+      "properties": {
+        "numMentions": { "type": "number" },
+        "recency": { "type": "string", "enum": ["high", "medium", "low"] },
+        "trend": { "type": "string", "enum": ["increasing", "stable", "decreasing"] }
       }
     },
     "tags": { "type": "array", "items": { "type": "string" } },
