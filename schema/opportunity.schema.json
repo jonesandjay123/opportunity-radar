@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Opportunity",
+  "type": "object",
+  "required": ["id", "title", "problem", "status", "createdAt"],
+  "properties": {
+    "id": { "type": "string", "description": "Unique ID (e.g., opp_20260317_001)" },
+    "title": { "type": "string", "description": "One-line opportunity title" },
+    "problem": { "type": "string", "description": "What's the pain point?" },
+    "who": { "type": "string", "description": "Who has this problem?" },
+    "currentSolution": { "type": "string", "description": "How do people solve it now?" },
+    "whyItSucks": { "type": "string", "description": "Why the current solution is bad" },
+    "opportunityAngle": { "type": "string", "description": "How Jones could approach this" },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source": { "type": "string" },
+          "url": { "type": "string" },
+          "quote": { "type": "string" }
+        }
+      }
+    },
+    "scores": {
+      "type": "object",
+      "properties": {
+        "painIntensity": { "type": "number", "minimum": 1, "maximum": 5 },
+        "frequency": { "type": "number", "minimum": 1, "maximum": 5 },
+        "willingnessToPay": { "type": "number", "minimum": 1, "maximum": 5 },
+        "automationPotential": { "type": "number", "minimum": 1, "maximum": 5 },
+        "jonesFit": { "type": "number", "minimum": 1, "maximum": 5 },
+        "competitionGap": { "type": "number", "minimum": 1, "maximum": 5 },
+        "crossBorderArbitrage": { "type": "number", "minimum": 1, "maximum": 5 },
+        "total": { "type": "number" }
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "category": { 
+      "type": "string",
+      "enum": ["human-needs", "life-friction", "cross-border", "tech-gap", "other"]
+    },
+    "signals": {
+      "type": "object",
+      "properties": {
+        "workaroundDetected": { "type": "boolean" },
+        "payingButAngry": { "type": "boolean" },
+        "jonesLeverage": { "type": "boolean" }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["new", "starred", "selected", "researching", "actionable", "archived", "rejected"]
+    },
+    "stage": {
+      "type": "string",
+      "enum": ["signal", "opportunity", "deep-dive", "validation", "action"]
+    },
+    "jonesNotes": { "type": "string", "description": "Jones's personal comments" },
+    "jonesRating": { "type": "number", "minimum": 0, "maximum": 5, "description": "Jones's gut feeling (stars)" },
+    "assignedTo": { "type": "string", "default": "jarvis", "description": "Which agent is responsible" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "sourceDate": { "type": "string", "format": "date", "description": "Which daily scan produced this" }
+  }
+}
