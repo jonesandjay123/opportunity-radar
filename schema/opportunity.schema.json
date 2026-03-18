@@ -4,15 +4,27 @@
   "type": "object",
   "required": ["id", "title", "problem", "status", "createdAt"],
   "properties": {
-    "id": { "type": "string", "description": "Unique ID (e.g., opp_20260317_001)" },
-    "title": { "type": "string", "description": "One-line opportunity title" },
-    "problem": { "type": "string", "description": "What's the pain point?" },
+    "id": { "type": "string", "description": "Unique ID (e.g., opp_20260318_001)" },
+
+    "title": { "type": "string", "description": "One-line opportunity title (English)" },
+    "title_zh": { "type": "string", "description": "中文標題" },
+
+    "problem": { "type": "string", "description": "What's the pain point? (English)" },
+    "problem_zh": { "type": "string", "description": "痛點描述（中文）" },
+
     "who": { "type": "string", "description": "Who has this problem?" },
+
     "currentSolution": { "type": "string", "description": "How do people solve it now?" },
-    "whyItSucks": { "type": "string", "description": "Why the current solution is bad" },
-    "opportunityAngle": { "type": "string", "description": "How Jones could approach this" },
+
+    "whyItSucks": { "type": "string", "description": "Why the current solution is bad (English)" },
+    "whyItSucks_zh": { "type": "string", "description": "現有方案為何爛（中文）" },
+
+    "opportunityAngle": { "type": "string", "description": "How Jones could approach this (English)" },
+    "opportunityAngle_zh": { "type": "string", "description": "切入角度（中文）" },
+
     "evidence": {
       "type": "array",
+      "description": "Real source URLs + quotes (keep in original language)",
       "items": {
         "type": "object",
         "properties": {
@@ -22,6 +34,7 @@
         }
       }
     },
+
     "scores": {
       "type": "object",
       "properties": {
@@ -36,15 +49,18 @@
         "total": { "type": "number" }
       }
     },
+
     "firstTest": {
       "type": "object",
       "description": "今天就能做的最小驗證行動",
       "properties": {
         "type": { "type": "string", "enum": ["reddit_post", "landing_page", "dm", "manual_service", "survey", "competitor_test", "content_test"] },
-        "description": { "type": "string" },
-        "timeEstimate": { "type": "string", "description": "e.g., 30-60 min" }
+        "description": { "type": "string", "description": "English description" },
+        "description_zh": { "type": "string", "description": "中文描述" },
+        "timeEstimate": { "type": "string" }
       }
     },
+
     "signalStrength": {
       "type": "object",
       "properties": {
@@ -53,10 +69,23 @@
         "trend": { "type": "string", "enum": ["increasing", "stable", "decreasing"] }
       }
     },
+
+    "sourceMeta": {
+      "type": "object",
+      "description": "訊號來源的地區/語言/平台（預留多語言擴充）",
+      "properties": {
+        "region": { "type": "string", "description": "e.g., US, TW, JP, KR" },
+        "language": { "type": "string", "description": "e.g., en, zh, ja" },
+        "platform": { "type": "string", "description": "e.g., reddit, ptt, hn, 5ch" }
+      }
+    },
+
+    "recommendedFocus": { "type": "boolean", "default": false, "description": "今日推薦（每天最多標 1 個）" },
+
     "tags": { "type": "array", "items": { "type": "string" } },
-    "category": { 
+    "category": {
       "type": "string",
-      "enum": ["human-needs", "life-friction", "cross-border", "tech-gap", "other"]
+      "enum": ["human-needs", "life-friction", "cross-border", "tech-gap", "service", "content", "other"]
     },
     "signals": {
       "type": "object",
