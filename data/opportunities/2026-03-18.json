@@ -1,0 +1,287 @@
+[
+  {
+    "id": "opp_20260318_001",
+    "title": "Cross-Border Shipping Compliance Concierge for Small E-Commerce Brands",
+    "problem": "Small brands shipping products across borders (e.g. Canada→US, Asia→US) are getting shipments returned, hit with random tariffs, and losing money. Current tariff chaos makes it worse — cosmetic brands getting 'steel/aluminum tariffs' applied randomly. They don't know the right HS codes, carrier tricks, or compliance docs.",
+    "who": "Small e-commerce brands (1-10 employees) selling physical products cross-border, especially Canada/Asia to US",
+    "currentSolution": "Trial and error with different carriers. Asking Reddit. Hiring expensive customs brokers ($500-2000/shipment). Some use Stallion Express/Chit Chats but still get burned.",
+    "whyItSucks": "Customs brokers are expensive and overkill for small brands. Free info is scattered across forums. Every carrier gives different advice. One wrong HS code = shipment returned + lost revenue. The 2026 tariff changes made everything 10x more confusing.",
+    "opportunityAngle": "Jones's cross-border (Taiwan/US) experience + AI skills = perfect fit. Offer a 'Cross-Border Shipping Audit' service: review a brand's product catalog, assign correct HS codes, recommend optimal carrier/route, and provide compliance doc templates. Start as a manual $99-199 one-time audit. Use AI to semi-automate the HS code lookup and document generation. Target NYC immigrant business owners first (local network).",
+    "evidence": [
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1rxbf3u/canadian_brand_struggling_to_ship_beard_products/",
+        "quote": "We've had multiple shipments returned using Canada Post, UPS, and Purolator... Issues seem to come up when sending more than one item (tariffs like steel/aluminum randomly applied, which makes no sense). This is getting ridiculous!"
+      },
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1rxbf3u/canadian_brand_struggling_to_ship_beard_products/",
+        "quote": "Are any Canadian brands successfully shipping cosmetics to the U.S. right now? Are you using a specific carrier or broker? Is there something we're missing on compliance or declaration?"
+      }
+    ],
+    "scores": {
+      "painIntensity": 5,
+      "frequency": 4,
+      "willingnessToPay": 4,
+      "automationPotential": 4,
+      "jonesFit": 5,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 5,
+      "scrappiness": 5,
+      "total": 36
+    },
+    "firstTest": {
+      "type": "manual_service",
+      "description": "在 r/smallbusiness 找 3 個正在抱怨跨境運送問題的帖子，DM 他們：'我有跨境電商經驗，可以免費幫你 audit 一下你的 HS code 和運送流程，找出問題。'做完後收集 testimonial + 定價驗證",
+      "timeEstimate": "30-60 min"
+    },
+    "signalStrength": {
+      "numMentions": 8,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "tags": ["cross-border", "e-commerce", "tariffs", "consulting", "manual-service"],
+    "category": "cross-border",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-18T19:00:00Z",
+    "updatedAt": "2026-03-18T19:00:00Z",
+    "sourceDate": "2026-03-18"
+  },
+  {
+    "id": "opp_20260318_002",
+    "title": "Free Trial & Subscription Cancellation Watchdog Bot",
+    "problem": "People sign up for free trials and get billed due to deceptive renewal practices. Even when they cancel before the stated renewal date, companies like Walmart+ still charge them. People use calendar reminders as workaround but still get burned. This is a universal consumer pain point.",
+    "who": "Frugal consumers, subscription-heavy users (streaming, SaaS trials, membership services). Huge audience — r/Frugal alone has 6.7M members.",
+    "currentSolution": "Setting calendar reminders manually. Spreadsheets tracking trial end dates. Services like Truebill/Rocket Money charge $3-12/month and focus on finding subscriptions, not actively managing cancellation timing.",
+    "whyItSucks": "Calendar reminders fail when the actual cancellation deadline differs from the renewal date (as Walmart+ showed). Existing subscription trackers don't actively cancel for you. People still get surprise-billed. The problem is getting worse as every service pushes free trials + auto-renewal.",
+    "opportunityAngle": "Build a dead-simple Telegram/LINE bot that tracks your free trials and sends aggressive reminders 3 days, 1 day, and 2 hours before cancellation deadline. Include the actual cancellation link. Phase 2: use browser automation to auto-cancel. Start with a free bot, monetize via affiliate links to cheaper alternatives. Jones's dev skills make this a weekend build.",
+    "evidence": [
+      {
+        "source": "r/Frugal",
+        "url": "https://www.reddit.com/r/Frugal/comments/1rvhvi8/beware_walmart_cancellationrenewal_shenanigans/",
+        "quote": "I cancelled on March 9... only to be billed the next month's fee on March 10 anyway. I was told that 'normally the membership is a non-refundable charge' but that they would 'make an exception for me.'"
+      },
+      {
+        "source": "r/Frugal",
+        "url": "https://www.reddit.com/r/Frugal/comments/1rvhvi8/beware_walmart_cancellationrenewal_shenanigans/",
+        "quote": "I use free trials all the time to test things out and, obviously, in the interest of frugality... I've never had an experience like this before with any other service."
+      }
+    ],
+    "scores": {
+      "painIntensity": 3,
+      "frequency": 5,
+      "willingnessToPay": 2,
+      "automationPotential": 5,
+      "jonesFit": 4,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 2,
+      "scrappiness": 5,
+      "total": 29
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "在 r/Frugal 的 Walmart+ 取消帖回覆：'我正在做一個免費的 trial tracker bot，會在取消截止前提醒你+附上取消連結。有興趣測試嗎？'看回應量",
+      "timeEstimate": "20 min"
+    },
+    "signalStrength": {
+      "numMentions": 5,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "tags": ["consumer", "frugal", "subscriptions", "bot", "automation"],
+    "category": "life-friction",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": false
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-18T19:00:00Z",
+    "updatedAt": "2026-03-18T19:00:00Z",
+    "sourceDate": "2026-03-18"
+  },
+  {
+    "id": "opp_20260318_003",
+    "title": "Done-For-You Speed-to-Lead Automation for Local Service Businesses",
+    "problem": "Small businesses spend money on Meta ads but can't respond to leads fast enough. Leads go cold in minutes. The standard automation agency model charges $1,500+ setup fees, which is ridiculous for a small business. Founders are literally losing money because they're too busy running the business to answer inquiries.",
+    "who": "Local service businesses (plumbers, salons, tutors, cleaning services, restaurants) in NYC running Meta/Google ads but drowning in manual lead follow-up",
+    "currentSolution": "Manually checking email/DMs between appointments. Some hire freelance VAs ($15-25/hr). A few try Zapier but can't figure out the automation. Agencies charge $1500+ setup + $500/mo retainer.",
+    "whyItSucks": "VAs are inconsistent and still too slow (30+ min response time). Agencies are overpriced for micro-businesses. DIY automation (Zapier/Make) is too technical. Meanwhile leads go to whoever responds first.",
+    "opportunityAngle": "Offer a '$0 setup, $199/mo' speed-to-lead automation service. Jones sets up the Make/Zapier workflow manually for each client: Meta lead ad → instant WhatsApp/SMS auto-response → qualification questions → calendar booking. Target immigrant-owned service businesses in NYC (Jones's local network, bilingual advantage). This is a service business, not a SaaS — start earning immediately.",
+    "evidence": [
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1rx8m84/7_months_ago_i_offered_free_automations_to_this/",
+        "quote": "The biggest bottleneck I saw across the board was Speed to Lead. Businesses were spending money on Meta ads or working hard for organic leads, but couldn't reply fast enough. Leads were going cold while the founders were busy actually running their businesses."
+      },
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1rx8m84/7_months_ago_i_offered_free_automations_to_this/",
+        "quote": "Standard agencies charge $1,500+ just for the setup fee for this kind of build. For an early-stage founder, that barrier to entry is ridiculous."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 5,
+      "jonesFit": 4,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 3,
+      "scrappiness": 5,
+      "total": 33
+    },
+    "firstTest": {
+      "type": "manual_service",
+      "description": "找 NYC 法拉盛/華人區的 2 家本地服務業（美甲店、補習班），免費幫他們設好 Meta lead ad → WhatsApp 自動回覆的 flow，換取 testimonial。驗證他們願不願意付 $199/月",
+      "timeEstimate": "2-3 hours"
+    },
+    "signalStrength": {
+      "numMentions": 6,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "tags": ["local-business", "automation", "lead-gen", "service-business", "NYC"],
+    "category": "life-friction",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-18T19:00:00Z",
+    "updatedAt": "2026-03-18T19:00:00Z",
+    "sourceDate": "2026-03-18"
+  },
+  {
+    "id": "opp_20260318_004",
+    "title": "AI Coding Agent Prompt Templates & Workflow Guides (Paid Content Product)",
+    "problem": "Developers using AI coding agents (Claude Code, Cursor, Codex) are burning massive amounts of tokens and money on frameworks like GSD/Superpowers without getting better results. People spent $50-100+ in API credits for 500 lines of code. The agent harness matters enormously but there's no trusted guide on which workflow fits which task.",
+    "who": "Solo developers and small dev teams using AI coding assistants daily, willing to pay for efficiency gains. HN/dev community audience.",
+    "currentSolution": "Trial and error with different frameworks (GSD, Superpowers, Ralph loops). Reading HN comments. Copying .claude files from GitHub repos. Burning tokens to figure out what works.",
+    "whyItSucks": "GSD burned a week's worth of subscription + $20 API credits for 500 LOC. Superpowers uses 10x more tokens. No one knows which approach works for which task size. The 'set and forget' promise is a lie — people spend 6+ hours monitoring. Everyone's reinventing the wheel.",
+    "opportunityAngle": "Create a paid guide/template pack: 'The AI Coding Agent Playbook' — curated prompt templates, .claude files, and workflow decision trees for different task types (quick fix vs. feature build vs. refactor). Sell as a $29-49 Gumroad product. Jones already runs AI agents daily (Jarvis!), has deep hands-on experience. Content product = zero marginal cost, instant validation.",
+    "evidence": [
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47417804",
+        "quote": "I burned literally a weeks worth of the $20 claude subscription and then $20 worth of API credits on gsdv2. To get like 500 LOC."
+      },
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47417804",
+        "quote": "I find simple Ralph loops with an implementer and a reviewer that repeat until everything passes review and unit tests is 90% of the job."
+      },
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47417804",
+        "quote": "The agent harness matters a lot... I gave two tasks to opus4.6 one in CC and one in Copilot, CC is substantially better."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 3,
+      "jonesFit": 5,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 2,
+      "scrappiness": 5,
+      "total": 32
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "寫一篇 HN/Dev.to 文章：'I tested 5 AI coding agent workflows on the same task — here's what actually works (and what burned my money).' 附上 Jones 的真實使用數據。文末放 waitlist 連結，測試付費意願",
+      "timeEstimate": "2-3 hours"
+    },
+    "signalStrength": {
+      "numMentions": 15,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "tags": ["developer-tools", "content-product", "AI-agents", "prompt-engineering", "digital-product"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-18T19:00:00Z",
+    "updatedAt": "2026-03-18T19:00:00Z",
+    "sourceDate": "2026-03-18"
+  },
+  {
+    "id": "opp_20260318_005",
+    "title": "Niche Accessibility Writing Tool for Chinese-Speaking Learners",
+    "problem": "ESL (English as Second Language) learners from Chinese-speaking backgrounds struggle with English writing. Existing tools like Grammarly are built for native speakers — they don't understand L1 interference patterns (e.g. article omission, tense confusion, Chinglish patterns). A solo founder shared that niche accessibility audiences are 'incredibly loyal' when you solve their daily frustration.",
+    "who": "Chinese-speaking ESL students and professionals in the US (600k+ international students from China/Taiwan alone), plus remote workers who need English writing help",
+    "currentSolution": "Grammarly (doesn't understand Chinese-speaker error patterns). ChatGPT for proofreading (inconsistent, no learning feedback). Hiring tutors ($30-60/hr). ESL classes (slow, inconvenient).",
+    "whyItSucks": "Grammarly flags errors but doesn't explain WHY in a way that helps Chinese speakers learn. ChatGPT gives different advice each time. Tutors are expensive and hard to schedule. No tool specifically addresses Chinese→English interference patterns.",
+    "opportunityAngle": "Build a Chrome extension that reviews English writing with explanations in Traditional Chinese, specifically targeting common Chinese-speaker error patterns. Jones is the perfect person: native Chinese speaker, fluent English, lives in the US, understands AI. Start with a simple prompt-wrapper + Chrome extension. Monetize at $5-9/mo. Distribution via Taiwanese student Facebook groups, PTT, Dcard.",
+    "evidence": [
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1rx8ota/what_i_learned_building_a_niche_accessibility/",
+        "quote": "Niche audiences are incredibly loyal. When you solve a real, daily frustration for someone who has felt underserved their whole life, they don't just use your product, they champion it."
+      },
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1rx8ota/what_i_learned_building_a_niche_accessibility/",
+        "quote": "Talking to actual dyslexic users before writing a single line of code was the most valuable thing I did. Their workflow was completely different from what I assumed. They needed something invisible that worked inside whatever they were already doing."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 3,
+      "automationPotential": 5,
+      "jonesFit": 5,
+      "competitionGap": 5,
+      "crossBorderArbitrage": 5,
+      "scrappiness": 4,
+      "total": 36
+    },
+    "firstTest": {
+      "type": "survey",
+      "description": "在 PTT StudyAbroad 板 / 台灣留學 Facebook 群組發文問：'你在美國寫英文 email/報告最痛苦的是什麼？Grammarly 有幫助嗎？' 收集 20+ 回覆驗證痛點",
+      "timeEstimate": "30-60 min"
+    },
+    "signalStrength": {
+      "numMentions": 4,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "tags": ["accessibility", "ESL", "Chinese-speakers", "Chrome-extension", "cross-cultural", "education"],
+    "category": "cross-border",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-18T19:00:00Z",
+    "updatedAt": "2026-03-18T19:00:00Z",
+    "sourceDate": "2026-03-18"
+  }
+]
