@@ -1,0 +1,352 @@
+[
+  {
+    "id": "opp_20260319_001",
+    "title": "Freelancer Income Protection Toolkit (Templates + Automation)",
+    "title_zh": "自由工作者收入保護工具包（模板＋自動化）",
+    "problem": "Freelancers and digital nomads are silently losing $5,000+/year to scope creep they never invoice, ghosted invoices, and bad pipeline visibility. They know the problem exists but have no lightweight system to prevent it. Existing tools like HoneyBook or Dubsado are $30-50/mo SaaS — overkill for solo freelancers who just need scope protection and payment follow-up.",
+    "problem_zh": "自由工作者每年默默損失 $5,000+ 因為 scope creep 沒收費、客戶跑單、還有看不到收入管線。他們知道問題但沒有輕量系統來防。現有工具如 HoneyBook 月費 $30-50 太貴太複雜。",
+    "who": "Solo freelancers and digital nomads doing client work ($3K-15K/month revenue), especially designers, developers, writers, and consultants",
+    "currentSolution": "Google Docs contracts (no enforcement), manual invoice follow-ups (embarrassing and inconsistent), Excel/Notion for pipeline tracking (always outdated). Some use HoneyBook/Dubsado but most cancel within 2 months — too complex for solos.",
+    "whyItSucks": "No system catches scope creep before it happens. Following up on unpaid invoices feels humiliating. Pipeline visibility requires constant manual updates. The result: freelancers give away thousands in free labor and get ghosted on payments.",
+    "whyItSucks_zh": "沒有系統能在 scope creep 發生前攔截。催款讓人覺得丟臉。管線需要不斷手動更新。結果：自由工作者免費幹活、被跑單。",
+    "opportunityAngle": "Create a '$29 one-time' Freelancer Income Protection Kit: (1) battle-tested contract templates with built-in scope change clauses, (2) a Notion/Airtable automation template that auto-sends payment reminders at day 7/14/21, (3) a simple pipeline dashboard. Sell on Gumroad. Jones can build this in a weekend using his dev skills. Phase 2: add an AI 'scope creep detector' that analyzes client messages for red flags.",
+    "opportunityAngle_zh": "做一個 $29 一次買斷的「收入保護包」：(1) 有 scope change 條款的合約模板 (2) 自動催款的 Notion/Airtable 模板 (3) 簡單管線 dashboard。在 Gumroad 賣。Jones 一個週末能做完。Phase 2 加 AI scope creep 偵測器。",
+    "evidence": [
+      {
+        "source": "r/digitalnomad",
+        "url": "https://www.reddit.com/r/digitalnomad/comments/1rxryny/calculated_my_silent_income_losses_as_a_freelancer/",
+        "quote": "Scope creep I never invoiced for — roughly $3,100... I never sent a change order once. That's just free labor I handed out."
+      },
+      {
+        "source": "r/digitalnomad",
+        "url": "https://www.reddit.com/r/digitalnomad/comments/1rxryny/calculated_my_silent_income_losses_as_a_freelancer/",
+        "quote": "Invoices that were paid late or never — around $1,900. Three clients ghosted completely after delivery. I basically donated $1,900 to strangers."
+      },
+      {
+        "source": "r/digitalnomad",
+        "url": "https://www.reddit.com/r/digitalnomad/comments/1rxryny/calculated_my_silent_income_losses_as_a_freelancer/",
+        "quote": "none of it happened because I'm bad at what I do... It happened because I had zero infrastructure. No scope protection, no collections system, no way to see what was actually coming in."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 4,
+      "jonesFit": 4,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 3,
+      "scrappiness": 5,
+      "total": 33
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Write a post on r/digitalnomad or r/freelance: 'I calculated my silent income losses as a freelancer — here's the 3-template system I built to stop the bleeding.' Share the contract template for free, link to a Gumroad waitlist for the full kit.",
+      "description_zh": "在 r/digitalnomad 或 r/freelance 發文：分享自己計算出的「隱形收入損失」和建的 3 個模板系統。免費送合約模板，放 Gumroad 等候名單連結測反應。",
+      "timeEstimate": "2-3 hours"
+    },
+    "signalStrength": {
+      "numMentions": 6,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["freelance", "digital-product", "templates", "automation", "income-protection"],
+    "category": "life-friction",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": false
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-19T07:00:00Z",
+    "updatedAt": "2026-03-19T07:00:00Z",
+    "sourceDate": "2026-03-19"
+  },
+  {
+    "id": "opp_20260319_002",
+    "title": "AI Voice Receptionist Setup-as-a-Service for Busy Solo Businesses",
+    "title_zh": "AI 語音接線員代設置服務（忙碌一人公司專用）",
+    "problem": "Solo business owners (event planners, contractors, delivery services) miss calls and inquiries while doing the actual work. They want an AI phone receptionist that answers calls, books appointments, and sends summaries — but the setup is too technical. They see it working for others but don't know how to implement it themselves.",
+    "problem_zh": "一人公司老闆（活動策劃、包商、外送）做事時漏接電話和詢問。他們想要 AI 電話接線員自動接聽、預約、發摘要——但設置太技術性。",
+    "who": "Solo service business owners with 0-3 employees, doing $5K-30K/month, always on the go (event planners, contractors, cleaning services, personal trainers, photographers)",
+    "currentSolution": "Voicemail (nobody leaves voicemails anymore). Hiring a VA ($15-25/hr but inconsistent). Checking missed calls between jobs. Some try AI tools but can't configure them properly.",
+    "whyItSucks": "Every missed call is a lost customer who goes to the competitor who picks up. VAs are expensive and unreliable. Setting up AI receptionist tools requires tech knowledge that most service business owners don't have. The irony: the busier you are (good problem), the more inquiries you miss (bad outcome).",
+    "whyItSucks_zh": "每通漏接電話都是跑去競爭對手的客戶。VA 貴又不穩定。設置 AI 接線員工具需要技術知識。越忙越多詢問漏接。",
+    "opportunityAngle": "Offer a '$299 setup + $49/mo' AI receptionist service. Jones configures the whole thing for each client: AI voice answering, appointment booking, call summary via text. Use existing platforms (Bland.ai, Vapi, or similar) as the backend — Jones's value is the configuration, customization, and ongoing support. Target NYC service businesses first. Bilingual English/Chinese setup is a unique differentiator for Flushing/Chinatown businesses.",
+    "opportunityAngle_zh": "提供「$299 設置 + $49/月」AI 接線員服務。Jones 幫每個客戶配好：AI 語音接聽、預約、通話摘要簡訊。用現有平台（Bland.ai、Vapi）當後端。先打 NYC 服務業。中英雙語是法拉盛/華埠的獨家優勢。",
+    "evidence": [
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1rxsgcw/what_good_ai_workers_have_you_actually_used/",
+        "quote": "my friend showed me an AI worker she set up to answer her business phone while she's out on deliveries. it picks up, talks to callers naturally, books consultations, and texts her a summary after each call."
+      },
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1rxsgcw/what_good_ai_workers_have_you_actually_used/",
+        "quote": "basically all the stuff that falls apart when you're too busy doing the actual work. i know there are a bunch of these platforms out there now but not sure if they are good."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 5,
+      "jonesFit": 4,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 3,
+      "scrappiness": 4,
+      "total": 32
+    },
+    "firstTest": {
+      "type": "manual_service",
+      "description": "Sign up for Bland.ai or Vapi free tier. Set up a demo AI receptionist for a fictional event planning business. Record a screen walkthrough showing the setup + a test call. Post to r/Entrepreneur as a response to the 'AI workers' thread.",
+      "description_zh": "註冊 Bland.ai 或 Vapi 免費方案。為一個虛構的活動策劃公司設好 demo AI 接線員。錄螢幕演示設置＋測試通話。發到 r/Entrepreneur 的 AI workers 討論串。",
+      "timeEstimate": "2-3 hours"
+    },
+    "signalStrength": {
+      "numMentions": 7,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["AI-agents", "voice", "service-business", "done-for-you", "NYC", "local-business"],
+    "category": "service",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-19T07:00:00Z",
+    "updatedAt": "2026-03-19T07:00:00Z",
+    "sourceDate": "2026-03-19"
+  },
+  {
+    "id": "opp_20260319_003",
+    "title": "Cross-Border Product QA Liaison — Bridging Small Brands & Asian Suppliers",
+    "title_zh": "跨境產品 QA 橋樑——幫小品牌跟亞洲供應商溝通",
+    "problem": "Small brand founders getting prototypes from Asian manufacturers discover specs were changed without being told. Suppliers make unilateral decisions about 'difficult' details. The founder has no way to enforce quality before mass production because they don't speak the language, don't understand factory constraints, and can't visit in person.",
+    "problem_zh": "小品牌創辦人收到亞洲工廠打樣後發現規格被偷改。供應商自己決定「難做」的細節不說。創辦人無法在量產前把關品質——不懂語言、不了解工廠限制、無法親訪。",
+    "who": "DTC brand founders (1-5 person teams) sourcing products from China/Taiwan/Vietnam factories, especially first-time importers in the US",
+    "currentSolution": "Hiring sourcing agents on Alibaba ($500-2000 per project, quality varies wildly). Asking Reddit/Facebook groups for factory recommendations. Flying to China for factory visits ($3-5K per trip). Some use Inspection companies (SGS, QIMA) but only for post-production QC, not pre-production spec review.",
+    "whyItSucks": "Sourcing agents often side with the factory (they get commissions from both sides). Reddit advice is anecdotal and unreliable. Factory visits are expensive and impractical for small brands. Nobody offers pre-production spec review — the most critical moment is BEFORE mass production, not after.",
+    "whyItSucks_zh": "採購代理常站工廠那邊（兩頭拿佣金）。Reddit 建議不可靠。驗廠太貴。沒人提供量產前的規格審查——最關鍵的時刻是量產前，不是量產後。",
+    "opportunityAngle": "Offer a 'Pre-Production QA Review' service ($149-299 per product). Jones reviews the prototype specs vs. original design, communicates directly with the factory in Chinese, identifies spec deviations, and provides a clear report with recommended changes before mass production. Jones's unique advantage: native Chinese, lives in the US, understands both sides. Start by targeting the prototype complaint posts on r/Entrepreneur and r/smallbusiness.",
+    "opportunityAngle_zh": "提供「量產前 QA 審查」服務（$149-299/產品）。Jones 比對打樣 vs 原始設計、用中文直接跟工廠溝通、找出規格偏差、出報告建議修改。Jones 獨特優勢：中文母語、住美國、懂兩邊文化。先打 r/Entrepreneur 和 r/smallbusiness 的打樣抱怨帖。",
+    "evidence": [
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1rxq3l7/updates_prototype_looked_greatuntil_i_looked/",
+        "quote": "I noticed some details weren't exactly same how I designed them. When I asked my supplier, they said it's because these details are difficult to produce. The point is, they didn't ask me anything before they made this decision!"
+      },
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1rxq3l7/updates_prototype_looked_greatuntil_i_looked/",
+        "quote": "what looks good once doesn't mean it can be made the same way at scale, especially when your supplier is not transparency to you."
+      }
+    ],
+    "scores": {
+      "painIntensity": 5,
+      "frequency": 3,
+      "willingnessToPay": 5,
+      "automationPotential": 2,
+      "jonesFit": 5,
+      "competitionGap": 5,
+      "crossBorderArbitrage": 5,
+      "scrappiness": 4,
+      "total": 34
+    },
+    "firstTest": {
+      "type": "dm",
+      "description": "Find 3 recent r/Entrepreneur posts about prototype/supplier issues. DM the OPs: 'I'm bilingual Chinese/English and have experience with Asian suppliers. Happy to do a free spec review of your prototype vs. original design and communicate directly with your factory.' Collect feedback on willingness to pay.",
+      "description_zh": "在 r/Entrepreneur 找 3 個近期打樣/供應商問題的帖子。DM 原PO：『我中英雙語，有亞洲供應商經驗，可以免費幫你審查打樣 vs 原始設計，直接跟工廠溝通。』收集付費意願回饋。",
+      "timeEstimate": "1-2 hours"
+    },
+    "signalStrength": {
+      "numMentions": 5,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": true,
+    "tags": ["cross-border", "manufacturing", "QA", "consulting", "bilingual", "Taiwan"],
+    "category": "cross-border",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-19T07:00:00Z",
+    "updatedAt": "2026-03-19T07:00:00Z",
+    "sourceDate": "2026-03-19"
+  },
+  {
+    "id": "opp_20260319_004",
+    "title": "AI Content Authenticity Detector / 'Human-Written' Certification Badge",
+    "title_zh": "AI 內容真偽檢測器 / 「人類撰寫」認證標章",
+    "problem": "Readers, editors, and publishers are getting tricked by AI-generated content that's now good enough to fool everyone. The 'Warranty Void If Regenerated' HN post (283 pts) showed that even tech-savvy HN readers couldn't tell it was AI-written. People feel genuinely deceived when they find out. There's growing demand for content provenance and human-authored certification.",
+    "problem_zh": "讀者、編輯、出版商被品質越來越高的 AI 生成內容騙到。HN 上 283 點的帖子證明連科技人都分辨不出。人們發現被騙後感到被欺騙。對內容來源和「人類撰寫」認證的需求正在增長。",
+    "who": "Publishers, editors, content platforms, hiring managers reviewing writing samples, academic institutions, and readers who value authentic human perspectives",
+    "currentSolution": "GPTZero and similar detectors (increasingly unreliable as models improve). Manual spot-checking (doesn't scale). Nothing for proactive 'human-authored' certification. C2PA/Content Credentials exist but are photo/video focused and too complex for text.",
+    "whyItSucks": "Detection tools have too many false positives and are trivially defeated by paraphrasing. There's no positive signal — no way for human authors to PROVE they wrote something. The arms race between detection and generation is unwinnable. What's needed is a certification system, not a detection system.",
+    "whyItSucks_zh": "偵測工具誤判太多，改寫就能騙過。沒有正向信號——人類作者無法證明是自己寫的。偵測 vs 生成的軍備競賽贏不了。需要的是認證系統，不是偵測系統。",
+    "opportunityAngle": "Build a lightweight 'Human-Authored' certification badge system. Authors create an account, submit their writing process artifacts (drafts, revision history, research notes), and receive a verifiable badge they can embed on their content. Think 'Verified on Twitter' but for authentic human writing. Start with a simple Chrome extension that shows the badge on certified articles. Jones's dev + AI understanding makes this very buildable. Monetize via author subscriptions ($5-9/mo) or publisher integrations.",
+    "opportunityAngle_zh": "做一個輕量「人類撰寫」認證標章系統。作者提交寫作過程證據（草稿、修改記錄、研究筆記），獲得可驗證標章嵌入文章。想像成寫作版的 Twitter 藍勾勾。先做 Chrome 擴充。Jones 的開發 + AI 理解讓這很可行。作者訂閱 $5-9/月或出版商整合收費。",
+    "evidence": [
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47431237",
+        "quote": "I did not realize this was AI generated while reading it... And I feel genuinely had? Like 'oh wow, you got me'... I don't like this feeling."
+      },
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47431237",
+        "quote": "it seems prudent that we tag submissions like this with a prefix... It is misleading that the blog post does not include a preface explaining it was written by an LLM"
+      },
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47431237",
+        "quote": "AI can't communicate, only generate output based on a prompt. At best, it produces an exploded version of a prompt, which is the only seed of interest that carries the whole thing."
+      }
+    ],
+    "scores": {
+      "painIntensity": 3,
+      "frequency": 5,
+      "willingnessToPay": 3,
+      "automationPotential": 4,
+      "jonesFit": 4,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 2,
+      "scrappiness": 3,
+      "total": 28
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Write an HN Show post: 'I'm building a Human-Authored certification badge for writers — proof of process, not AI detection.' Include a mockup of what the badge looks like embedded in a blog post. Measure engagement and signups.",
+      "description_zh": "在 HN 發 Show 帖：『我在做一個「人類撰寫」認證標章——證明過程，不是 AI 偵測。』附上標章嵌入部落格文章的 mockup。看互動和註冊數。",
+      "timeEstimate": "3-4 hours"
+    },
+    "signalStrength": {
+      "numMentions": 12,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "hn"
+    },
+    "recommendedFocus": false,
+    "tags": ["AI-authenticity", "content", "certification", "Chrome-extension", "publishing"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": false,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-19T07:00:00Z",
+    "updatedAt": "2026-03-19T07:00:00Z",
+    "sourceDate": "2026-03-19"
+  },
+  {
+    "id": "opp_20260319_005",
+    "title": "$99 'Get Online Today' Website Package for Local Businesses Without a Web Presence",
+    "title_zh": "$99「今天就上線」本地商家網站套餐",
+    "problem": "Millions of local businesses still don't have a website or have a terrible one. The 'Have a fucking website' post hit 876 points on HN, showing massive resonance. Web agencies charge $2,000-10,000. DIY tools like Squarespace/Wix still require hours of setup that busy business owners won't do. The result: businesses rely entirely on Yelp, Google Maps, and word of mouth.",
+    "problem_zh": "數百萬本地商家仍然沒有網站或網站很爛。HN 上「Have a fucking website」帖子獲得 876 點。網頁公司收 $2,000-10,000。DIY 工具仍需數小時設置。結果：商家完全依賴 Yelp、Google Maps、口碑。",
+    "who": "Local businesses in NYC (restaurants, salons, repair shops, tutoring centers, clinics) that either have no website or have a broken/outdated one, especially immigrant-owned businesses",
+    "currentSolution": "Google Business Profile only (limited). Outdated GoDaddy/Wix sites from 5 years ago. Facebook page as their 'website'. Word of mouth. Some pay $2,000+ to agencies for sites they can never update themselves.",
+    "whyItSucks": "Agencies are too expensive for a pizza shop. DIY tools still require choosing templates, writing copy, uploading photos — business owners don't have time. The $2K site from 3 years ago is now broken and nobody knows the login. Not having a website in 2026 costs real money in lost Google searches.",
+    "whyItSucks_zh": "網頁公司對披薩店來說太貴。DIY 工具仍需選模板、寫文案、上傳照片。三年前花 $2K 做的網站壞了沒人有密碼。2026 年沒網站等於損失 Google 搜尋流量。",
+    "opportunityAngle": "Offer a '$99 get online today' package: Jones takes a 15-min phone call, grabs their Google Business info + menu/service list, and uses AI to generate a clean single-page website on a simple platform (Carrd, Framer, or custom static site). Delivered within 24 hours. Optional $19/mo hosting + updates. Target Flushing/Chinatown restaurants and service businesses — bilingual advantage is massive. Scale by hiring other bilingual students to do the calls while Jones builds the template system.",
+    "opportunityAngle_zh": "提供「$99 今天上線」套餐：Jones 打 15 分鐘電話，抓 Google 商家資訊 + 菜單/服務清單，用 AI 生成乾淨的一頁式網站。24 小時內交付。可選 $19/月託管＋更新。先打法拉盛/華埠餐廳和服務業——雙語優勢巨大。",
+    "evidence": [
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47421442",
+        "quote": "'Have a fucking website' — 876 points, 493 comments (massive community resonance signal)"
+      },
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1rxt7s8/aussie_small_business_wtf/",
+        "quote": "it seems to cost more to open the doors than keep them closed... Everyone is quiet, everyone is stressing"
+      },
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1rx9v3n/what_is_your_biggest_struggle_atm/",
+        "quote": "'What is your biggest struggle atm?' — 85 comments, 18 upvotes. Top struggles: getting customers, online visibility, marketing basics."
+      }
+    ],
+    "scores": {
+      "painIntensity": 3,
+      "frequency": 5,
+      "willingnessToPay": 3,
+      "automationPotential": 5,
+      "jonesFit": 5,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 4,
+      "scrappiness": 5,
+      "total": 33
+    },
+    "firstTest": {
+      "type": "manual_service",
+      "description": "Walk into 3 restaurants/shops in Flushing that don't have a website (check Google Maps first). Offer: 'I'll build you a website for $99, delivered tomorrow. 15-minute chat now.' Build the first one for free if needed as a portfolio piece.",
+      "description_zh": "去法拉盛找 3 家沒網站的餐廳/商店（先查 Google Maps）。提議：『$99 幫你做網站，明天就好。現在聊 15 分鐘。』第一個可以免費當作品集。",
+      "timeEstimate": "3-4 hours"
+    },
+    "signalStrength": {
+      "numMentions": 10,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "hn"
+    },
+    "recommendedFocus": false,
+    "tags": ["local-business", "websites", "done-for-you", "NYC", "bilingual", "low-cost"],
+    "category": "service",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-19T07:00:00Z",
+    "updatedAt": "2026-03-19T07:00:00Z",
+    "sourceDate": "2026-03-19"
+  }
+]
