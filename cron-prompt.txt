@@ -21,6 +21,9 @@
    - 優先推 scrappiness ≥ 3 的（能快速測試的）
    - 不要跟前幾天的機會重複（檢查 data/opportunities/ 資料夾）
    - 接地氣的小生意/side hustle 比高大上的 SaaS 平台更好
+   - 優先找「Physical × AI × Inefficiency」模型的機會（實體資產 + AI 系統 + 低效市場）
+   - 優先找降維打擊場域：資訊差 + 工具差 + 認知差同時存在的地方
+   - 跨國套利（台灣↔美國↔東南亞）是加分項
 
 5. 按照 schema 結構化輸出 JSON：
    - 讀取 schema: ~/Downloads/code/opportunity-radar/schema/opportunity.schema.json
