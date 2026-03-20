@@ -1,0 +1,337 @@
+[
+  {
+    "id": "opp_20260320_001",
+    "title": "AI Usage Policy Kit for Small & Mid-Size Companies",
+    "title_zh": "中小企業 AI 使用規範套件",
+    "problem": "77% of employees are copy-pasting company data — code, customer info, financials, roadmaps — into AI chatbots. 14% admit pasting actual trade secrets. Samsung had to ban ChatGPT entirely after an engineer uploaded source code. Small companies know this is a risk but have zero policies or guardrails in place. They don't have legal teams to draft AI usage policies, and most 'enterprise AI governance' solutions cost $10K+/year.",
+    "problem_zh": "77% 的員工把公司資料（代碼、客戶資訊、財務、路線圖）直接貼進 AI 聊天機器人。14% 承認貼過商業機密。三星被迫全面禁用 ChatGPT。小公司知道這是風險，但完全沒有政策或防護。沒有法律團隊來起草 AI 使用規範，企業級解決方案又要年費 $10K+。",
+    "who": "Small business owners and startup founders (5-50 employees) who use AI tools but have no formal AI usage policy, especially in tech, marketing, and professional services",
+    "currentSolution": "Verbal 'be careful with AI' warnings. Complete bans (which employees ignore). Googling for AI policy templates and getting generic corporate boilerplate. Enterprise solutions like Nightfall AI or DLP tools that cost thousands and require IT teams to implement.",
+    "whyItSucks": "Verbal warnings have zero enforcement. Complete bans kill productivity — employees just use personal devices instead. Generic templates from Google don't cover the nuances (which tools are approved? what data categories are off-limits? what about API vs. web interface?). Enterprise DLP is overkill for a 20-person company.",
+    "whyItSucks_zh": "口頭警告零約束力。全面禁用殺生產力——員工改用私人裝置。Google 找到的模板太通用，不涵蓋細節（哪些工具核准？哪些資料禁區？API vs 網頁版？）。企業級 DLP 對 20 人公司太誇張。",
+    "opportunityAngle": "Sell a '$49 AI Policy Starter Kit': (1) Customizable AI usage policy template covering tool approvals, data classification, and incident response, (2) Employee onboarding checklist for AI tools, (3) Simple audit spreadsheet to track what tools are being used and by whom, (4) 'AI Data Safety' one-pager for non-technical managers. Sell on Gumroad. Jones can build this in a weekend. Phase 2: offer a $299 'done-for-you' version where Jones customizes the policy for the specific company via a 30-min call. Bilingual English/Chinese version unlocks Taiwan tech company market.",
+    "opportunityAngle_zh": "賣 $49 的「AI 政策入門包」：(1) 可客製的 AI 使用規範模板，涵蓋工具核准、資料分類、事件應變 (2) 員工 AI 工具入職清單 (3) 追蹤使用情況的審計試算表 (4) 給非技術主管的「AI 資料安全」單頁指南。在 Gumroad 賣。Phase 2 提供 $299 客製版。中英雙語版打開台灣科技公司市場。",
+    "evidence": [
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1rxxizz/loose_lips_sink_ships/",
+        "quote": "77% of people using chatbots at work are copying and pasting company crap into them. Code. Numbers. Customer info. Roadmaps. 14% admit they've pasted actual trade secrets."
+      },
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1rxxizz/loose_lips_sink_ships/",
+        "quote": "Samsung had to ban the whole thing. Some engineer uploaded source code trying to fix a bug. Oops. That code's out there now. Training data. Floating around forever."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 4,
+      "jonesFit": 4,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 4,
+      "scrappiness": 5,
+      "total": 34
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Reply to the 'Loose Lips Sink Ships' thread on r/Entrepreneur with a comment: 'I put together a simple AI usage policy template for small teams — covers tool approvals, data categories, and a basic audit process. Happy to share it free if anyone wants to test it.' Track DMs and interest. If 10+ people want it, package it on Gumroad.",
+      "description_zh": "在 r/Entrepreneur 的「Loose Lips Sink Ships」帖子回覆：分享免費的 AI 使用規範模板，追蹤私訊和興趣。如果 10+ 人要，就包裝到 Gumroad 上賣。",
+      "timeEstimate": "2-3 hours"
+    },
+    "signalStrength": {
+      "numMentions": 8,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": true,
+    "tags": ["AI-policy", "compliance", "templates", "digital-product", "cross-border", "bilingual"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-20T07:00:00Z",
+    "updatedAt": "2026-03-20T07:00:00Z",
+    "sourceDate": "2026-03-20"
+  },
+  {
+    "id": "opp_20260320_002",
+    "title": "AI Spend Tracker Spreadsheet for Indie Devs & Small Teams",
+    "title_zh": "獨立開發者 / 小團隊的 AI 花費追蹤試算表",
+    "problem": "Developers and small teams using multiple AI tools (ChatGPT, Claude, Cursor, OpenAI API, etc.) are getting surprise bills and can't understand where money is going. They don't know which project consumed the most, whether a background loop caused a spike, or how to budget AI spending. Credit/token-based pricing across different providers is opaque and inconsistent.",
+    "problem_zh": "使用多種 AI 工具（ChatGPT、Claude、Cursor、OpenAI API 等）的開發者和小團隊經常被帳單嚇到，搞不清楚錢花在哪裡。不知道哪個專案花最多、是不是背景循環造成暴漲、怎麼預算 AI 開支。跨供應商的 credit/token 計價不透明又不一致。",
+    "who": "Indie developers, solopreneurs, and small dev teams (1-10 people) spending $100-2000/month across multiple AI services",
+    "currentSolution": "Manually checking individual dashboards (OpenAI, Anthropic, Cursor each have their own). Occasional spreadsheet tracking. Some use generic expense trackers like Mint or YNAB but these don't break down by project or AI tool. No cross-provider view exists for small teams.",
+    "whyItSucks": "Each provider's dashboard only shows their own usage. No project-level attribution — you can't tell if the $50 spike was from your chatbot project or your code review workflow. Token-based pricing makes it hard to estimate costs before running. Manual spreadsheet tracking is tedious and always outdated.",
+    "whyItSucks_zh": "每個供應商的 dashboard 只顯示自己的用量。沒有專案級歸因——分不出 $50 暴漲是聊天機器人專案還是 code review 流程造成的。Token 計價讓事前估算很難。手動試算表追蹤太煩又總是過時。",
+    "opportunityAngle": "Create a '$19 one-time' AI Spend Tracker — a sophisticated Google Sheets / Notion template that: (1) consolidates spending across OpenAI, Anthropic, Google, Cursor via monthly CSV import, (2) attributes costs to projects via simple tagging, (3) shows month-over-month trends and alerts when approaching budget limits, (4) includes a cost estimator for common tasks. Jones can build the first version in a day. Phase 2: build a lightweight web app that auto-syncs via API keys.",
+    "opportunityAngle_zh": "做一個 $19 一次買斷的「AI 花費追蹤器」Google Sheets / Notion 模板：(1) 透過月度 CSV 匯入整合 OpenAI、Anthropic、Google、Cursor 的支出 (2) 簡單標記歸因到專案 (3) 月對月趨勢和預算警示 (4) 常見任務成本估算器。Jones 一天就能做出第一版。Phase 2 做輕量 web app 自動同步 API。",
+    "evidence": [
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1ryosl8/anyone_else_getting_unexpected_ai_bills_how_are/",
+        "quote": "I've been using multiple AI tools lately (ChatGPT, Claude, Cursor, OpenAI API), and I've noticed something frustrating: It's really hard to understand where the money is actually going. Sometimes the bill spikes and I genuinely don't know: Which project caused it, Which tool consumed the most"
+      },
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1ryosl8/anyone_else_getting_unexpected_ai_bills_how_are/",
+        "quote": "Have you ever had a 'what the hell happened?' moment with AI costs? Not building anything here — just trying to understand if this is a common problem."
+      }
+    ],
+    "scores": {
+      "painIntensity": 3,
+      "frequency": 5,
+      "willingnessToPay": 3,
+      "automationPotential": 4,
+      "jonesFit": 5,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 2,
+      "scrappiness": 5,
+      "total": 31
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Build a quick Google Sheets template with the core features (multi-provider cost consolidation + project tagging). Post it for free on r/SaaS as a reply to the AI bills thread. If people download and use it, create a premium version with the estimator and auto-alerts on Gumroad.",
+      "description_zh": "做一個 Google Sheets 模板（多供應商成本整合＋專案標記）。在 r/SaaS 的 AI 帳單討論串免費分享。如果有人下載使用，做進階版放 Gumroad 賣。",
+      "timeEstimate": "3-4 hours"
+    },
+    "signalStrength": {
+      "numMentions": 5,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["AI-tools", "cost-management", "spreadsheet", "digital-product", "developer-tools"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-20T07:00:00Z",
+    "updatedAt": "2026-03-20T07:00:00Z",
+    "sourceDate": "2026-03-20"
+  },
+  {
+    "id": "opp_20260320_003",
+    "title": "Fractional Tech Lead for Small Businesses (Marketing + IT + Dev)",
+    "title_zh": "小公司的兼職技術主管（行銷＋IT＋開發一把抓）",
+    "problem": "Small businesses (5-30 employees) desperately need someone who can wear multiple technical hats — marketing, IT admin, website, internal tools, graphic design — but can't afford a full-time senior person at $100-120K. They end up hiring one underpaid generalist who does everything for $60K and eventually burns out or leaves. The company has no backup and no documentation.",
+    "problem_zh": "小公司（5-30人）急需能身兼多職的技術人才——行銷、IT管理、網站、內部工具、設計——但付不起 $100-120K 的全職資深人才。結果用 $60K 請一個低薪萬能工，最後不是累垮就是離職。公司沒有備援，也沒有文檔。",
+    "who": "Small business owners in sectors like solar, construction, real estate, professional services — companies that need tech but aren't tech companies, especially those with 1 underpaid 'tech person' who does everything",
+    "currentSolution": "Hiring one cheap generalist who does marketing + IT + dev + design (underpaid, will leave). Outsourcing to agencies ($5-15K/project, inconsistent results). Asking the sales guy's nephew who 'knows computers'. Patchwork of freelancers with no coherent strategy.",
+    "whyItSucks": "The single generalist is a single point of failure — when they leave, all institutional knowledge walks out. Agencies don't understand the business deeply enough. Freelancers require constant management. Nobody is doing the strategic tech work: choosing tools, building systems, planning ahead.",
+    "whyItSucks_zh": "一個萬能工是單點故障——離職後所有知識跟著走。代理公司不夠了解業務。自由工作者需要持續管理。沒人做策略性技術工作：選工具、建系統、做規劃。",
+    "opportunityAngle": "Offer a '$1,500-3,000/month Fractional Tech Lead' retainer. Jones provides 10-20 hours/month covering: website maintenance, marketing tech setup (ads, analytics, CRM), internal tool recommendations, AI integration guidance, and strategic tech planning. Target NYC small businesses in specific verticals (solar, real estate, professional services). Jones's dev skills + AI knowledge + bilingual capability make this a premium positioning. Start with 2-3 clients, scale to a small agency.",
+    "opportunityAngle_zh": "提供「$1,500-3,000/月兼職技術主管」合約。Jones 每月提供 10-20 小時：網站維護、行銷技術設置（廣告、分析、CRM）、內部工具建議、AI 整合指導、策略性技術規劃。先打 NYC 特定垂直產業。Jones 的開發技能 + AI 知識 + 雙語能力是高端定位。從 2-3 個客戶開始，擴展成小型代理。",
+    "evidence": [
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1ryhsv1/i_dont_know_how_to_determine_my_financial_worth/",
+        "quote": "my role has grown to be not only the marketing guy, but also the IT guy, and the software developer... I do all the graphic design... I manage the admin on Google, Slack, etc... I've built out a few different internal software solutions"
+      },
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1ryhsv1/i_dont_know_how_to_determine_my_financial_worth/",
+        "quote": "I'm paid hourly, and my wage is $29.40/hour, so roughly $61,152... my boss had a pretty candid conversation with me the other day that he knows I'm worth significantly more than he's paying me"
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 4,
+      "willingnessToPay": 4,
+      "automationPotential": 3,
+      "jonesFit": 5,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 3,
+      "scrappiness": 4,
+      "total": 30
+    },
+    "firstTest": {
+      "type": "dm",
+      "description": "Find 5 r/smallbusiness posts where owners describe struggling with tech, marketing, or 'wearing too many hats.' DM them: 'I'm a dev who helps small businesses part-time as a fractional tech lead — 10hrs/month covering website, marketing tech, and AI tools. Would a 15-min call to see if I could help be useful?' Track responses.",
+      "description_zh": "在 r/smallbusiness 找 5 篇老闆描述技術困擾的帖子。DM：『我是開發者，兼職幫小公司當技術主管——每月 10 小時涵蓋網站、行銷技術、AI 工具。聊 15 分鐘看我能不能幫上忙？』追蹤回覆。",
+      "timeEstimate": "1-2 hours"
+    },
+    "signalStrength": {
+      "numMentions": 6,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["consulting", "fractional", "small-business", "tech-lead", "service", "NYC"],
+    "category": "service",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-20T07:00:00Z",
+    "updatedAt": "2026-03-20T07:00:00Z",
+    "sourceDate": "2026-03-20"
+  },
+  {
+    "id": "opp_20260320_004",
+    "title": "Daily Prep Optimizer for Small Restaurants (Spreadsheet + Weather API)",
+    "title_zh": "小餐廳每日備料優化器（試算表＋天氣 API）",
+    "problem": "Every morning, small restaurant owners have to guess how much food to prep. Guess too much — food gets wasted ($500-2000/month in waste for a small restaurant). Guess too little — orders get cancelled, customers leave bad reviews. Nobody has a simple, affordable system for demand prediction. Enterprise solutions (BlueYonder, etc.) cost $50K+/year and are designed for chains.",
+    "problem_zh": "每天早上，小餐廳老闆得猜今天要備多少料。猜多了——浪費食材（小餐廳每月浪費 $500-2000）。猜少了——訂單取消、差評。沒有人提供簡單便宜的需求預測系統。企業級方案（BlueYonder 等）年費 $50K+，是為連鎖店設計的。",
+    "who": "Small restaurant owners (1-3 locations), ghost kitchen operators, and catering businesses — especially immigrant-owned restaurants in NYC (Flushing, Chinatown, Jackson Heights) where margins are razor-thin",
+    "currentSolution": "Owner's gut feeling based on years of experience. Looking at yesterday's sales and the weather forecast. Calling ahead to check if there are any local events. Some use POS data but just as a backward-looking report, not for prediction.",
+    "whyItSucks": "Gut feeling works okay for veterans but fails when variables change (weather, events, holidays, construction nearby). No one aggregates POS data + weather + local events into a prediction. Looking at yesterday's numbers doesn't account for day-of-week patterns or seasonal trends. The wasted food comes directly from profit margins that are already thin (5-10%).",
+    "whyItSucks_zh": "直覺對老手還行，但變數一變就失準（天氣、活動、節日、附近施工）。沒人把 POS 數據＋天氣＋活動整合成預測。看昨天數字沒考慮星期幾和季節趨勢。浪費的食材直接吃掉本來就很薄（5-10%）的利潤。",
+    "opportunityAngle": "Build a '$29/month Prep Optimizer' — a Google Sheets dashboard connected to weather API and a simple POS data input. The restaurant enters their daily sales for 2-4 weeks, then the sheet starts predicting next-day demand by dish category, adjusted for day-of-week, weather, and manually-flagged local events. Jones can build the MVP in a weekend. Target Flushing/Chinatown restaurants first — bilingual is essential here because the owners only speak Chinese. Phase 2: integrate with Square/Toast POS for auto-import.",
+    "opportunityAngle_zh": "做 $29/月的「備料優化器」—— Google Sheets dashboard 接天氣 API 加簡單 POS 數據輸入。餐廳輸入 2-4 週日銷售，表格就開始預測隔天各品類需求，考慮星期幾、天氣、手動標記的活動。Jones 一個週末能做 MVP。先打法拉盛/華埠——雙語是必要條件因為老闆只說中文。Phase 2 接 Square/Toast POS 自動匯入。",
+    "evidence": [
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1ryp1tq/building_an_ai_that_tells_indian_food_businesses/",
+        "quote": "every morning someone has to decide how much to prep. And almost everyone is just guessing. Guess too much ~ food gets wasted. Guess too less ~ orders get cancelled, ratings drop."
+      },
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1ryp1tq/building_an_ai_that_tells_indian_food_businesses/",
+        "quote": "Uses their own sales data plus weather, IPL matches, festivals, payday weeks ~ things that actually move demand"
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 3,
+      "automationPotential": 4,
+      "jonesFit": 4,
+      "competitionGap": 5,
+      "crossBorderArbitrage": 4,
+      "scrappiness": 4,
+      "total": 33
+    },
+    "firstTest": {
+      "type": "manual_service",
+      "description": "Build the Google Sheets MVP (sales input + weather API + day-of-week prediction formula). Visit 3 restaurants in Flushing that Jones frequents. Offer: 'I'll set this up free for your restaurant for 2 weeks — just enter your daily sales and it'll tell you what to prep tomorrow.' Collect feedback on accuracy and willingness to pay.",
+      "description_zh": "做好 Google Sheets MVP。去法拉盛找 3 家 Jones 常去的餐廳。提議：『免費幫你設置 2 週——只要輸入每天銷售，它就告訴你明天備多少料。』收集準確度回饋和付費意願。",
+      "timeEstimate": "4-5 hours"
+    },
+    "signalStrength": {
+      "numMentions": 4,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["restaurant", "food-waste", "prediction", "spreadsheet", "NYC", "bilingual", "physical-AI"],
+    "category": "cross-border",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-20T07:00:00Z",
+    "updatedAt": "2026-03-20T07:00:00Z",
+    "sourceDate": "2026-03-20"
+  },
+  {
+    "id": "opp_20260320_005",
+    "title": "Open Source Dependency Risk Report for Startups",
+    "title_zh": "新創公司的開源依賴風險報告",
+    "problem": "When popular open-source tools get acquired by big tech (Astral→OpenAI, HashiCorp→IBM, etc.), teams suddenly face license changes, feature lockdowns, or abandonment. The Astral/OpenAI acquisition (1312 points on HN, 811 comments) showed massive developer anxiety. Teams don't know which of their dependencies are acquisition targets, have fragile single-maintainer projects, or might change licenses. They only discover the risk AFTER the acquisition is announced.",
+    "problem_zh": "當熱門開源工具被大廠收購（Astral→OpenAI、HashiCorp→IBM 等），團隊突然面臨授權變更、功能鎖定或棄用。Astral/OpenAI 收購案（HN 1312 點、811 則留言）顯示開發者大量焦慮。團隊不知道哪些依賴是收購目標、哪些是脆弱的單人維護專案、哪些可能改授權。都是收購公告後才發現風險。",
+    "who": "CTOs and tech leads at startups and mid-size companies (10-200 engineers) who build on open-source stacks, especially teams that adopted fast-moving tools like uv, ruff, Terraform, etc.",
+    "currentSolution": "Reading HN/Twitter when acquisitions happen and reacting. Checking GitHub stars and contributor counts manually. Some use Snyk or Dependabot but those focus on security vulnerabilities, not business/licensing risk. No tool proactively flags 'this dependency might get acquired or abandoned.'",
+    "whyItSucks": "Security scanners don't catch business risk (license changes, acquisition, maintainer burnout). By the time HN breaks the news, it's too late to plan migration. Nobody tracks the 'bus factor' or VC funding status of their open-source dependencies. Migration guides are written after-the-fact and under panic conditions.",
+    "whyItSucks_zh": "安全掃描器抓不到商業風險（授權變更、收購、維護者倦怠）。等 HN 爆出新聞已來不及規劃遷移。沒人追蹤開源依賴的「公車因子」或 VC 融資狀態。遷移指南都是事後在恐慌中寫的。",
+    "opportunityAngle": "Offer a '$199 Open Source Dependency Risk Audit' — a one-time report for a startup's tech stack. Jones analyzes their package.json / requirements.txt / Cargo.toml, cross-references with VC funding data, contributor concentration, license history, and recent acquisition signals. Deliverable: a risk-scored report with specific migration recommendations for high-risk dependencies. Jones's dev background makes this very credible. Phase 2: a $49/month monitoring service that sends alerts when dependency risk changes.",
+    "opportunityAngle_zh": "提供 $199 的「開源依賴風險審計」一次性報告。Jones 分析客戶的 package.json / requirements.txt，交叉比對 VC 融資資料、貢獻者集中度、授權歷史、近期收購信號。交付物：附具體遷移建議的風險評分報告。Jones 的開發背景讓這很有公信力。Phase 2 做 $49/月的監控服務。",
+    "evidence": [
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47438723",
+        "quote": "More and more plainly, OpenAI and Anthropic are making plays to own (and lease) the 'means of production' in software... how viable is it that these stacks remain open?"
+      },
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47438723",
+        "quote": "They burned through their VC money and needed an exit and CLI tool chains are hyped now for LLMs... Dev tools are among the hardest things to monetize with very few real winners"
+      }
+    ],
+    "scores": {
+      "painIntensity": 3,
+      "frequency": 3,
+      "willingnessToPay": 4,
+      "automationPotential": 3,
+      "jonesFit": 4,
+      "competitionGap": 5,
+      "crossBorderArbitrage": 2,
+      "scrappiness": 3,
+      "total": 27
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Write a blog post or HN comment: 'I analyzed the top 50 most-depended-on npm/PyPI packages for acquisition risk — here's which ones your startup should have a migration plan for.' Include a simple risk scoring methodology. Link to a Google Form where CTOs can submit their stack for a free mini-audit. Track signups.",
+      "description_zh": "寫部落格或 HN 評論：『我分析了最常用的 50 個 npm/PyPI 套件的收購風險——你的新創應該為哪些準備遷移計畫。』附簡單風險評分方法。放 Google Form 讓 CTO 提交 stack 做免費迷你審計。追蹤註冊數。",
+      "timeEstimate": "4-5 hours"
+    },
+    "signalStrength": {
+      "numMentions": 15,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "hn"
+    },
+    "recommendedFocus": false,
+    "tags": ["open-source", "risk-management", "consulting", "developer-tools", "acquisition"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-20T07:00:00Z",
+    "updatedAt": "2026-03-20T07:00:00Z",
+    "sourceDate": "2026-03-20"
+  }
+]
