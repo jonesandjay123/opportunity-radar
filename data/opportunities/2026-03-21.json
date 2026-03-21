@@ -1,0 +1,337 @@
+[
+  {
+    "id": "opp_20260321_001",
+    "title": "Done-for-You Email/SMS Retention Flows for Small E-Commerce",
+    "title_zh": "小型電商的「代建」Email/SMS 留客自動流程",
+    "problem": "Small e-commerce businesses and local businesses pour money into Google Ads and Meta Ads to acquire customers, but have ZERO email or SMS follow-up flows. No welcome series, no abandoned cart recovery, no post-purchase sequences. They obsess over lowering CAC while completely ignoring LTV. One marketer reports seeing 25-35% revenue increase just from adding basic email flows — with zero extra ad spend. Yet business owners refuse to invest in retention separately.",
+    "problem_zh": "小型電商和本地商家瘋狂砸錢在 Google Ads 和 Meta Ads 獲客，但完全沒有 email 或 SMS 的跟進流程。沒有歡迎序列、沒有棄購回收、沒有購後序列。他們只執著於降低獲客成本，完全忽視客戶終身價值。一位行銷人反映，光加基本 email 流程就提升 25-35% 營收——零額外廣告費。但老闆們拒絕為留客單獨投資。",
+    "who": "Small e-commerce owners (Shopify, WooCommerce) spending $1K-10K/month on ads but with no email/SMS automation. Also applies to Taiwan's booming e-commerce scene where retention tools are even less mature.",
+    "currentSolution": "Some use Mailchimp or Klaviyo but only for blast newsletters. Most have no automation at all. The few who hire agencies pay $2-5K/month for full-service retainers that include way more than they need. Many just send manual discount codes via social media.",
+    "whyItSucks": "Full-service agencies are too expensive for small shops. DIY takes hours of learning Klaviyo/Mailchimp automation. Generic templates don't match the brand tone. Business owners think 'email marketing = spam' and don't understand automation flows vs. newsletters. Meanwhile their paid traffic lands once, converts or doesn't, and the customer is gone forever.",
+    "whyItSucks_zh": "全服務代理商太貴。自己學 Klaviyo/Mailchimp 自動化要花大量時間。通用模板不符合品牌調性。老闆覺得 email 行銷 = 垃圾郵件，搞不懂自動流程和電子報的差別。結果付費流量來一次就走了。",
+    "opportunityAngle": "Offer a '$500 one-time Email Retention Setup' package: Jones builds 5 core flows (Welcome, Abandoned Cart, Post-Purchase, Win-Back, VIP) in Klaviyo or Mailchimp in 2-3 days. No monthly retainer — just a one-time setup + a 30-min walkthrough call. Target: Shopify stores doing $5K-50K/month who have email tools installed but zero flows. Bilingual advantage: offer the same service to Taiwan Shopline/91APP merchants who are even further behind on email automation.",
+    "opportunityAngle_zh": "提供 $500 一次性的「Email 留客流程建置」包：Jones 在 2-3 天內用 Klaviyo 或 Mailchimp 建好 5 個核心流程（歡迎、棄購、購後、喚回、VIP）。不用月費——一次建置 + 30 分鐘教學。打 Shopify 月營收 $5K-50K 的店，有裝 email 工具但零流程。雙語優勢：同樣服務賣給台灣 Shopline/91APP 商家，他們在 email 自動化更落後。",
+    "evidence": [
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1rz6i4m/clients_obsessed_with_cac_but_ignoring_ltv_is/",
+        "quote": "their email and sms is basically nonexistent like no flows, no follow ups no retention nothing… just straight paid traffic and vibes... we added super basic email flows nothing even advanced just welcome abandoned checkout a few promos and it increased revenue from email like 25-35% within a couple months"
+      },
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1ry5i7e/my_first_real_week_of_sales_on_my_website/",
+        "quote": "I received over $10k in sales this week across 3 orders... I have had massive difficulty in finding people to help me with meta ads and content creation, which is one of my biggest struggles at the moment"
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 5,
+      "jonesFit": 5,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 4,
+      "scrappiness": 5,
+      "total": 35
+    },
+    "firstTest": {
+      "type": "dm",
+      "description": "Find 5 Shopify stores from r/Entrepreneur and r/smallbusiness that mention struggling with marketing or ads. DM: 'Hey, I noticed you're spending on ads but might not have email flows set up. I help small stores add 5 core automated email flows (welcome, abandoned cart, post-purchase, etc.) for a flat $500 — no monthly fee. Would a quick audit of your current email setup be useful? Free, no strings.' Track responses.",
+      "description_zh": "在 r/Entrepreneur 和 r/smallbusiness 找 5 家提到行銷或廣告困難的 Shopify 店。DM 提議免費審計 email 設置，$500 一次性建置 5 個核心流程。追蹤回覆。",
+      "timeEstimate": "1-2 hours"
+    },
+    "signalStrength": {
+      "numMentions": 8,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": true,
+    "tags": ["email-marketing", "retention", "e-commerce", "service", "done-for-you", "cross-border", "bilingual"],
+    "category": "service",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-21T07:00:00Z",
+    "updatedAt": "2026-03-21T07:00:00Z",
+    "sourceDate": "2026-03-21"
+  },
+  {
+    "id": "opp_20260321_002",
+    "title": "Lifestyle Business Operations Playbook for 'Staying Small' Founders",
+    "title_zh": "「刻意小而美」創業者的生活型事業營運手冊",
+    "problem": "A massive and growing cohort of founders deliberately want to stay small — team of 1-6, no investors, fully remote, decent profit, real freedom. A viral post (195+ upvotes, 76 comments within hours) on r/smallbusiness showed enormous resonance. These founders want systems that let them 'go traveling and nothing breaks' but there are no resources specifically designed for intentionally-small businesses. All business education pushes scale, growth hacking, and fundraising.",
+    "problem_zh": "大量且持續增長的創業者刻意想維持小規模——1-6 人團隊、不融資、全遠端、穩定獲利、真正的自由。r/smallbusiness 一篇帖子（195+ 讚、76 則留言）引起巨大共鳴。這些創業者想要「出去旅行也不會出事」的系統，但沒有專門為刻意小規模經營的生意設計的資源。所有商業教育都在推規模化、增長駭客、融資。",
+    "who": "Solo founders, freelancers-turned-agency-owners, and small team leads (1-6 people) who have a profitable business and want to optimize for freedom, not growth. Often remote/digital nomad types, 28-45 years old.",
+    "currentSolution": "Cobbling together advice from podcasts, generic business books, Twitter threads. Reading 'The 4-Hour Work Week' (2007, very outdated). Joining expensive masterminds ($5-20K/year) that still push the growth mindset. Some follow specific creators but none have a complete, actionable system.",
+    "whyItSucks": "Generic business advice assumes you want to scale. 'The 4-Hour Work Week' is outdated and mostly about outsourcing to VAs. Masterminds are expensive and still culturally biased toward growth. No single resource covers the full stack: legal structure for solo/small ops, automation tools, async communication systems, financial planning for lifestyle businesses, client management without a sales team.",
+    "whyItSucks_zh": "通用商業建議都假設你想規模化。《4小時工作週》過時了。高價 Mastermind 還是推增長心態。沒有一個資源涵蓋全套：小團隊法律結構、自動化工具、異步溝通系統、生活型事業財務規劃、不需業務團隊的客戶管理。",
+    "opportunityAngle": "Create a '$39 Lifestyle Business Playbook' — a comprehensive, actionable digital guide covering: (1) Legal structure for 1-6 person companies (LLC, S-Corp, international considerations), (2) The 'anti-scale' tech stack (Notion, Zapier, Stripe, etc.), (3) Async-first communication templates, (4) Financial planning for lifestyle businesses (how much profit to take vs reinvest when you DON'T want to grow), (5) Client management systems that work without a sales team, (6) 'Vacation-proof' operations checklists. Jones's cross-cultural experience + dev skills + remote lifestyle makes this very credible. Sell on Gumroad. Phase 2: $199/year community.",
+    "opportunityAngle_zh": "做 $39 的「生活型事業操作手冊」——涵蓋：(1) 1-6 人公司法律結構 (2) 反規模化技術棧 (3) 異步溝通模板 (4) 生活型事業財務規劃 (5) 不需業務團隊的客戶管理系統 (6) 「度假防呆」營運清單。Jones 的跨文化經驗 + 開發技能 + 遠端生活方式很有說服力。Gumroad 賣。Phase 2 做 $199/年社群。",
+    "evidence": [
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1rz1ykh/anyone_else_deliberately_staying_small_and_not/",
+        "quote": "I've got a team of 6, no investors, fully remote, decent profit, I can even take a break, go traveling and nothing breaks. The thing is that I just didn't scale. Like, not every business needs to be huge, right?"
+      },
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1rz1ykh/anyone_else_deliberately_staying_small_and_not/",
+        "quote": "I'm not failing even tho I'm not growing 10x. My 'small' business and my small systems let me live in another country, work reasonable hours, and actually enjoy what I earned."
+      }
+    ],
+    "scores": {
+      "painIntensity": 3,
+      "frequency": 4,
+      "willingnessToPay": 3,
+      "automationPotential": 3,
+      "jonesFit": 5,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 3,
+      "scrappiness": 4,
+      "total": 29
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Write a detailed comment on the viral 'staying small' thread sharing 3-4 specific systems/tools that make a small business 'vacation-proof'. Include: 'I've been putting together a complete playbook for this — would anyone want to see a draft?' Track interest via upvotes and DMs. If 20+ people express interest, create a Gumroad landing page.",
+      "description_zh": "在病毒式傳播的「刻意保持小規模」帖子下寫詳細回覆，分享 3-4 個讓小生意「度假防呆」的具體系統/工具。追蹤興趣度。如果 20+ 人有興趣，建 Gumroad 銷售頁。",
+      "timeEstimate": "2-3 hours"
+    },
+    "signalStrength": {
+      "numMentions": 12,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["lifestyle-business", "digital-product", "playbook", "remote-work", "anti-scale", "digital-nomad"],
+    "category": "content",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-21T07:00:00Z",
+    "updatedAt": "2026-03-21T07:00:00Z",
+    "sourceDate": "2026-03-21"
+  },
+  {
+    "id": "opp_20260321_003",
+    "title": "Employee Location OPSEC Audit (Fitness App Data Leak Prevention)",
+    "title_zh": "員工定位安全審計（健身 App 資料外洩防護）",
+    "problem": "Fitness apps like Strava are leaking real-time location data of military personnel, executives, and employees at sensitive organizations. Le Monde just tracked France's aircraft carrier in real time via Strava data (539 HN points, 428 comments). This isn't new — Strava heatmaps exposed secret US military bases in 2018 — but organizations STILL haven't addressed it. No simple, affordable way for companies to audit and mitigate this risk without hiring a full-time OPSEC team.",
+    "problem_zh": "Strava 等健身 App 正在即時洩漏軍事人員、高管和敏感組織員工的位置資料。Le Monde 剛透過 Strava 數據即時追蹤法國航空母艦（HN 539 點、428 則留言）。這不是新問題——2018 年 Strava 熱力圖就暴露了美國秘密軍事基地——但組織依然沒處理。沒有簡單、便宜的方式讓公司審計和緩解此風險。",
+    "who": "Security-conscious companies (defense contractors, law firms, financial firms, tech companies with trade secrets), government agencies, and any organization with employees who use fitness trackers. Also: Taiwanese semiconductor companies (TSMC ecosystem) where location of key engineers is sensitive.",
+    "currentSolution": "Ad hoc policies banning certain apps (rarely enforced). Expensive security consultancies ($50K+ engagements). Internal IT teams who may not have OPSEC expertise. Most organizations simply don't address it at all.",
+    "whyItSucks": "Banning fitness apps creates employee backlash (people love their Garmin/Apple Watch). Big security firms charge enterprise rates. Internal IT rarely understands the specific attack surface of fitness app APIs and social features. The risk is invisible until a journalist or adversary exploits it.",
+    "whyItSucks_zh": "禁用健身 App 引起員工反彈（大家愛自己的手錶）。大型安全公司收企業費率。內部 IT 很少了解健身 App API 和社交功能的具體攻擊面。風險是隱形的，直到記者或對手利用。",
+    "opportunityAngle": "Offer a '$299 Fitness App OPSEC Audit Kit' — a self-service assessment tool + remediation guide: (1) Checklist of 15+ fitness/health apps and their data exposure settings, (2) Employee self-assessment form (what apps, what sharing settings), (3) Policy template for acceptable use of fitness apps, (4) Step-by-step privacy lockdown guides per app (Strava, Garmin, Apple Health, etc.), (5) Executive briefing one-pager on the risk. Sell to security-conscious SMBs. Jones's tech background makes the analysis credible. Bilingual version for Taiwan defense/semiconductor supply chain companies is a unique market.",
+    "opportunityAngle_zh": "提供 $299 的「健身 App OPSEC 審計套件」——自助評估工具 + 修復指南：(1) 15+ 健身/健康 App 的資料暴露設定清單 (2) 員工自評表 (3) 健身 App 使用政策模板 (4) 各 App 隱私鎖定步驟指南 (5) 高管風險簡報。打安全意識強的中小企業。雙語版打台灣國防/半導體供應鏈是獨特市場。",
+    "evidence": [
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47453942",
+        "quote": "France's aircraft carrier located in real time by Le Monde through fitness app — 539 points, 428 comments"
+      },
+      {
+        "source": "Le Monde",
+        "url": "https://www.lemonde.fr/en/international/article/2026/03/20/stravaleaks-france-s-aircraft-carrier-located-in-real-time-by-le-monde-through-fitness-app_6751640_4.html",
+        "quote": "Stravaleaks: France's aircraft carrier located in real time by Le Monde through fitness app"
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 3,
+      "willingnessToPay": 4,
+      "automationPotential": 3,
+      "jonesFit": 4,
+      "competitionGap": 5,
+      "crossBorderArbitrage": 4,
+      "scrappiness": 3,
+      "total": 30
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Write a detailed HN comment on the Stravaleaks thread: 'I put together a quick checklist of 15 fitness/health apps and their default data exposure settings. Here's what most people don't realize they're sharing...' Link to a free blog post with the checklist. End with: 'Working on a full audit kit for companies — who would want early access?' Track interest.",
+      "description_zh": "在 HN 的 Stravaleaks 討論串寫詳細回覆：列出 15 個健身 App 的預設資料暴露設定。連結到免費部落格文章。結尾問誰想要完整審計套件的早期測試。追蹤興趣。",
+      "timeEstimate": "3-4 hours"
+    },
+    "signalStrength": {
+      "numMentions": 15,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "hn"
+    },
+    "recommendedFocus": false,
+    "tags": ["security", "OPSEC", "fitness-apps", "privacy", "enterprise", "cross-border", "Taiwan-semiconductor"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-21T07:00:00Z",
+    "updatedAt": "2026-03-21T07:00:00Z",
+    "sourceDate": "2026-03-21"
+  },
+  {
+    "id": "opp_20260321_004",
+    "title": "SaaS Launch Distribution Playbook (Community-Led, Not Ad-Led)",
+    "title_zh": "SaaS 上市分銷手冊（社群驅動，非廣告驅動）",
+    "problem": "SaaS founders universally report: 'Building has never been easier. Selling has never been harder.' One founder built 4 products in 18 months — all solved real problems — only 1 made money because he could reach customers for free. The pattern: pay for leads → leads don't convert → customers churn → start again. The problem isn't the product, it's distribution. And the old playbook (paid ads + outbound) is broken for bootstrapped SaaS.",
+    "problem_zh": "SaaS 創辦人普遍反映：「做產品從未如此簡單。賣產品從未如此困難。」一位創辦人 18 個月做了 4 個產品——都解決了真實問題——只有 1 個賺錢，因為他能免費觸及客戶。模式：付費買線索 → 轉換差 → 客戶流失 → 重來。問題不在產品，在分銷。舊套路（付費廣告 + 外銷）對白手起家的 SaaS 已經失效。",
+    "who": "Indie SaaS founders and small teams (1-5 people) who have built a working product but can't crack distribution. Typically technical founders who can build but don't know how to sell without spending $5K+/month on ads.",
+    "currentSolution": "Throwing money at Google/Meta ads (expensive, low conversion for SaaS). Cold email outreach (spam filters kill it). Posting on Product Hunt (one-day spike, then silence). Hiring freelance marketers who don't understand SaaS metrics. Some try content marketing but give up after 2 months when they see no results.",
+    "whyItSucks": "Paid acquisition for SaaS has terrible unit economics at early stage. Cold outreach is getting harder with spam filters and AI detection. Product Hunt gives vanity metrics, not customers. Freelance marketers charge $3-5K/month and don't understand SaaS lifecycle. Content marketing works but takes 6+ months — most founders quit before it compounds.",
+    "whyItSucks_zh": "早期 SaaS 付費獲客的單位經濟很差。冷郵件被垃圾過濾和 AI 檢測擋掉。Product Hunt 給虛榮指標不給客戶。自由行銷人收 $3-5K/月又不懂 SaaS 生命週期。內容行銷有效但要 6 個月以上——大多創辦人在複利效應前就放棄了。",
+    "opportunityAngle": "Sell a '$79 SaaS Distribution Playbook' digital product covering the exact community-led growth strategies that work in 2026: (1) The 'Reddit/HN seeding' framework — how to participate authentically and drive targeted traffic, (2) 'Build in public' templates and schedules, (3) Community partnership playbook (how to get featured in newsletters, podcasts, niche communities), (4) The '100 users' sprint — specific day-by-day plan for first 100 paying customers, (5) Anti-patterns: what NOT to do. Jones is literally watching this happen in real-time through the opportunity radar — he has unique insight into what works on Reddit/HN. Phase 2: $499 1:1 'distribution strategy call' service.",
+    "opportunityAngle_zh": "賣 $79 的「SaaS 分銷手冊」數位產品：(1) Reddit/HN 播種框架 (2) Build in public 模板和排程 (3) 社群合作手冊 (4)「100 用戶衝刺」逐日計畫 (5) 反模式：不該做什麼。Jones 每天透過 opportunity radar 即時觀察這些——有獨特洞見。Phase 2 做 $499 一對一分銷策略通話。",
+    "evidence": [
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1rzksgs/ive_been_talking_to_saas_founders_for_weeks/",
+        "quote": "Building has never been easier. Selling has never been harder... One founder built 4 products in 18 months. All of them solved real validated problems. Only 1 made consistent money. The difference wasn't the product. It was whether he could reach his customers for free."
+      },
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1rzksgs/ive_been_talking_to_saas_founders_for_weeks/",
+        "quote": "founders are stuck in a cycle. Pay for leads. Leads don't convert well. Customers churn. Start again. Never get ahead."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 3,
+      "jonesFit": 4,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 2,
+      "scrappiness": 4,
+      "total": 29
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Write a detailed reply to the 'Selling has never been harder' thread on r/SaaS, sharing 3 specific community-led distribution tactics that actually worked (cite real examples from Reddit/HN observations). End with: 'I documented 15+ of these strategies in a playbook — DM me if you want early access at 50% off.' Track DMs.",
+      "description_zh": "在 r/SaaS 的討論串寫詳細回覆，分享 3 個真正有效的社群驅動分銷策略。結尾提供早期測試 50% 折扣。追蹤私訊數。",
+      "timeEstimate": "3-4 hours"
+    },
+    "signalStrength": {
+      "numMentions": 10,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["SaaS", "distribution", "community-led-growth", "digital-product", "playbook", "indie-hacker"],
+    "category": "content",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-21T07:00:00Z",
+    "updatedAt": "2026-03-21T07:00:00Z",
+    "sourceDate": "2026-03-21"
+  },
+  {
+    "id": "opp_20260321_005",
+    "title": "Content + Ads Launch Package for Technical E-Commerce Founders",
+    "title_zh": "技術型電商創辦人的「內容＋廣告啟動包」",
+    "problem": "Technical founders who can build amazing custom e-commerce sites struggle massively with content creation and ad management. One founder built a custom React frontend with API integrations, got $10K in first-week sales, but says content creation and finding Meta ads help is his 'biggest struggle.' These founders can code anything but freeze when it comes to creating product photos, ad copy, social content, and running Meta/Google campaigns.",
+    "problem_zh": "能做出驚人自建電商網站的技術型創辦人，在內容創作和廣告管理上嚴重卡關。一位創辦人用 React 自建前端加 API 串接，首週 $10K 營收，但說內容創作和找 Meta 廣告幫手是他「最大的困難」。這些創辦人什麼都能寫，但做產品照片、廣告文案、社群內容、投 Meta/Google 廣告就完全卡住。",
+    "who": "Technical solo founders and small teams (1-3 people) who have built custom e-commerce sites or strong product pages but have zero marketing/content creation capability. Often developer-entrepreneurs doing $5K-50K/month who know they're leaving money on the table.",
+    "currentSolution": "Hiring freelancers from Fiverr/Upwork (inconsistent quality, constant management overhead). Trying to learn everything themselves (video editing, copywriting, ad management — while also maintaining the tech). Some hire agencies at $3-5K/month which is overkill for their stage.",
+    "whyItSucks": "Fiverr freelancers don't understand the product deeply enough — they produce generic content. Learning marketing from scratch takes months away from product development. Agencies are too expensive for early-stage and treat small accounts as low priority. The founder ends up doing everything badly instead of coding well and delegating marketing.",
+    "whyItSucks_zh": "Fiverr 自由工作者不夠了解產品——產出通用內容。從零學行銷會耗掉好幾個月的產品開發時間。代理商對早期階段太貴，小帳戶被當低優先。創辦人最後什麼都做得很差，而不是好好寫代碼把行銷外包。",
+    "opportunityAngle": "Offer a '$1,500 Launch Content Package' — a one-time, 2-week engagement where Jones delivers: (1) 10 product-focused social media posts (copy + AI-generated visuals using Midjourney/DALL-E), (2) 3 Meta ad creatives (carousel + video script + static), (3) Initial Meta Ads campaign setup with targeting recommendations, (4) Google Shopping feed setup, (5) A 1-page 'content calendar template' for the next 3 months. Jones's unique advantage: being technical enough to understand the product deeply AND knowing the marketing side. Target developers on r/Entrepreneur who just launched. Bilingual: same service for Taiwan technical founders selling internationally.",
+    "opportunityAngle_zh": "提供 $1,500 的「上市內容啟動包」——一次性 2 週合作：(1) 10 篇產品社群貼文 (2) 3 組 Meta 廣告素材 (3) Meta 廣告初始投放設定 (4) Google Shopping feed 設定 (5) 3 個月內容日曆模板。Jones 的獨特優勢：夠技術能深入理解產品，又懂行銷面。打 r/Entrepreneur 上剛上線的開發者。雙語版打台灣技術型創辦人做國際銷售。",
+    "evidence": [
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1ry5i7e/my_first_real_week_of_sales_on_my_website/",
+        "quote": "I spent 6 months developing my site from scratch. Custom react front end, plugs directly into my supplier APIs... I have had massive difficulty in finding people to help me with meta ads and content creation, which is one of my biggest struggles at the moment"
+      },
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1ryyjm6/building_a_product_for_smb_and_need_your_help/",
+        "quote": "I'm working on a tool aimed at helping local small businesses manage their online presence and attract more customers... what takes time, what's frustrating, and what tools people really use"
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 4,
+      "willingnessToPay": 4,
+      "automationPotential": 3,
+      "jonesFit": 5,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 3,
+      "scrappiness": 4,
+      "total": 30
+    },
+    "firstTest": {
+      "type": "dm",
+      "description": "Reply to the '$10K first week' thread on r/Entrepreneur: 'Congrats on the launch! I help technical founders like you with the content/ads side — I'm a dev myself so I actually understand the product before creating marketing for it. Would you be open to a free 15-min call where I audit your current Meta setup and suggest 3 quick wins?' Track responses and replicate on 4 more similar threads.",
+      "description_zh": "在 r/Entrepreneur 的「首週 $10K」帖子回覆，提供免費 15 分鐘 Meta 廣告審計通話。在 4 個類似帖子重複操作。追蹤回覆。",
+      "timeEstimate": "1-2 hours"
+    },
+    "signalStrength": {
+      "numMentions": 6,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["content-creation", "meta-ads", "e-commerce", "technical-founders", "service", "cross-border"],
+    "category": "service",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-21T07:00:00Z",
+    "updatedAt": "2026-03-21T07:00:00Z",
+    "sourceDate": "2026-03-21"
+  }
+]
