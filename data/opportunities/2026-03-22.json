@@ -1,0 +1,337 @@
+[
+  {
+    "id": "opp_20260322_001",
+    "title": "Self-Employed Health Insurance Navigation & Optimization Service",
+    "title_zh": "自僱者健康保險導航與優化服務",
+    "problem": "Self-employed couples and small business owners are paying $1,700-2,200/month for health insurance through the marketplace — and it's getting worse as subsidies disappear. A viral thread (56 upvotes, 122 comments in hours) on r/smallbusiness shows massive frustration. Most self-employed people don't know about alternatives like health sharing ministries, ICHRA, association health plans, or cross-border medical tourism. They're stuck comparing bad options on healthcare.gov and paying through the nose.",
+    "problem_zh": "自僱夫婦和小企業主在市場上每月支付 $1,700-2,200 的健康保險——隨著補貼消失情況更糟。r/smallbusiness 上一個熱帖（56 讚、122 則留言）顯示大量不滿。大多數自僱者不知道有健康分享事工、ICHRA、協會健康計劃或跨境醫療旅遊等替代方案。他們被困在 healthcare.gov 上比較爛選項，花大錢。",
+    "who": "Self-employed individuals, 1099 contractors, freelancers, and micro-business owners (1-5 people) in the US paying $1K-2.5K/month for health insurance. Especially couples without employer-sponsored coverage.",
+    "currentSolution": "Browsing healthcare.gov marketplace plans, asking on Reddit, calling insurance brokers who push high-commission plans, or just going uninsured and praying. Some check with their local chamber of commerce but find similar pricing. A few have heard of health sharing ministries but don't trust them.",
+    "whyItSucks": "Healthcare.gov is confusing and options are limited. Insurance brokers have misaligned incentives (commission-based). Health sharing ministries are poorly understood and have legitimacy concerns. Nobody aggregates ALL the options (marketplace, ICHRA, association plans, health sharing, medical tourism, direct primary care + catastrophic) into a clear comparison. The decision involves tax implications (S-Corp salary, QSEHRA) that most people don't understand.",
+    "whyItSucks_zh": "Healthcare.gov 令人困惑且選項有限。保險經紀人有利益衝突（佣金制）。健康分享事工被理解不足且有信任問題。沒有人把所有選項（市場、ICHRA、協會計劃、健康分享、醫療旅遊、直接初級保健+災難性保險）整合成清楚的比較。決策涉及大多數人不懂的稅務影響（S-Corp 薪資、QSEHRA）。",
+    "opportunityAngle": "Offer a '$149 Health Insurance Optimization Audit' for self-employed people: a 1-hour consultation + written report comparing ALL their options side-by-side with projected annual costs. Include: (1) Marketplace plan optimization (income structuring for max subsidies), (2) Health sharing ministry comparison (Christian Healthcare Ministries, Medishare, etc.), (3) ICHRA/QSEHRA eligibility check, (4) Direct Primary Care + catastrophic plan combo analysis, (5) Medical tourism option for planned procedures (especially dental, vision, elective — with Taiwan/Asia connections). Jones's cross-cultural advantage: can serve the large Taiwanese-American self-employed community who might benefit from combining US catastrophic coverage with Taiwan NHI for planned procedures during visits home.",
+    "opportunityAngle_zh": "提供 $149 的「健保優化審計」：1 小時諮詢 + 書面報告，逐一比較所有選項和預計年度費用。包含：(1) 市場計劃優化（收入結構最大化補貼）(2) 健康分享事工比較 (3) ICHRA/QSEHRA 資格檢查 (4) 直接初級保健 + 災難性保險組合分析 (5) 計畫性手術的醫療旅遊選項（牙科、視力、選擇性手術——台灣/亞洲連結）。Jones 的跨文化優勢：服務大量台裔美國自僱者，結合美國災難性保險和回台時的健保。",
+    "evidence": [
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1rztj27/what_are_you_paying_for_health_insurance_being/",
+        "quote": "My wife and I are 1099 contractors and small business owners. We were paying $1700 monthly for a PPO on the marketplace in Illinois. It went up to $2200 this year because the small subsidy we had went away. I just can't make sense of paying this much longer."
+      },
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1rztj27/what_are_you_paying_for_health_insurance_being/",
+        "quote": "We rarely use the insurance and really only need it for major claims at the hospital. Is there anything out there not on the marketplace for small business owners?"
+      }
+    ],
+    "scores": {
+      "painIntensity": 5,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 3,
+      "jonesFit": 5,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 5,
+      "scrappiness": 5,
+      "total": 36
+    },
+    "firstTest": {
+      "type": "reddit_post",
+      "description": "Write a detailed, helpful comment on the health insurance thread listing 5 alternatives most self-employed people don't know about (DPC + catastrophic combo, health sharing ministries, ICHRA, association plans, medical tourism). End with: 'I've been helping self-employed friends navigate this — DM me if you want a free 15-min call to see which option could save you the most.' Track DMs and gauge demand for a paid audit service.",
+      "description_zh": "在健保帖子寫詳細回覆，列出 5 個大多數自僱者不知道的替代方案。結尾提供免費 15 分鐘通話。追蹤私訊和需求。",
+      "timeEstimate": "1-2 hours"
+    },
+    "signalStrength": {
+      "numMentions": 20,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": true,
+    "tags": ["health-insurance", "self-employed", "cross-border", "medical-tourism", "Taiwan", "consulting", "service"],
+    "category": "cross-border",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-22T07:00:00Z",
+    "updatedAt": "2026-03-22T07:00:00Z",
+    "sourceDate": "2026-03-22"
+  },
+  {
+    "id": "opp_20260322_002",
+    "title": "Micro-Business Acquisition Due Diligence Kit (Seller Financing Focus)",
+    "title_zh": "微型企業收購盡職調查套件（賣方融資專用）",
+    "problem": "People are buying small businesses through seller financing and getting destroyed by hidden problems: inflated valuations based on peak years, undisclosed tax withholding issues, bad cash flow timing, predatory daily ACH loans. A viral post (84 upvotes, 35 comments) on r/smallbusiness details how a coffee shop buyer nearly buried himself in 6 months. The 'search fund' and 'buy a small business' movement is booming, but there's no affordable due diligence tool for sub-$500K acquisitions — only expensive lawyers and accountants.",
+    "problem_zh": "人們透過賣方融資買小生意，被隱藏問題搞垮：基於巔峰年份的膨脹估值、未揭露的稅務扣繳問題、現金流時機差、掠奪性每日 ACH 貸款。r/smallbusiness 一篇熱帖（84 讚、35 則留言）詳述咖啡店買家如何在 6 個月內幾乎倒閉。「搜尋基金」和「買小生意」運動正在蓬勃發展，但 $500K 以下的收購沒有平價盡職調查工具——只有昂貴的律師和會計師。",
+    "who": "First-time business buyers pursuing seller-financed acquisitions of small businesses ($50K-$500K). Often individuals transitioning from employment to ownership, using SBA loans or seller financing. Active on r/smallbusiness, r/Entrepreneur, and Acquisition.com communities.",
+    "currentSolution": "Hiring an attorney ($3-5K) and CPA ($2-3K) for due diligence. Reading blog posts and Reddit threads. Some use generic M&A checklists designed for much larger deals. Many just trust the seller's numbers and learn the hard way. A few use BizBuySell's basic tools.",
+    "whyItSucks": "Professional due diligence costs $5-10K+ which is 5-20% of a micro-business purchase price — absurd for a $100K deal. Generic M&A checklists miss micro-business-specific red flags (daily ACH loan traps, payroll platform lock-in like Gusto requiring $3200 to reactivate, seller's personal expenses run through the business, seasonal revenue disguised as growth). First-time buyers don't even know what questions to ask.",
+    "whyItSucks_zh": "專業盡職調查要 $5-10K+，對 $100K 的交易來說是 5-20%——荒謬。通用 M&A 清單遺漏微型企業特有紅旗（每日 ACH 貸款陷阱、Gusto 等薪資平台要 $3200 才能重新啟動的鎖定、賣家把個人支出走公司帳、季節性營收偽裝成增長）。首次買家甚至不知道該問什麼問題。",
+    "opportunityAngle": "Create a '$79 Micro-Business Due Diligence Kit' — a comprehensive digital checklist + spreadsheet system specifically for sub-$500K seller-financed acquisitions: (1) 50-point red flag checklist (cash flow verification, hidden liabilities, seller financing trap clauses), (2) Financial model template that stress-tests the deal (what if revenue drops 20%? what if you can't make payroll month 1?), (3) 'First 90 Days' cash flow survival plan template, (4) List of specific questions to ask the seller (with explanations of why each matters), (5) Predatory lending red flags guide (daily ACH, MCA traps). Phase 2: $299 'Due Diligence Review Call' where Jones reviews their specific deal. Cross-border angle: same kit adapted for Taiwanese entrepreneurs buying US businesses remotely.",
+    "opportunityAngle_zh": "做 $79 的「微型企業盡職調查套件」——專為 $500K 以下賣方融資收購設計的完整數位清單 + 試算表系統：(1) 50 點紅旗清單 (2) 壓力測試財務模型模板 (3) 前 90 天現金流生存計畫模板 (4) 問賣家的具體問題清單 (5) 掠奪性貸款紅旗指南。Phase 2 做 $299 的盡調通話。跨境版：給想遠端買美國小生意的台灣企業家。",
+    "evidence": [
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1s08cuk/i_took_over_a_coffee_business_through_seller/",
+        "quote": "The valuation was based on stronger prior years, not the recent decline. The old owner had a mistaken federal withholding account taking 24% of our daily deposits. I underestimated how fast cash flow can kill you."
+      },
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1s08cuk/i_took_over_a_coffee_business_through_seller/",
+        "quote": "I allowed almost $400/day in withdrawals from bad financing before restructuring... I have to give gusto $3200 before I can reactivate payroll and give anyone hours again... The gap between almost fixed and fixed is so brutal."
+      }
+    ],
+    "scores": {
+      "painIntensity": 5,
+      "frequency": 4,
+      "willingnessToPay": 5,
+      "automationPotential": 3,
+      "jonesFit": 4,
+      "competitionGap": 5,
+      "crossBorderArbitrage": 3,
+      "scrappiness": 4,
+      "total": 33
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Write a detailed reply to the coffee business thread: 'I went through a similar situation and built myself a due diligence checklist after getting burned. Here are the 10 red flags I now check before ANY seller-financed deal...' List real, specific checks. End with: 'I'm putting together a complete kit — who would want early access?' Track upvotes and DMs.",
+      "description_zh": "在咖啡店帖子寫詳細回覆，分享 10 個盡調紅旗清單。結尾問誰想要完整套件的早期測試。追蹤回覆。",
+      "timeEstimate": "2-3 hours"
+    },
+    "signalStrength": {
+      "numMentions": 10,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["business-acquisition", "due-diligence", "seller-financing", "digital-product", "small-business", "cross-border"],
+    "category": "content",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-22T07:00:00Z",
+    "updatedAt": "2026-03-22T07:00:00Z",
+    "sourceDate": "2026-03-22"
+  },
+  {
+    "id": "opp_20260322_003",
+    "title": "Hardware Prototype-to-Production Bridge (Taiwan/Shenzhen Manufacturing Connection)",
+    "title_zh": "硬體原型到量產橋接服務（台灣/深圳製造連結）",
+    "problem": "Indie hardware makers and entrepreneurs can design and 3D-print prototypes, but hit a brutal cost wall when trying to manufacture. A maker on r/Entrepreneur describes ordering PCBs at $100+ for a few units while Amazon sells similar products at 4 for $30. They feel 'helpless' competing on price. The gap between 'I can design this' and 'I can manufacture this affordably' is enormous, and there's no affordable bridge service for small-batch production under 1,000 units.",
+    "problem_zh": "獨立硬體製造者和企業家能設計和 3D 列印原型，但嘗試量產時遇到殘酷的成本牆。r/Entrepreneur 上一位製造者描述訂購 PCB 每幾片要 $100+，而 Amazon 賣類似產品 4 個 $30。他感到「無助」。從「我能設計這個」到「我能負擔得起量產」的差距巨大，沒有針對 1,000 件以下小批量生產的平價橋接服務。",
+    "who": "Indie hardware makers, hobbyist-turned-entrepreneurs, Kickstarter/Indiegogo creators, and small electronics brands trying to go from prototype to production. Often technical people who can design PCBs and 3D models but don't know manufacturing supply chains.",
+    "currentSolution": "Ordering small batches from PCBWay/JLCPCB (expensive per unit). Trying to find Alibaba suppliers (confusing, language barriers, minimum order quantities too high). Posting on r/Entrepreneur asking for advice. Some hire consultants at $100-200/hour. A few try to learn Chinese manufacturing platforms directly.",
+    "whyItSucks": "Small-batch PCB fabrication is 10-50x the per-unit cost of mass production. Alibaba is a minefield of scams and quality issues for newcomers. Finding reliable contract manufacturers for sub-1000 unit runs is nearly impossible without connections. Language and cultural barriers with Chinese/Taiwanese factories are real. Most 'manufacturing consultants' are expensive and designed for companies doing 10K+ unit runs.",
+    "whyItSucks_zh": "小批量 PCB 製造的單位成本是量產的 10-50 倍。Alibaba 對新手是地雷區。找可靠的代工廠做 1000 件以下的訂單幾乎不可能沒有人脈。與中國/台灣工廠的語言和文化障礙是真實的。大多數「製造顧問」很貴且針對 10K+ 單位。",
+    "opportunityAngle": "Offer a '$249 Manufacturing Feasibility Report' service: Jones uses his Taiwan connections and bilingual ability to (1) Get real quotes from 3-5 Taiwan/Shenzhen manufacturers for the client's specific product, (2) Compare MOQs, tooling costs, and per-unit pricing at different volumes (100/500/1000/5000), (3) Identify which components can be sourced cheaper, (4) Flag design changes that would dramatically reduce manufacturing cost, (5) Provide a 'production roadmap' with recommended manufacturers and timeline. Jones's UNIQUE advantage: being Taiwanese with direct cultural/language access to the manufacturing ecosystem that Western makers can't easily access. This is textbook 'Physical × AI × Inefficiency' and cross-border arbitrage.",
+    "opportunityAngle_zh": "提供 $249 的「製造可行性報告」服務：Jones 利用台灣人脈和雙語能力 (1) 向 3-5 家台灣/深圳廠商取得客戶特定產品的報價 (2) 比較不同數量的 MOQ、模具費和單位價格 (3) 找出更便宜的零件來源 (4) 標出能大幅降低成本的設計變更 (5) 提供製造路線圖。Jones 的獨特優勢：台灣人，有直接的文化/語言通道進入西方製造者難以觸及的製造生態系。教科書級的「實體 × AI × 低效」和跨境套利。",
+    "evidence": [
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1s0710e/how_do_people_create_such_cheap_costing_products/",
+        "quote": "Even when I do all the design, 3d modelling and printing, and assembly myself, simply ordering the PCB is already over $100 just for a few, plus shipping, plus the cost of raw materials, packaging, shipping, and tariffs. I can't imagine even selling one for $20 if I hope to get any profit."
+      },
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1s0710e/how_do_people_create_such_cheap_costing_products/",
+        "quote": "It makes me feel helpless like I try to create things and sell them, but in the end, it's so costly that if I even attempt to sell my own, there will always be way cheaper options."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 4,
+      "willingnessToPay": 5,
+      "automationPotential": 3,
+      "jonesFit": 5,
+      "competitionGap": 5,
+      "crossBorderArbitrage": 5,
+      "scrappiness": 3,
+      "total": 34
+    },
+    "firstTest": {
+      "type": "dm",
+      "description": "Reply helpfully on the 'how do people create cheap products' thread with specific knowledge about Taiwan/China manufacturing: explain MOQ economics, name actual platforms (JLCPCB, PCBWay for proto, then Taiwanese CMs for production), and offer: 'I'm Taiwanese and have connections to manufacturers there. Happy to get you a real quote for your motion sensor design — DM me your specs.' Track if anyone takes you up on it.",
+      "description_zh": "在「如何做出便宜產品」帖子回覆，分享台灣/中國製造的具體知識。提供幫忙取得報價。追蹤是否有人回應。",
+      "timeEstimate": "2-3 hours"
+    },
+    "signalStrength": {
+      "numMentions": 8,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["hardware", "manufacturing", "cross-border", "Taiwan", "Shenzhen", "arbitrage", "service", "physical-AI-inefficiency"],
+    "category": "cross-border",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-22T07:00:00Z",
+    "updatedAt": "2026-03-22T07:00:00Z",
+    "sourceDate": "2026-03-22"
+  },
+  {
+    "id": "opp_20260322_004",
+    "title": "AI After-Hours Phone Receptionist Setup Service for Local Businesses",
+    "title_zh": "本地商家 AI 下班後電話接待設置服務",
+    "problem": "Small businesses are losing customers to missed calls — especially after hours and during busy periods. A thread on r/smallbusiness highlights this as a recurring pain: potential customers call once and never call back. Voicemail is a dead end (nobody leaves voicemails in 2026). Automated phone systems frustrate customers. Hiring a receptionist is too expensive. Meanwhile, AI voice agents (like Vapi, Bland.ai, Retell) have gotten surprisingly good but local business owners have zero idea these exist, let alone how to set them up.",
+    "problem_zh": "小企業因漏接電話而失去客戶——尤其是下班後和忙碌時段。r/smallbusiness 的討論串凸顯這是反覆出現的痛點：潛在客戶打一次就不再打了。語音信箱是死路（2026 年沒人留語音信箱了）。自動電話系統讓客戶挫折。雇接待員太貴。與此同時 AI 語音代理（如 Vapi、Bland.ai、Retell）已經變得出奇地好，但本地商家完全不知道這些存在，更別說如何設置。",
+    "who": "Local service businesses: plumbers, dentists, HVAC, lawyers, restaurants, salons, auto repair shops — any business where a phone call = a potential customer and missing it means losing $200-2000+ in revenue. Typically doing $200K-2M/year revenue with 1-15 employees.",
+    "currentSolution": "Voicemail (low callback rate). Answering services like Ruby ($300-600/month for limited minutes). Google Voice forwarding (still requires someone to answer). Some use basic auto-attendant systems ('Press 1 for...') that customers hate. Many just accept the loss.",
+    "whyItSucks": "Voicemail has <5% callback rate — customers just call the next listing. Human answering services are $300-600/month and still can't handle complex scheduling or questions about services. IVR systems ('Press 1 for...') feel impersonal and drive customers to competitors. The new AI voice agents could solve this perfectly but local business owners don't know about them, can't evaluate them, and definitely can't configure them.",
+    "whyItSucks_zh": "語音信箱回撥率不到 5%——客戶直接打下一家。人工接聽服務月費 $300-600 且無法處理複雜排程或服務諮詢。IVR 系統感覺不人性化。新的 AI 語音代理能完美解決但本地商家不知道、不會評估、更不會配置。",
+    "opportunityAngle": "Offer a '$500 AI Phone Receptionist Setup' — Jones configures an AI voice agent (using Vapi, Bland.ai, or Retell) customized for the specific business: (1) Custom voice greeting with business name and personality, (2) FAQ handling (hours, location, pricing, services), (3) Appointment booking integration (with their existing calendar), (4) After-hours call handling that texts the owner with a summary, (5) Warm transfer to owner's cell for urgent calls. Ongoing: $99/month management fee. Jones's tech skills make configuration trivial, and each setup is a template that gets faster. This is a '降維打擊' play: AI + tech skills deployed into a market with zero tech sophistication.",
+    "opportunityAngle_zh": "提供 $500 的「AI 電話接待設置」——Jones 用 Vapi、Bland.ai 或 Retell 為特定商家配置 AI 語音代理：(1) 客製化語音問候 (2) FAQ 處理 (3) 預約整合 (4) 下班後來電處理並簡訊通知老闆 (5) 緊急來電暖轉接。持續 $99/月管理費。Jones 的技術能力讓配置變得簡單，每次設置都是可重用的模板。這是「降維打擊」：AI + 技術能力部署到零技術素養的市場。",
+    "evidence": [
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1s0eb7z/how_do_you_handle_missed_calls_in_your_business/",
+        "quote": "one thing that came up repeatedly was missed calls. especially after hours or during busy times. In many cases, those calls were potential customers who never called back."
+      },
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1s0eb7z/how_do_you_handle_missed_calls_in_your_business/",
+        "quote": "for those who've tried automation (like answering systems), has it actually worked well or just frustrated customers?"
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 5,
+      "automationPotential": 5,
+      "jonesFit": 5,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 2,
+      "scrappiness": 4,
+      "total": 34
+    },
+    "firstTest": {
+      "type": "manual_service",
+      "description": "Set up a demo AI phone receptionist for a fictional plumbing company using Vapi or Bland.ai (free tier). Record a 30-second demo video of calling the number and having the AI handle questions + booking. Post it as a reply on the 'missed calls' thread: 'I set up an AI receptionist for a friend's plumbing business — it cost about $50/month in API fees and handles after-hours calls perfectly. Here's what it sounds like...' Track DMs from business owners who want the same.",
+      "description_zh": "用 Vapi 或 Bland.ai 免費層為虛構的水電公司設置 AI 電話接待示範。錄 30 秒 demo 影片。在「漏接電話」帖子分享。追蹤想要同樣服務的商家私訊。",
+      "timeEstimate": "3-4 hours"
+    },
+    "signalStrength": {
+      "numMentions": 12,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["AI-voice", "local-business", "phone", "automation", "service", "recurring-revenue", "降維打擊"],
+    "category": "service",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-22T07:00:00Z",
+    "updatedAt": "2026-03-22T07:00:00Z",
+    "sourceDate": "2026-03-22"
+  },
+  {
+    "id": "opp_20260322_005",
+    "title": "Boring SaaS Problem Finder: Automated G2/Reddit Review Mining Service",
+    "title_zh": "無聊 SaaS 問題挖掘器：自動化 G2/Reddit 評論挖掘服務",
+    "problem": "A SaaS founder who scaled to $9K/month (700 customers) shares that the #1 lesson is: stop guessing what to build. The winning approach is reading 1-star reviews on G2, Capterra, app stores, Reddit, and Upwork to find what people hate about existing software — then building the fix. But manually scraping and analyzing reviews across all these platforms takes 4+ hours/day. Multiple founders confirm: the 'boring problem' filter (review monitoring, data aggregation, niche workflow automation) beats flashy AI wrapper ideas every time.",
+    "problem_zh": "一位做到 $9K/月（700 客戶）的 SaaS 創辦人分享最大教訓：停止猜測該做什麼。成功做法是讀 G2、Capterra、App Store、Reddit、Upwork 上的 1 星評論，找出人們討厭現有軟體什麼——然後做修復。但手動在這些平台爬取和分析評論每天要 4+ 小時。多位創辦人確認：「無聊問題」過濾器（評論監控、資料聚合、利基工作流自動化）每次都勝過花俏的 AI 包裝點子。",
+    "who": "Indie hackers, solo SaaS founders, and small product teams looking for validated product ideas. Also: aspiring entrepreneurs in the 'what should I build?' paralysis stage. Typically technical people who can build but don't know WHAT to build.",
+    "currentSolution": "Manually browsing G2, Capterra, Reddit, and app stores (4+ hours/day). Using Google Alerts (too broad, misses review platforms). Some use tools like BigIdeasDB ($49/month) but find them incomplete. Many just guess based on personal experience or Twitter trends.",
+    "whyItSucks": "Manual review mining is tedious and unsustainable. Existing tools like BigIdeasDB exist but are expensive for what they offer and miss non-English markets entirely. No tool combines G2 reviews + Reddit complaints + Upwork job postings + app store reviews into a single pain-point dashboard. And absolutely nothing covers cross-language markets (finding what Taiwanese/Japanese/Korean users hate about software that US founders could fix).",
+    "whyItSucks_zh": "手動評論挖掘枯燥且不可持續。BigIdeasDB 等現有工具存在但價格偏高且完全忽略非英語市場。沒有工具將 G2 評論 + Reddit 抱怨 + Upwork 職缺 + App Store 評論合併成單一痛點儀表板。更沒有覆蓋跨語言市場（找出台灣/日本/韓國用戶討厭什麼軟體，讓美國創辦人能修復）。",
+    "opportunityAngle": "Build a '$29/month SaaS Pain Point Radar' — a weekly email digest that aggregates and AI-analyzes 1-star reviews and complaints across G2, Capterra, Reddit, and app stores for specific software categories the subscriber chooses. Key differentiator: include non-English markets (PTT for Taiwan, 5ch for Japan, Korean community sites). Jones can start this as a manual curation service (Scrappiness 5) using AI to help analyze, then automate incrementally. The cross-language angle is a genuine moat — no English-only tool can do this. Phase 1: Manual weekly email. Phase 2: Automated dashboard.",
+    "opportunityAngle_zh": "做 $29/月的「SaaS 痛點雷達」——每週 email 摘要，AI 分析特定軟體類別在 G2、Capterra、Reddit、App Store 上的 1 星評論和抱怨。關鍵差異：包含非英語市場（PTT、5ch、韓國社群）。Jones 可以先做手動策展服務（scrappiness 5），用 AI 輔助分析，逐步自動化。跨語言是真正的護城河。Phase 1：手動週報。Phase 2：自動化儀表板。",
+    "evidence": [
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1s0cp3b/12_lessons_after_scaling_my_saas_to_700_paid/",
+        "quote": "the product that actually made money came from reading one-star reviews on g2, not from asking people what they want. opinions don't predict purchases. existing spending patterns do."
+      },
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1s0cp3b/12_lessons_after_scaling_my_saas_to_700_paid/",
+        "quote": "i got tired of doing the research part manually, scraping reviews across g2, capterra, app stores, reddit, and upwork was eating 4+ hours of my day. so i built something to automate it."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 5,
+      "jonesFit": 5,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 5,
+      "scrappiness": 4,
+      "total": 36
+    },
+    "firstTest": {
+      "type": "manual_service",
+      "description": "Manually create one 'SaaS Pain Point Report' for a specific category (e.g., project management tools). Spend 2 hours collecting 1-star reviews from G2, Reddit complaints, and PTT posts about Notion/Asana/Monday alternatives. Format into a clean report showing the top 5 unmet needs. Post a summary on r/SaaS: 'I analyzed 200+ complaints about project management tools across English and Chinese forums. Here are the 5 pain points nobody's solving...' Offer: 'I can do this for any software category — DM me your niche for a free sample.'",
+      "description_zh": "手動為特定類別（如專案管理工具）做一份「SaaS 痛點報告」。花 2 小時收集 G2 的 1 星評論、Reddit 抱怨和 PTT 帖子。格式化成清楚的報告。在 r/SaaS 發摘要。提供免費樣本。",
+      "timeEstimate": "3-4 hours"
+    },
+    "signalStrength": {
+      "numMentions": 15,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["SaaS", "review-mining", "product-research", "cross-language", "automation", "digital-product", "newsletter"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-22T07:00:00Z",
+    "updatedAt": "2026-03-22T07:00:00Z",
+    "sourceDate": "2026-03-22"
+  }
+]
