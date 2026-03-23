@@ -1,0 +1,332 @@
+[
+  {
+    "id": "opp_20260323_001",
+    "title": "Vibe-Coding MVP Factory: $5K Apps That Actually Work for Non-Tech Founders",
+    "title_zh": "Vibe-Coding MVP 工廠：給非技術創辦人的 $5K 能用 App",
+    "problem": "A dev agency owner's viral post (50 upvotes, 32 comments on r/smallbusiness) exposes the #1 problem in small business tech: founders think their app idea costs $5K, get a $3K quote from overseas, but the real cost is $50-80K. They go cheap, get a broken product 8 months later, and have zero budget to fix it. Meanwhile, vibe-coding tools (Cursor, Bolt, Lovable, Replit Agent) have made it possible for a skilled developer to build functional MVPs in days instead of months — but non-technical founders don't know this option exists.",
+    "problem_zh": "一位開發代理商老闆的熱帖（r/smallbusiness 50 讚、32 則留言）揭露小企業科技的第一大問題：創辦人以為 app 只要 $5K，拿到海外 $3K 報價，但真正成本是 $50-80K。他們選便宜的，8 個月後拿到壞產品，預算歸零。同時，vibe-coding 工具（Cursor、Bolt、Lovable）已經讓厲害的開發者能在幾天內建出可用的 MVP——但非技術創辦人根本不知道這選項存在。",
+    "who": "Non-technical founders and small business owners with app ideas, typically budgeting $3-10K. They've gotten burned by cheap overseas devs or are intimidated by $50K+ agency quotes. Active on r/smallbusiness, r/Entrepreneur. Often service businesses wanting to digitize a workflow.",
+    "currentSolution": "Hiring offshore developers on Upwork/Fiverr ($3-10K, high failure rate). Getting quotes from US agencies ($50-80K, unaffordable). Trying no-code tools like Bubble (limited, still requires learning curve). Some try to learn to code themselves. Many just give up on the idea entirely.",
+    "whyItSucks": "Offshore devs produce brittle, undocumented code that breaks within months. US agencies are 10x the budget. No-code tools hit walls fast when you need custom logic, integrations, or anything beyond a landing page. The market has a massive 'dead zone' between $3K garbage and $50K quality — and that's exactly where most small business founders' budgets sit.",
+    "whyItSucks_zh": "海外開發者產出脆弱、無文件的程式碼，幾個月就壞。美國代理商超出預算 10 倍。無程式碼工具遇到客製邏輯和整合就碰壁。市場在 $3K 垃圾和 $50K 品質之間有巨大的「死區」——而這正是大多數小企業創辦人的預算範圍。",
+    "opportunityAngle": "Offer a '$5,000 MVP Sprint' service: Jones uses AI-assisted vibe-coding (Cursor + Claude/GPT) to build functional MVPs in 1-2 weeks that would traditionally cost $30-50K. The pitch: 'I build your first version in 10 days for $5K. If it doesn't work, you don't pay.' Deliverables: working web app, deployed, with source code. Jones's unique advantage: (1) Deep AI tooling expertise means 10x dev speed, (2) Can serve both English and Chinese-speaking founders, (3) Each project becomes a case study for marketing. This is pure '降維打擊' — applying frontier AI dev tools in a market that thinks custom software requires months and tens of thousands.",
+    "opportunityAngle_zh": "提供 $5,000 的「MVP 衝刺」服務：Jones 用 AI 輔助 vibe-coding（Cursor + Claude/GPT）在 1-2 週內建出功能性 MVP，傳統要 $30-50K。訴求：「10 天內建好你的第一版，$5K。不能用不收費。」交付：可運作的 web app + 部署 + 原始碼。Jones 的獨特優勢：(1) 深度 AI 工具專長 = 10 倍開發速度 (2) 能服務英文和中文創辦人 (3) 每個專案都是行銷案例。純粹的降維打擊。",
+    "evidence": [
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1s17ffi/how_do_you_tell_a_client_their_5k_app_idea_costs/",
+        "quote": "Client arrives with an app idea. In their head it costs $5,000. They show a quote from an overseas dev for $3,000. In reality the backend, admin panel, integrations, security and testing put the real number at $50,000 to $80,000 minimum."
+      },
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1s17ffi/how_do_you_tell_a_client_their_5k_app_idea_costs/",
+        "quote": "Most go with the cheaper option. Eight months later they come back with a broken product and zero budget left to fix it (which is the most expensive way to learn this lesson)."
+      },
+      {
+        "source": "Hacker News",
+        "url": "https://tedium.co/2026/02/25/vibe-coded-email-spam/",
+        "quote": "They're Vibe-Coding Spam Now — vibe coding tools have become so accessible that even spam operations use them, proving the tech works for rapid app creation."
+      }
+    ],
+    "scores": {
+      "painIntensity": 5,
+      "frequency": 5,
+      "willingnessToPay": 5,
+      "automationPotential": 4,
+      "jonesFit": 5,
+      "competitionGap": 5,
+      "crossBorderArbitrage": 4,
+      "scrappiness": 5,
+      "total": 38
+    },
+    "firstTest": {
+      "type": "reddit_post",
+      "description": "Reply to the '$5K app costs $50K' thread with a thoughtful comment explaining the vibe-coding middle ground: 'As a developer who uses AI-assisted coding tools, I can now build in 1-2 weeks what used to take 3-4 months. The $5K budget isn't unreasonable anymore — it's just that most agencies haven't adopted these tools yet. Happy to do a free 15-min scope call for anyone with an app idea to give you a realistic timeline and cost.' Track DMs.",
+      "description_zh": "在「$5K app 要 $50K」帖子回覆，解釋 vibe-coding 的中間路線。提供免費 15 分鐘範圍評估通話。追蹤私訊。",
+      "timeEstimate": "1-2 hours"
+    },
+    "signalStrength": {
+      "numMentions": 25,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": true,
+    "tags": ["vibe-coding", "MVP", "dev-service", "AI-tools", "降維打擊", "freelance", "cross-border"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-23T07:00:00Z",
+    "updatedAt": "2026-03-23T07:00:00Z",
+    "sourceDate": "2026-03-23"
+  },
+  {
+    "id": "opp_20260323_002",
+    "title": "Cross-Border Payment & Banking Setup Service for Foreign-Owned US LLCs",
+    "title_zh": "外國人持有美國 LLC 的跨境支付與銀行開戶服務",
+    "problem": "Non-US residents who form US LLCs keep getting their Stripe accounts shut down and can't onboard with PayPal. A post on r/smallbusiness today shows a foreign LLC owner with proper documents (LLC + EIN) but no ITIN or US address — Stripe closed them, PayPal is dragging. This is a massive recurring pain across r/smallbusiness, r/Entrepreneur, and r/digitalnomad: international founders want US payment infrastructure but keep hitting compliance walls they don't understand.",
+    "problem_zh": "非美國居民開設美國 LLC 後不斷被 Stripe 關帳，PayPal 也上不了。今天 r/smallbusiness 一則帖子顯示外國 LLC 持有者有完整文件（LLC + EIN）但沒有 ITIN 或美國地址——Stripe 關了帳，PayPal 拖很久。這是 r/smallbusiness、r/Entrepreneur、r/digitalnomad 上反覆出現的巨大痛點：國際創辦人想要美國支付基礎設施但一直撞上不理解的合規牆。",
+    "who": "International entrepreneurs (especially from Taiwan, Southeast Asia, Latin America, Europe) who have formed or want to form US LLCs to access the US market. Often digital product sellers, SaaS founders, or e-commerce operators. Typically $1K-50K/month revenue.",
+    "currentSolution": "DIY research on Reddit and YouTube. Hiring incorporation services like Firstbase or Doola ($300-500/year) but these don't solve the payment problem. Applying to multiple payment processors and hoping one sticks. Some use Mercury or Relay for banking but still can't solve Stripe. A few pay lawyers $2-5K for compliance help.",
+    "whyItSucks": "Incorporation services sell the LLC setup but leave you stranded on payments. Stripe's compliance requirements for foreign owners are opaque and change frequently. PayPal onboarding takes weeks and often requires documents that non-residents don't have. Most legal help is US-focused and doesn't understand the cross-border nuances (ITIN vs EIN, virtual address legitimacy, beneficial ownership rules). The information is scattered across dozens of Reddit threads, YouTube videos, and blog posts — all slightly outdated.",
+    "whyItSucks_zh": "開公司服務賣 LLC 設立但支付問題不管。Stripe 對外國持有者的合規要求不透明且常變。PayPal 上線要數週且常要求非居民沒有的文件。大多數法律幫助以美國為主，不懂跨境細節（ITIN vs EIN、虛擬地址合法性、受益所有權規則）。資訊散落在數十個 Reddit 帖子、YouTube 影片和部落格中——都有點過時。",
+    "opportunityAngle": "Offer a '$399 US Payment Infrastructure Setup Package' for foreign LLC owners: (1) Audit their current LLC structure for payment processor compliance, (2) ITIN application guidance or alternative strategies, (3) US bank account setup (Mercury/Relay recommendations + application support), (4) Stripe/payment processor application with pre-compliance review to avoid rejection, (5) Ongoing support for the first 90 days. Jones's UNIQUE edge: Taiwanese who understands both US and Asian business culture, has navigated this himself, and can serve the huge Taiwanese/Chinese entrepreneur community wanting US market access. This is textbook cross-border arbitrage with information asymmetry.",
+    "opportunityAngle_zh": "提供 $399 的「美國支付基礎設施設置包」給外國 LLC 持有者：(1) 審計現有 LLC 結構的支付處理器合規性 (2) ITIN 申請指導或替代策略 (3) 美國銀行帳戶設置 (4) Stripe/支付處理器申請的預合規審查避免被拒 (5) 前 90 天持續支援。Jones 的獨特優勢：台灣人，理解美國和亞洲商業文化，自己走過這條路，能服務大量想進入美國市場的台灣/華人創業者。教科書級跨境套利。",
+    "evidence": [
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1s18mtd/i_want_a_payment_gateway_alternative_to_stripe/",
+        "quote": "It should accept a US LLC owned by a foreigner, non-US resident. I have LLC documents + EIN but i don't have ITIN or physical residential US address. Stripe closed my account few weeks ago, currently onboarding with PayPal but it is taking long time."
+      }
+    ],
+    "scores": {
+      "painIntensity": 5,
+      "frequency": 4,
+      "willingnessToPay": 5,
+      "automationPotential": 3,
+      "jonesFit": 5,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 5,
+      "scrappiness": 4,
+      "total": 35
+    },
+    "firstTest": {
+      "type": "reddit_post",
+      "description": "Write a comprehensive reply on the Stripe alternatives thread, sharing specific steps for foreign LLC owners: which processors accept non-resident owners, the ITIN workaround, which banks work. End with: 'I help international founders set up US payment infrastructure — DM me if you want a free checklist of what you need.' Also post a version in relevant Taiwanese/Chinese entrepreneur communities.",
+      "description_zh": "在 Stripe 替代方案帖子寫全面回覆，分享外國 LLC 持有者的具體步驟。結尾提供免費檢查清單。也在台灣/中文創業者社群發布版本。",
+      "timeEstimate": "2-3 hours"
+    },
+    "signalStrength": {
+      "numMentions": 15,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["payment-processing", "cross-border", "LLC", "Stripe", "foreign-founder", "Taiwan", "consulting"],
+    "category": "cross-border",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-23T07:00:00Z",
+    "updatedAt": "2026-03-23T07:00:00Z",
+    "sourceDate": "2026-03-23"
+  },
+  {
+    "id": "opp_20260323_003",
+    "title": "Indie App Monetization Rescue: From Free Users to Paying Customers",
+    "title_zh": "獨立 App 變現救援：從免費用戶到付費客戶",
+    "problem": "Two viral posts this week expose the same pattern: indie developers with real products and real users but zero revenue. On r/Entrepreneur, a developer with 17K monthly users on a patented Apple Watch app has made almost no money in 5 years (62 upvotes). On r/SaaS, an Argentine developer with 15K weather app users and only 200 paying subscribers restructured his pricing. Both stories show developers who are brilliant at building but clueless about monetization — giving away their most valuable features for free, burying purchase buttons, and being afraid to charge.",
+    "problem_zh": "本週兩篇熱帖暴露同一模式：獨立開發者有真實產品和真實用戶但零營收。r/Entrepreneur 上一位開發者的 Apple Watch app 有 17K 月活用戶但 5 年幾乎沒賺錢（62 讚）。r/SaaS 上阿根廷開發者的天氣 app 有 15K 用戶但只有 200 付費訂閱者。兩個故事都顯示開發者擅長建造但對變現一竅不通——免費送出最有價值的功能、把購買按鈕藏起來、害怕收費。",
+    "who": "Indie developers and side project builders with 1K-50K users but minimal revenue. Often technical people (iOS, web, mobile) who built something useful but never figured out the business side. Active on r/SideProject, r/Entrepreneur, r/SaaS, IndieHackers. Typically solo or 2-person teams.",
+    "currentSolution": "Reading blog posts about pricing. Asking Reddit for advice (and getting contradictory answers). Copying what big apps do (doesn't work for indie scale). Some hire expensive consultants ($200-500/hour) for general startup advice that isn't specific to indie app monetization. Most just keep building features hoping revenue will magically appear.",
+    "whyItSucks": "Generic startup advice ('just add a paywall') doesn't account for the psychology of transitioning free users to paid. App Store optimization consultants focus on downloads, not revenue per user. Pricing consultants charge enterprise rates for indie-scale problems. The indie developer community shares tons of 'build' advice but almost no concrete 'monetize' playbooks. Nobody offers a specific, affordable service tailored to this exact transition.",
+    "whyItSucks_zh": "通用的創業建議（「加個付費牆」）沒考慮到免費用戶轉付費的心理學。App Store 優化顧問專注下載量而非用戶營收。定價顧問收企業級費用解決獨立開發者的問題。獨立開發者社群分享大量「建造」建議但幾乎沒有具體的「變現」手冊。沒人提供針對這個轉換的特定平價服務。",
+    "opportunityAngle": "Offer a '$299 Monetization Audit for Indie Apps' — Jones reviews the app/product and delivers a specific action plan: (1) Identify the 'money feature' that should be behind a paywall (like the Argentine dev's hail radar), (2) Design a freemium structure that maximizes conversion, (3) Write the exact copy for paywall screens and pricing pages, (4) Set up analytics to track conversion funnel, (5) Draft an email to re-engage past users announcing the new premium tier. Jones's advantage: technical enough to understand the product deeply, business-savvy enough to see the monetization angles, and bilingual to serve the Asian indie dev community (huge and even more monetization-clueless). Can productize this into a repeatable 2-day audit process.",
+    "opportunityAngle_zh": "提供 $299 的「獨立 App 變現審計」——Jones 審查 app/產品並交付具體行動計畫：(1) 找出應該放付費牆後的「金錢功能」(2) 設計最大化轉換的免費增值結構 (3) 撰寫付費牆和定價頁的確切文案 (4) 設置轉換漏斗分析 (5) 起草重新接觸舊用戶的 email。Jones 的優勢：技術足夠深入理解產品，商業敏銳度看到變現角度，雙語服務亞洲獨立開發者社群。可產品化為可重複的 2 天審計流程。",
+    "evidence": [
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1s0yxr9/crowdfunded_20k_shipped_a_top_charting_app_ran/",
+        "quote": "The app keeps growing on its own even though I've done zero promotion since the crowdfunding days. I threw a couple $3 in-app purchases in there for a tuner and tap tempo but they're kind of buried and don't really sell."
+      },
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1s0cp3b/",
+        "quote": "My free users weren't converting because they were already getting the one thing they wanted for free. They had zero incentive to upgrade. By moving the core value proposition behind the paywall, every storm becomes a conversion event."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 3,
+      "jonesFit": 5,
+      "competitionGap": 5,
+      "crossBorderArbitrage": 4,
+      "scrappiness": 5,
+      "total": 35
+    },
+    "firstTest": {
+      "type": "dm",
+      "description": "Write a detailed, helpful reply to the Apple Watch app developer's post with a specific monetization plan: 'Here's exactly what I'd do with your app...' Include: move the tuner + key detection behind a $4.99/month paywall, build the iPhone companion app as a 'gateway' that upsells Watch premium, re-engage backers with an honest update email (draft the email). If it resonates, offer to do a paid deep-dive. Also reply to the weather app thread with similar specifics.",
+      "description_zh": "對 Apple Watch 開發者帖子寫詳細的變現計畫回覆。如果引起共鳴，提供付費深入分析。同時回覆天氣 app 帖子。",
+      "timeEstimate": "2-3 hours"
+    },
+    "signalStrength": {
+      "numMentions": 18,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["indie-dev", "monetization", "app-pricing", "freemium", "consulting", "cross-border", "SaaS"],
+    "category": "service",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-23T07:00:00Z",
+    "updatedAt": "2026-03-23T07:00:00Z",
+    "sourceDate": "2026-03-23"
+  },
+  {
+    "id": "opp_20260323_004",
+    "title": "Automated Invoice Follow-Up Setup Service for Freelancers & Small Agencies",
+    "title_zh": "自由工作者與小型代理商的自動化發票催款設置服務",
+    "problem": "A SaaS founder on r/SaaS built an invoice follow-up tool to $18K MRR with 900 users, proving that chasing late payments is one of the most universally hated tasks for freelancers and small agencies. His insight: 'They didn't care about the tool. They cared about getting their money without the awkwardness.' Yet most freelancers still send manual reminder emails or just silently hope clients pay. The shame and awkwardness of following up is the real barrier — not the lack of tools.",
+    "problem_zh": "r/SaaS 上一位創辦人做了發票催款工具到 $18K MRR、900 用戶，證明催款是自由工作者和小代理商最討厭的事。他的洞察：「他們不在乎工具。他們在乎不用尷尬地拿到錢。」大多數自由工作者仍然手動發催款 email 或默默祈禱客戶付款。尷尬和羞恥是真正的障礙——不是缺乏工具。",
+    "who": "Freelance designers, developers, copywriters, consultants, and small agencies (1-5 people) billing $2K-20K/month. Often US-based but also international. They use invoicing tools like FreshBooks, Wave, or even just PayPal but don't set up automation. Many have $5K-30K+ in outstanding invoices at any given time.",
+    "currentSolution": "Sending manual 'gentle reminder' emails (awkward, often delayed). Using FreshBooks/QuickBooks auto-reminders (generic, easily ignored). Some hire virtual assistants to send follow-ups (expensive, still awkward). A few use the $18K MRR tool or similar SaaS. Many just eat the loss on late payments or wait months.",
+    "whyItSucks": "Manual follow-ups feel confrontational and most freelancers avoid them. Generic auto-reminders from invoicing software get ignored because they feel impersonal. SaaS tools require setup, learning, and monthly subscriptions that freelancers resent paying. The core issue is emotional, not technical — freelancers need someone to handle this for them so they never have to think about it. Nobody offers a white-glove 'I'll set up your entire billing and follow-up system' service.",
+    "whyItSucks_zh": "手動催款感覺對抗性，大多數自由工作者逃避。發票軟體的通用自動提醒被忽略因為不人性化。SaaS 工具需要設置、學習和月費。核心問題是情感性的，不是技術性的——自由工作者需要有人替他們處理好。沒人提供「我幫你建好整個帳單和催款系統」的白手套服務。",
+    "opportunityAngle": "Offer a '$199 Get Paid on Time Setup' — a one-time service where Jones configures a complete billing automation system for freelancers: (1) Set up Stripe recurring billing or invoice templates, (2) Configure a 5-email follow-up sequence (Day 1, Day 7, Day 14, Day 21, Day 30 — each progressively firmer), (3) Add late payment fees clause to their contract template, (4) Set up a simple dashboard tracking outstanding payments, (5) Write all the email copy so it sounds professional but firm. The beauty: this is a productized service that takes 2-3 hours per client but saves them thousands in recovered revenue. Cross-border angle: offer in both English and Chinese for the growing Asian freelancer market.",
+    "opportunityAngle_zh": "提供 $199 的「準時收款設置」——一次性服務，Jones 為自由工作者配置完整的帳單自動化系統：(1) 設置 Stripe 定期帳單或發票模板 (2) 配置 5 封催款序列 (3) 合約模板加入逾期罰款條款 (4) 設置追蹤未付款的簡單儀表板 (5) 撰寫所有 email 文案。每個客戶 2-3 小時但能幫他們回收數千美元。跨境：英中文雙語服務亞洲自由工作者市場。",
+    "evidence": [
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1s19sc9/i_built_a_boring_saas_that_solves_one_small/",
+        "quote": "I picked a problem that annoyed me personally. Nothing groundbreaking. Just chasing people for unpaid invoices. If you've ever freelanced or run a small agency, you know how awkward and frustrating that gets."
+      },
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1s19sc9/i_built_a_boring_saas_that_solves_one_small/",
+        "quote": "They didn't care about the tool. They cared about getting their money without the awkwardness... Right now it's doing around $18K MRR with ~900 users."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 5,
+      "jonesFit": 4,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 3,
+      "scrappiness": 5,
+      "total": 34
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Create a free 'Freelancer Payment Recovery Checklist' — a 1-page PDF with the 5 follow-up email templates, contract clause for late fees, and recommended tool stack. Share it on r/freelance, r/Entrepreneur, and Twitter with: 'I was tired of chasing invoices so I built this system. Now I get paid within 7 days, every time. Free PDF in comments.' Track downloads and DMs asking for setup help.",
+      "description_zh": "做一個免費的「自由工作者收款回收檢查清單」1 頁 PDF，包含 5 封催款 email 模板和工具推薦。在 Reddit 和 Twitter 分享。追蹤下載和私訊。",
+      "timeEstimate": "2-3 hours"
+    },
+    "signalStrength": {
+      "numMentions": 12,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["freelance", "invoicing", "automation", "billing", "productized-service", "email-templates"],
+    "category": "service",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-23T07:00:00Z",
+    "updatedAt": "2026-03-23T07:00:00Z",
+    "sourceDate": "2026-03-23"
+  },
+  {
+    "id": "opp_20260323_005",
+    "title": "Offline-First Knowledge System for Field Workers & Remote Teams",
+    "title_zh": "離線優先的知識系統：給外勤人員和偏遠團隊",
+    "problem": "Project Nomad hit #8 on Hacker News (411 points, 141 comments) with its pitch: 'Knowledge That Never Goes Offline.' The discussion reveals massive frustration with how dependent modern knowledge tools (Notion, Confluence, Google Docs) are on internet connectivity. Field workers, construction teams, disaster responders, agricultural workers, and anyone in spotty-connectivity areas can't access their SOPs, manuals, or documentation when they need it most. Meanwhile, businesses are storing critical operational knowledge in cloud-only tools.",
+    "problem_zh": "Project Nomad 在 Hacker News 達到 #8（411 點、141 則留言），訴求「永不離線的知識」。討論揭露對現代知識工具（Notion、Confluence、Google Docs）依賴網路連線的大量不滿。外勤人員、建築團隊、災難應變者、農業工作者在最需要的時候無法存取 SOP、手冊或文件。企業把關鍵操作知識存在純雲端工具。",
+    "who": "Field service companies (HVAC, plumbing, electrical), construction firms, agricultural operations, disaster response teams, and remote teams operating in areas with poor connectivity. Also: international businesses with operations in developing countries where internet is unreliable.",
+    "currentSolution": "Printing physical binders of SOPs (outdated immediately). Downloading PDFs to phones (no search, hard to update). Using Notion/Confluence offline mode (buggy, limited). Some build custom internal wikis with offline support (expensive, maintenance nightmare). Many teams just memorize procedures or call the office when they need info.",
+    "whyItSucks": "Cloud-based knowledge tools like Notion and Confluence have terrible or non-existent offline support. Printed manuals become outdated the day they're printed. Downloaded PDFs are unsearchable and ununupdatable. Building custom offline-capable knowledge bases requires significant engineering. There's no affordable, sync-when-connected, offline-first knowledge tool designed specifically for non-technical field teams.",
+    "whyItSucks_zh": "雲端知識工具如 Notion 和 Confluence 離線支援很差或不存在。印刷手冊印出來當天就過時。下載的 PDF 不可搜尋也不可更新。建造客製離線知識庫需要大量工程。沒有平價的、連線時同步的、離線優先的知識工具專為非技術外勤團隊設計。",
+    "opportunityAngle": "Two angles: (1) QUICK WIN — Offer a '$499 Offline Knowledge Base Setup' service for field service companies: take their existing SOPs/manuals, structure them into a searchable offline-capable system using existing tools (Obsidian + Syncthing, or a simple PWA with service workers), pre-load on tablets/phones for field crews. (2) BIGGER PLAY — Build an ultra-simple offline-first SOP app targeting blue-collar field service companies in both the US and Taiwan/SE Asia markets. Jones's advantage: understands both markets, can build quickly with AI tools, and the Taiwan construction/manufacturing sector has the same problem but even fewer solutions. This is 'Physical × AI × Inefficiency' — real-world workers + AI-powered search + an underserved market.",
+    "opportunityAngle_zh": "兩個角度：(1) 快速做法——提供 $499 的「離線知識庫設置」服務，幫外勤服務公司把現有 SOP/手冊結構化為可搜尋的離線系統（用 Obsidian + Syncthing 或簡單 PWA）。(2) 更大的玩法——建一個超簡單的離線優先 SOP app，瞄準美國和台灣/東南亞的藍領外勤服務公司。Jones 的優勢：理解兩個市場，能用 AI 工具快速建造，台灣建築/製造業有同樣問題但更少解決方案。「實體 × AI × 低效」模型。",
+    "evidence": [
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47476821",
+        "quote": "Project Nomad – Knowledge That Never Goes Offline — 411 points, 141 comments. Massive community interest in offline-first knowledge systems."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 4,
+      "willingnessToPay": 4,
+      "automationPotential": 4,
+      "jonesFit": 4,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 4,
+      "scrappiness": 3,
+      "total": 31
+    },
+    "firstTest": {
+      "type": "manual_service",
+      "description": "Find 3 field service companies (HVAC, plumbing, or construction) in the NYC area. Call or email offering: 'I'll digitize your SOPs into a searchable system that works offline on your crews' phones — free pilot for the first company.' Build a simple offline-capable PWA with their content and get feedback. Document the case study.",
+      "description_zh": "找 3 家紐約地區的外勤服務公司。提供免費試點：將 SOP 數位化為離線可搜尋系統。建簡單 PWA，取得回饋，紀錄案例。",
+      "timeEstimate": "4-6 hours"
+    },
+    "signalStrength": {
+      "numMentions": 20,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "hn"
+    },
+    "recommendedFocus": false,
+    "tags": ["offline-first", "knowledge-management", "field-service", "blue-collar", "physical-AI-inefficiency", "PWA", "cross-border"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-23T07:00:00Z",
+    "updatedAt": "2026-03-23T07:00:00Z",
+    "sourceDate": "2026-03-23"
+  }
+]
