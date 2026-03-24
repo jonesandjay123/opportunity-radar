@@ -1,0 +1,337 @@
+[
+  {
+    "id": "opp_20260324_001",
+    "title": "Bookkeeping Rescue & CPA Transition Service for Small Businesses",
+    "title_zh": "小企業的會計救援與 CPA 轉換服務",
+    "problem": "A dealership owner on r/smallbusiness (posted today) fired his CPA after 20 years of missed deadlines, unanswered calls, and feeling like a burden. When they parted ways, the CPA handed over incomplete reports — no clean data handoff. His 21-year-old daughter rebuilt the entire bookkeeping system in days using modern tools, something a traditional accountant would have taken weeks to do. This is a recurring theme: small business owners are hostages to unresponsive CPAs who lock them into proprietary systems, and they don't realize modern AI-powered tools can do the same work faster and cheaper.",
+    "problem_zh": "r/smallbusiness 上今天一位經營 20 年車行的老闆終於炒了他的 CPA——多年來截止日期錯過、電話不接、問自己帳目的問題還被當成煩人。離開時 CPA 只給了不完整的報表，沒有乾淨的資料交接。他 21 歲的女兒用現代工具幾天就重建了整套帳務系統，傳統會計師要花數週。這是反覆出現的模式：小企業主被不回應的 CPA 綁架在專有系統裡，不知道現代 AI 工具能更快更便宜地完成同樣的工作。",
+    "who": "Small business owners with 5-50 employees who have outgrown or been burned by their CPA/bookkeeper. Especially owner-operators in service businesses (auto dealers, contractors, restaurants) who aren't tech-savvy but handle significant revenue ($500K-5M/year). Active on r/smallbusiness, r/Entrepreneur.",
+    "currentSolution": "Staying with bad CPAs out of inertia and fear of transition. Hiring new CPAs who repeat the same pattern. Some try DIY QuickBooks but don't know accounting fundamentals. A few hire expensive accounting firms ($2-5K/month) that feel like overkill for their size.",
+    "whyItSucks": "CPAs treat small clients as low-priority afterthoughts. They lock data into proprietary systems making switching painful. New accountants charge premium rates for basic bookkeeping. QuickBooks/Xero are powerful but overwhelming without guidance. Nobody offers a clean 'rescue and transition' service that combines data migration, tool setup, and basic training — especially not at small business prices.",
+    "whyItSucks_zh": "CPA 把小客戶當低優先處理。他們把資料鎖在專有系統讓轉換痛苦。新會計師收基本帳務的高價。QuickBooks/Xero 功能強大但沒指導很嚇人。沒人提供乾淨的「救援與轉換」服務，結合資料遷移、工具設置和基礎培訓——尤其不是以小企業的價格。",
+    "opportunityAngle": "Offer a '$499 Bookkeeping Rescue Package': (1) Extract and clean up data from the old CPA's mess, (2) Set up QuickBooks Online or Xero with proper chart of accounts, (3) Connect bank feeds and automate categorization with AI rules, (4) Create a simple monthly bookkeeping checklist the owner can follow, (5) 30-minute training call. Jones's edge: can use AI tools to accelerate data cleanup (what took the daughter 'days' can be streamlined to hours), bilingual service for the massive underserved Taiwanese/Chinese small business community in the US who deal with even worse CPA communication due to language barriers. This is textbook 'Physical × AI × Inefficiency' — real business data + AI-powered cleanup + a market stuck in 1990s workflows.",
+    "opportunityAngle_zh": "提供 $499 的「帳務救援包」：(1) 從舊 CPA 的混亂中提取和清理資料 (2) 設置 QuickBooks Online 或 Xero (3) 連接銀行自動分類 (4) 建立簡單的月度帳務清單 (5) 30 分鐘培訓通話。Jones 的優勢：AI 工具加速資料清理，雙語服務美國華人小企業主（語言障礙讓 CPA 溝通更困難）。教科書級「實體 × AI × 低效」模型。",
+    "evidence": [
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1s264nk/20_years_of_loyalty_all_i_got_back_were_a_few/",
+        "quote": "I finally fired my CPA after years of putting up with missed deadlines, unanswered calls, and feeling like I was bothering him every time I had a question about my own books. My 21-year-old daughter stepped in and figured out a rebuild process using tools that would have taken a traditional accountant weeks. She did it in days."
+      },
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1s264nk/20_years_of_loyalty_all_i_got_back_were_a_few/",
+        "quote": "The thing that finally did it was when he moved us off QuickBooks onto his own internal system without really explaining why. When we parted ways, all I got were some monthly reports and general ledgers. No clean data handoff, nothing."
+      }
+    ],
+    "scores": {
+      "painIntensity": 5,
+      "frequency": 5,
+      "willingnessToPay": 5,
+      "automationPotential": 4,
+      "jonesFit": 4,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 4,
+      "scrappiness": 5,
+      "total": 36
+    },
+    "firstTest": {
+      "type": "reddit_post",
+      "description": "Reply to the '20 Years of Loyalty' thread with a detailed breakdown of the modern bookkeeping stack: 'Here's exactly the setup I'd recommend for any small business leaving a CPA...' Include specific tools (QBO + bank feeds + AI categorization), estimated costs vs. CPA fees, and offer: 'I help small businesses transition off bad CPAs — DM me for a free 15-minute assessment of your situation.'",
+      "description_zh": "在「20 年忠誠」帖子回覆，詳細介紹現代帳務工具組合。提供免費 15 分鐘評估。同時在華人小企業社群發佈中文版。",
+      "timeEstimate": "2-3 hours"
+    },
+    "signalStrength": {
+      "numMentions": 15,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": true,
+    "tags": ["bookkeeping", "CPA", "small-business", "AI-tools", "data-migration", "productized-service", "cross-border"],
+    "category": "service",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-24T07:00:00Z",
+    "updatedAt": "2026-03-24T07:00:00Z",
+    "sourceDate": "2026-03-24"
+  },
+  {
+    "id": "opp_20260324_002",
+    "title": "AI-Powered Internal Documentation Search: Setup-as-a-Service for Teams",
+    "title_zh": "AI 驅動的內部文件搜尋：團隊設置服務",
+    "problem": "Multiple signals today: On r/Entrepreneur, a team built QHub Wiki AI because 'keyword search just fails when you don't remember the exact words used' — they can't find answers in their own docs. On Hacker News, Mozilla.ai launched 'Cq' (116 points, 34 comments) as 'Stack Overflow for AI coding agents' showing the same pain in dev teams. Also trending: Claude Code cheat sheet (306 points) and productivity guides (173 points). Teams are drowning in documentation they can't search effectively, and the AI tools to fix this exist but require technical setup most teams can't do.",
+    "problem_zh": "今天多個訊號：r/Entrepreneur 上一個團隊建了 QHub Wiki AI 因為「關鍵字搜尋在你不記得確切用詞時就失敗了」。HN 上 Mozilla.ai 推出 Cq（116 點、34 留言）作為「AI coding agents 的 Stack Overflow」。Claude Code 相關貼文也爆紅（306 + 173 點）。團隊淹沒在無法有效搜尋的文件中，AI 修復工具存在但需要大多數團隊做不到的技術設置。",
+    "who": "Engineering teams (5-50 people) at startups and mid-size companies. Also: non-technical teams with large document repositories (legal, consulting, support). Companies using Notion, Confluence, or Google Docs where finding specific information takes too long. Active on HN, r/Entrepreneur, r/SaaS.",
+    "currentSolution": "Keyword search in Confluence/Notion (misses semantic matches). Asking teammates on Slack ('hey, where's the doc about X?'). Some teams maintain AGENTS.md or CLAUDE.md files for AI context. A few try enterprise search tools like Glean ($$$) or build custom RAG pipelines. Most just waste time searching or recreate documentation that already exists.",
+    "whyItSucks": "Keyword search fails for natural language queries. Enterprise search tools (Glean, Guru) cost $10-15/user/month and require enterprise contracts. Building your own RAG pipeline needs ML engineering expertise. Notion AI search is decent but limited to Notion content only. Nobody offers a simple '$299 setup' that connects ALL your team's docs (Notion + Confluence + Google Docs + GitHub) into one AI-searchable system.",
+    "whyItSucks_zh": "關鍵字搜尋對自然語言查詢失敗。企業搜尋工具（Glean、Guru）每人每月 $10-15 且需要企業合約。自建 RAG 管線需要 ML 工程專長。Notion AI 搜尋不錯但僅限 Notion 內容。沒人提供簡單的 $299 設置，將團隊所有文件（Notion + Confluence + Google Docs + GitHub）連接成一個 AI 可搜尋系統。",
+    "opportunityAngle": "Offer a '$299-499 AI Doc Search Setup' for small teams: (1) Deploy a self-hosted semantic search system (open-source stack like QHub Wiki or similar), (2) Connect to their existing doc sources, (3) Configure embedding model and search parameters, (4) Set up a simple Chrome extension or Slack bot for queries, (5) Include a 1-hour training session. Jones's edge: deep AI tooling expertise means the setup that takes most people days takes Jones hours, and the bilingual capability opens up the entire APAC startup market where English-language enterprise search tools are even more friction-heavy. The QHub Wiki model ($299 one-time install) is already being tested — Jones can compete or white-label.",
+    "opportunityAngle_zh": "提供 $299-499 的「AI 文件搜尋設置」：(1) 部署自託管語義搜尋系統 (2) 連接現有文件來源 (3) 配置嵌入模型和搜尋參數 (4) 設置 Chrome 擴充或 Slack bot (5) 1 小時培訓。Jones 的優勢：深度 AI 工具專長讓設置從數天縮短到數小時，雙語能力開拓 APAC 市場。",
+    "evidence": [
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1s257wj/scratched_our_own_itch_built_a_tool_opensourced/",
+        "quote": "The problem: our team couldn't find answers in our own documentation. Not because the docs didn't exist - they did. Keyword search just fails when you don't remember the exact words used."
+      },
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47491466",
+        "quote": "Show HN: Cq – Stack Overflow for AI coding agents. 116 points, 34 comments. Mozilla.ai's project for shared agent learning and knowledge retrieval across teams."
+      },
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47495527",
+        "quote": "Claude Code Cheat Sheet — 306 points, 98 comments. Massive interest in AI coding tooling and documentation patterns."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 5,
+      "jonesFit": 5,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 3,
+      "scrappiness": 4,
+      "total": 33
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Write a blog post or Twitter thread: 'How I set up AI-powered doc search for my team in 2 hours for $0' using open-source tools. Walk through the exact stack (embeddings + vector DB + search UI). End with: 'Don't want to DIY? I'll set this up for your team — $299, done in a day.' Share on HN, r/SaaS, r/Entrepreneur.",
+      "description_zh": "寫一篇「如何用 2 小時 $0 為團隊建 AI 文件搜尋」的教學文。結尾提供 $299 設置服務。分享到 HN、Reddit。",
+      "timeEstimate": "3-4 hours"
+    },
+    "signalStrength": {
+      "numMentions": 25,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit+hn"
+    },
+    "recommendedFocus": false,
+    "tags": ["documentation", "AI-search", "semantic-search", "team-tools", "setup-service", "open-source"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-24T07:00:00Z",
+    "updatedAt": "2026-03-24T07:00:00Z",
+    "sourceDate": "2026-03-24"
+  },
+  {
+    "id": "opp_20260324_003",
+    "title": "B2C Conversion Fix Consulting for Technical SaaS Founders",
+    "title_zh": "技術型 SaaS 創辦人的 B2C 轉換修復顧問",
+    "problem": "On r/SaaS today (31 upvotes, 10 comments), a founder built an IT certification prep platform where B2B works perfectly — companies paying for team licenses — but B2C conversion is nearly zero. He spent $300 on Google Ads with almost no conversions. People won't pay $10-20 for content they can find free elsewhere. His hypothesis: 'Either the market is used to free content, or I'm completely missing something on positioning/trust.' This is the same pattern seen yesterday (indie app monetization) but from the SaaS angle — technical founders who can build great products but can't convert individual users.",
+    "problem_zh": "今天 r/SaaS 上（31 讚、10 則留言），一位創辦人建了 IT 認證準備平台，B2B 完美運作（公司付費購買團隊授權），但 B2C 轉換率幾乎為零。他花了 $300 Google Ads 幾乎沒轉換。人們不願付 $10-20 買免費就能找到的內容。這跟昨天的獨立 app 變現是同一模式但從 SaaS 角度——技術型創辦人能建好產品但無法轉換個人用戶。",
+    "who": "Technical SaaS founders with working B2B products but failing B2C channels. Typically solo founders or 2-person teams with $1-10K MRR from B2B but want to grow the B2C side. Common in edtech, dev tools, and productivity spaces. Active on r/SaaS, r/Entrepreneur, IndieHackers.",
+    "currentSolution": "Running Google/Facebook ads and hoping for conversions. Reading generic SaaS growth advice on Twitter. Copying competitor pricing without understanding the psychology. Some hire growth marketers ($5-10K/month) who don't understand the product. Most just keep focusing on B2B and accept B2C as 'too hard.'",
+    "whyItSucks": "Generic SaaS growth advice ('just run ads') doesn't address the fundamental positioning problem. Growth marketers are expensive and often not domain-specific. Most B2C SaaS advice comes from consumer apps (Spotify, Netflix) and doesn't translate to niche products. The founder knows the product deeply but doesn't understand why consumers behave differently from B2B buyers. Nobody offers a targeted, affordable 'B2C Conversion Audit' specifically for technical SaaS founders.",
+    "whyItSucks_zh": "通用 SaaS 增長建議（「投廣告」）沒解決根本的定位問題。增長行銷人員昂貴且常非領域專家。大多數 B2C SaaS 建議來自消費者應用（Spotify、Netflix），不適用於垂直產品。創辦人深入理解產品但不理解為什麼消費者行為跟 B2B 買家不同。沒人提供針對技術型 SaaS 創辦人的平價「B2C 轉換審計」。",
+    "opportunityAngle": "Offer a '$249 B2C Conversion Audit for SaaS Founders': (1) Review their current landing page, pricing, and onboarding flow, (2) Identify the 'trust gap' — why B2B buyers convert but B2C users bounce, (3) Design a specific free-to-paid funnel (freemium, free trial, or content marketing strategy), (4) Write new landing page copy that addresses B2C buyer psychology, (5) Recommend 3 specific distribution channels beyond Google Ads. Jones's advantage: understands both the technical product and the marketing psychology, has cross-cultural insight (B2C patterns differ dramatically between US and Asian markets), and can offer this to the massive Asian indie dev community in Chinese. Can productize into a repeatable 1-day audit.",
+    "opportunityAngle_zh": "提供 $249 的「SaaS 創辦人 B2C 轉換審計」：(1) 審查落地頁、定價和入門流程 (2) 找出「信任差距」(3) 設計免費到付費漏斗 (4) 寫新的落地頁文案 (5) 推薦 3 個 Google Ads 以外的分銷渠道。Jones 的優勢：理解技術產品和行銷心理學，跨文化洞察（B2C 模式在美國和亞洲市場差異大），可用中文服務亞洲獨立開發者。",
+    "evidence": [
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1s1zhpj/i_built_a_certification_prep_platform_b2b_works/",
+        "quote": "B2B works. We already have companies paying for licenses for their teams. But B2C is… almost dead. Google Ads (~$300 spend → very few conversions). People hesitate to pay even small amounts ($10–20), even though the product is solid."
+      },
+      {
+        "source": "r/SideProject",
+        "url": "https://www.reddit.com/r/SideProject/comments/1s23e49/how_many_real_customers_have_you_actually_gotten/",
+        "quote": "Not upvotes, not comments, not nice feedback. Actual users who signed up or paid. Is Reddit a real acquisition channel or just a loop of founders talking to founders?"
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 3,
+      "jonesFit": 4,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 4,
+      "scrappiness": 5,
+      "total": 33
+    },
+    "firstTest": {
+      "type": "dm",
+      "description": "Write a detailed, specific reply to the IT cert platform thread with a concrete B2C conversion plan: (1) Why $10-20 pricing in a dump-heavy market won't work without trust signals, (2) A specific freemium strategy — 'give away 10 practice questions per cert, paywall the full exam simulations', (3) Community-based distribution (LinkedIn groups, Discord servers for cert prep, YouTube shorts with sample questions). If it resonates, offer a paid deep-dive audit.",
+      "description_zh": "在 IT 認證平台帖子寫具體的 B2C 轉換計畫回覆。如果引起共鳴，提供付費深入審計。",
+      "timeEstimate": "1-2 hours"
+    },
+    "signalStrength": {
+      "numMentions": 15,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["SaaS", "B2C", "conversion", "consulting", "indie-founder", "pricing", "growth"],
+    "category": "service",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-24T07:00:00Z",
+    "updatedAt": "2026-03-24T07:00:00Z",
+    "sourceDate": "2026-03-24"
+  },
+  {
+    "id": "opp_20260324_004",
+    "title": "Smart Home Automation Setup for Apartment Renters",
+    "title_zh": "公寓租客的智慧家居自動化設置服務",
+    "problem": "On Hacker News today, 'Box of Secrets: Discreetly modding an apartment intercom to work with Apple Home' (57 points, 10 comments in 2 hours) reveals a growing frustration: renters want smart home features but can't modify their apartments. The author went through an elaborate process of reverse-engineering their apartment intercom to integrate with Apple HomeKit — something most renters can't do. Meanwhile, the smart home market is booming but almost entirely focused on homeowners who can install Nest thermostats, smart locks, and hardwired systems.",
+    "problem_zh": "今天 HN 上「Box of Secrets：隱蔽改造公寓對講機以配合 Apple Home」（2 小時內 57 點、10 留言）揭露一個日益增長的不滿：租客想要智慧家居功能但不能改造公寓。作者經歷了複雜的逆向工程才將公寓對講機整合到 Apple HomeKit——大多數租客做不到。智慧家居市場蓬勃發展但幾乎完全針對能安裝 Nest 恆溫器和有線系統的屋主。",
+    "who": "Urban apartment renters (especially in NYC, SF, LA, Seattle) aged 25-45 who are tech-savvy but can't permanently modify their apartments. Also: international renters/expats who are used to smart home features from their home countries but face restrictive US leases. Large overlap with HN/tech worker demographic.",
+    "currentSolution": "Buying standalone smart plugs and bulbs (fragmented, limited). Using Alexa/Google Home for voice control of basic devices. Workarounds like smart plug + dumb appliance combos. Some DIY enthusiasts do elaborate hacks (like the intercom project). Most just live with dumb apartments and forget about automation. A few premium 'smart apartment' buildings exist but charge 20-30% rent premium.",
+    "whyItSucks": "Smart home products are designed for homeowners: they require drilling, wiring, or permanent installation. Renter-friendly options are limited to basic smart plugs and bulbs — no automation for intercoms, thermostats (HVAC), water heaters, or building-level systems. DIY workarounds require significant technical skill. No service exists that specializes in renter-friendly smart home setups that are removable and lease-compliant.",
+    "whyItSucks_zh": "智慧家居產品為屋主設計：需要鑽孔、布線或永久安裝。租客友好選項限於基本智慧插座和燈泡——對講機、恆溫器、熱水器或建築級系統無法自動化。DIY 變通方案需要大量技術能力。沒有專門做可拆卸、符合租約的租客友好智慧家居設置服務。",
+    "opportunityAngle": "Offer a '$199 Renter Smart Home Setup' service in NYC: (1) In-person assessment of the apartment's existing systems (intercom, HVAC, lighting), (2) Install a complete renter-friendly smart home kit (smart plugs, sensors, hub, removable smart lock), (3) Configure automations (arrive home → lights on + AC to preferred temp, leave → everything off), (4) All non-permanent, fully removable at lease end. Jones's NYC location is a huge advantage — the target market is literally walking distance. Cross-border angle: this exact service is MASSIVE in Taiwan (tiny apartments, tech-savvy population, no smart home services targeting renters). Can also create YouTube/social content in both languages showing renter-friendly setups.",
+    "opportunityAngle_zh": "在紐約提供 $199 的「租客智慧家居設置」服務：(1) 上門評估公寓現有系統 (2) 安裝完整的租客友好智慧家居套件 (3) 配置自動化場景 (4) 全部非永久性，租約結束可完全拆卸。Jones 在紐約的位置是巨大優勢。跨境角度：這個服務在台灣（小公寓、科技控人口、沒有針對租客的智慧家居服務）有巨大市場。",
+    "evidence": [
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47488686",
+        "quote": "Box of Secrets: Discreetly modding an apartment intercom to work with Apple Home — 57 points, 10 comments in 2 hours. Author reverse-engineered apartment intercom to integrate with HomeKit without permanent modifications."
+      }
+    ],
+    "scores": {
+      "painIntensity": 3,
+      "frequency": 4,
+      "willingnessToPay": 4,
+      "automationPotential": 3,
+      "jonesFit": 4,
+      "competitionGap": 5,
+      "crossBorderArbitrage": 4,
+      "scrappiness": 4,
+      "total": 31
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Create a Twitter/Reddit post: 'I set up a full smart home in my NYC rental for under $150 — here's the exact kit and how to do it without violating your lease.' Include: product links, HomeKit/Google Home setup, automation recipes. Track engagement and DMs asking for help. If traction, offer in-person setup service.",
+      "description_zh": "發一篇「我用 $150 以下在紐約租屋裝了完整智慧家居」的社群內容。追蹤互動和私訊。如果有牽引力，提供上門設置服務。",
+      "timeEstimate": "2-3 hours"
+    },
+    "signalStrength": {
+      "numMentions": 10,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "hn"
+    },
+    "recommendedFocus": false,
+    "tags": ["smart-home", "renters", "NYC", "IoT", "physical-AI-inefficiency", "local-service", "cross-border"],
+    "category": "service",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-24T07:00:00Z",
+    "updatedAt": "2026-03-24T07:00:00Z",
+    "sourceDate": "2026-03-24"
+  },
+  {
+    "id": "opp_20260324_005",
+    "title": "Small Business Software Stack Audit & Simplification Service",
+    "title_zh": "小企業軟體工具組合審計與簡化服務",
+    "problem": "On r/smallbusiness today, 'What's your business software stack in 2026?' (3 upvotes, 5 comments in 1 hour) alongside the duplicate payment confusion post (16 upvotes, 22 comments) reveals a pattern: small business owners are overwhelmed by tool fragmentation. They learned 'switching tools is more painful than sticking with something good enough' and 'most tools look great in demos but feel different in daily use.' Combined with the CPA horror story, there's a clear signal: SMBs are paying for 5-10 tools that overlap, don't integrate, and nobody on the team fully understands.",
+    "problem_zh": "今天 r/smallbusiness 上「2026 年你的企業軟體工具組合是什麼？」加上重複付款混亂的帖子（16 讚、22 留言）揭露一個模式：小企業主被工具碎片化淹沒。他們學到「換工具比忍受夠用的更痛」而且「大多數工具 demo 很棒但實際使用感覺不同」。結合 CPA 恐怖故事，有清楚的訊號：中小企業付了 5-10 個重疊、不整合、團隊沒人完全理解的工具。",
+    "who": "Small business owners with 2-20 employees spending $500-2000/month on software tools they don't fully use. Service businesses (agencies, consultancies, trades, retail) who adopted tools piecemeal over years. Often the owner is the 'tech person' by default. Active on r/smallbusiness.",
+    "currentSolution": "Keeping all existing tools out of fear of switching. Paying for premium tiers they don't need. Using spreadsheets alongside specialized tools (defeating the purpose). Occasionally asking Reddit what others use. Some hire IT consultants ($150-300/hour) who recommend enterprise solutions that are overkill.",
+    "whyItSucks": "No one provides a holistic 'software audit' for small businesses at an affordable price. IT consultants upsell enterprise tools. Software comparison sites (G2, Capterra) are pay-to-play and overwhelm with options. Each tool vendor says they're the only one you need, leading to overlapping subscriptions. The switching cost is real — data migration, team retraining, workflow disruption — and nobody helps manage the transition.",
+    "whyItSucks_zh": "沒人以平價提供小企業的全面「軟體審計」。IT 顧問推銷企業工具。軟體比較網站（G2、Capterra）是付費排名且選擇過多。每個工具供應商都說自己是唯一需要的，導致重疊訂閱。轉換成本是真的——資料遷移、團隊重新培訓、工作流程中斷——沒人幫忙管理過渡。",
+    "opportunityAngle": "Offer a '$299 Software Stack Audit for Small Businesses': (1) Catalog every tool they're paying for (many don't even know all their subscriptions), (2) Identify overlaps and unused features, (3) Recommend a simplified stack of 3-5 tools that cover everything, (4) Calculate projected savings, (5) Create a migration plan with timeline. Average SMB is wasting $200-500/month on redundant tools — the audit pays for itself in month one. Jones's advantage: technical enough to understand integrations, AI-savvy enough to identify where AI tools replace 2-3 traditional SaaS products, and bilingual for the Taiwanese SMB market (even more fragmented tool landscape). This is a 'Physical × AI × Inefficiency' play — real businesses + AI-powered optimization + a market that's never been properly served.",
+    "opportunityAngle_zh": "提供 $299 的「小企業軟體工具組合審計」：(1) 列出所有付費工具 (2) 找出重疊和未使用功能 (3) 推薦 3-5 個涵蓋一切的簡化組合 (4) 計算預計節省 (5) 建立遷移計畫。平均中小企業每月浪費 $200-500 在多餘工具上——審計第一個月就回本。Jones 的優勢：技術夠理解整合，AI 夠識別 AI 工具替代傳統 SaaS，雙語服務台灣中小企業。",
+    "evidence": [
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1s26bls/whats_your_business_software_stack_in_2026/",
+        "quote": "Switching tools is more painful than sticking with something 'good enough'. Most tools look great in demos but feel different in daily use. Simpler tools usually get used more consistently."
+      },
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1s23l1u/my_client_accidentally_paid_an_invoice_twice/",
+        "quote": "My client paid the same invoice twice yesterday — once by check and once by ACH. They didn't realize it until this morning. I need to refund one payment ASAP. Also, I want to make sure this doesn't happen again. Is there any way to prevent duplicate payments?"
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 4,
+      "jonesFit": 4,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 3,
+      "scrappiness": 5,
+      "total": 33
+    },
+    "firstTest": {
+      "type": "reddit_post",
+      "description": "Reply to the 'business software stack' thread with a framework: 'Here's how I audit small business tool stacks — most owners are paying for 8+ tools when 4 would do the job better.' Share a simple audit template (spreadsheet listing every SaaS subscription, monthly cost, what it's used for, overlap %). End with: 'Happy to do a free 15-minute stack review for the first 5 people who DM me.'",
+      "description_zh": "在「軟體工具組合」帖子回覆，分享審計框架和免費模板。提供免費 15 分鐘堆疊審查給前 5 位私訊者。",
+      "timeEstimate": "1-2 hours"
+    },
+    "signalStrength": {
+      "numMentions": 20,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["software-audit", "small-business", "SaaS-consolidation", "cost-saving", "consulting", "productized-service"],
+    "category": "service",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "jonesNotes": "",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-24T07:00:00Z",
+    "updatedAt": "2026-03-24T07:00:00Z",
+    "sourceDate": "2026-03-24"
+  }
+]
