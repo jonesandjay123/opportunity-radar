@@ -1,6 +1,12 @@
 你是 Opportunity Radar 的每日訊號收集 agent。
 
-任務：產出今天的 Daily Opportunity Brief。
+任務：產出今天的 Daily Brief，包含兩個部分：
+- Part A: 商業機會（5 個）
+- Part B: 酷點子收藏（3 個）
+
+====================
+Part A: 商業機會（5 個）
+====================
 
 步驟：
 1. 確認今天日期（用 session_status 或 date 指令）
@@ -25,9 +31,38 @@
    - 優先找降維打擊場域：資訊差 + 工具差 + 認知差同時存在的地方
    - 跨國套利（台灣↔美國↔東南亞）是加分項
 
+====================
+Part B: 酷點子收藏（3 個）
+====================
+
+這部分跟賺錢無關。純粹搜羅世界上很酷、很特別、讓人覺得「哇這也行？」的點子或故事。
+
+搜尋方向：
+- Reddit: r/DIY, r/interestingasfuck, r/nextfuckinglevel, r/somethingimade, r/3Dprinting, r/engineering, r/futurology
+- Hacker News: 找那些不是 startup 而是純粹很酷的 project
+- 搜尋關鍵字：built, made, created, "I built", "check out what", DIY, project, hack
+
+什麼算「酷點子」：
+- 有人用 3D 印表機印了一棟房子
+- 有人用 AI agent 自動化了某個很奇妙的流程
+- 有人用廢材料做了很厲害的東西
+- 有人把兩個完全不相關的領域結合出意想不到的成果
+- 跟 AI 有關的酷 project 很好，但跟 AI 無關的也完全歡迎
+- 重點是：讓 Jones 看了會覺得「靠，我也想做這種事」
+
+每個酷點子需要：
+- title + title_zh
+- 一句話描述發生了什麼
+- 來源 URL
+- 為什麼酷（一句話）
+
+====================
+輸出格式
+====================
+
 5. 按照 schema 結構化輸出 JSON：
    - 讀取 schema: ~/Downloads/code/opportunity-radar/schema/opportunity.schema.json
-   - 必須包含所有欄位，特別是：
+   - Part A 的 5 個機會必須包含所有欄位，特別是：
      - 雙語欄位：title_zh, problem_zh, whyItSucks_zh, opportunityAngle_zh, firstTest.description_zh
      - scores（含 scrappiness）
      - firstTest
@@ -35,7 +70,9 @@
      - signals
      - sourceMeta: { region, language, platform }
      - recommendedFocus: 5 個裡標 1 個 true（你認為最值得 Jones 注意的）
-   - 存到 ~/Downloads/code/opportunity-radar/data/opportunities/YYYY-MM-DD.json
+   - Part B 的 3 個酷點子用 category: "cool-finds"，不需要 scores/firstTest/signals
+     - 只需要：id, title, title_zh, problem (用來放描述), problem_zh, evidence (來源URL), category: "cool-finds", status: "new"
+   - 全部合在一個 JSON array 存到 ~/Downloads/code/opportunity-radar/data/opportunities/YYYY-MM-DD.json
 
 6. 完成後：
    - gh auth switch -u jarvisaiasst
