@@ -1,0 +1,364 @@
+[
+  {
+    "id": "opp_20260327_001",
+    "title": "Cash Flow Timing Dashboard & Alert Service for Small Restaurants/Retail",
+    "title_zh": "小餐廳/零售的現金流時序儀表板與警報服務",
+    "problem": "Small business owners consistently confuse cash flow problems with revenue problems. A restaurant doing $2-3K/day in revenue still faces cash crunches when they have to drop $15K on inventory restocks. They don't have a simple tool that visualizes when money comes in vs. when bills are due, and alerts them before they hit a crunch. Most accounting tools show P&L but not cash flow timing.",
+    "problem_zh": "小企業主持續搞混現金流問題和營收問題。一家日營收 $2-3K 的餐廳在需要一次性花 $15K 補貨時仍會面臨現金短缺。他們沒有簡單的工具能視覺化顯示錢進來和帳單到期的時間差，也沒有在現金緊縮前發出警報。大多數會計工具只顯示損益表，不顯示現金流時序。",
+    "who": "Small business owners with $500K-3M annual revenue, especially restaurants, retail, and service businesses with lumpy inventory purchases. Active on r/smallbusiness.",
+    "currentSolution": "Manually tracking in their head or Excel spreadsheets. Some use QuickBooks but don't use the cash flow features (too complex). Most just react when the bank account gets low.",
+    "whyItSucks": "QuickBooks cash flow reports are buried and confusing. No tool sends a simple 'Hey, you have $18K in bills due next week but only $12K coming in — here's what to do' alert. Small business owners need a dashboard, not a full accounting system. They want to see a timeline, not a balance sheet.",
+    "whyItSucks_zh": "QuickBooks 的現金流報表藏得很深而且很複雜。沒有工具會發送簡單的「嘿，下週有 $18K 帳單到期但只有 $12K 進帳——這是你該怎麼做」的警報。小企業主需要儀表板，不是完整會計系統。他們想看時間線，不是資產負債表。",
+    "opportunityAngle": "Build a dead-simple Google Sheets template + Zapier automation that pulls bank transactions via Plaid and creates a visual cash flow timeline. Sell as a $199 one-time setup service. Start by manually doing it for 3-5 restaurant owners as a service, then productize. Jones's edge: can build the AI categorization layer that auto-tags recurring expenses and predicts upcoming cash crunches. Bilingual service for Asian restaurant owners in NYC who rely heavily on cash and have even worse visibility.",
+    "opportunityAngle_zh": "做一個超簡單的 Google Sheets 模板 + Zapier 自動化，透過 Plaid 拉銀行交易數據，建立視覺化現金流時間線。以 $199 一次性設置服務販售。先手動幫 3-5 家餐廳老闆做，再產品化。Jones 優勢：可以做 AI 自動分類和預測現金短缺的功能。雙語服務紐約華人餐廳老闆，他們大量使用現金，對現金流更沒概念。",
+    "evidence": [
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1s4t0bp/what_i_learned_about_cash_flow_vs_revenue_the/",
+        "quote": "When I owned 2 Chronic Tacos stores, we were doing 2 to 3k a day in revenue. The bucket was filling. But I had to buy inventory in chunks. 10 thousand cups. Tons of meat. One week I would be up, then I would have to drop 15k on a restock and wait for the daily sales to catch back up. That is a cash flow problem, not revenue."
+      }
+    ],
+    "scores": {
+      "painIntensity": 5,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 4,
+      "jonesFit": 4,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 3,
+      "scrappiness": 4,
+      "total": 32
+    },
+    "firstTest": {
+      "type": "manual_service",
+      "description": "DM 3 restaurant owners on r/smallbusiness offering to build a free cash flow timeline in Google Sheets using their last 3 months of bank statements. See if they engage and what format they find most useful.",
+      "description_zh": "在 r/smallbusiness 私訊 3 個餐廳老闆，免費幫他們用最近 3 個月的銀行帳單在 Google Sheets 建現金流時間線。看他們是否有興趣，以及他們覺得什麼格式最有用。",
+      "timeEstimate": "2-3 hours"
+    },
+    "signalStrength": {
+      "numMentions": 12,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["cash-flow", "small-business", "restaurant", "fintech-lite", "google-sheets"],
+    "category": "life-friction",
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-27T07:00:00Z",
+    "updatedAt": "2026-03-27T07:00:00Z",
+    "sourceDate": "2026-03-27"
+  },
+  {
+    "id": "opp_20260327_002",
+    "title": "Viral Meme App Factory: Novelty macOS/iOS Apps from Social Media Trends",
+    "title_zh": "病毒迷因 App 工廠：從社群趨勢做搞笑 macOS/iOS 小 App",
+    "problem": "A developer saw a GitHub repo that makes sounds when you slap a MacBook, posted a review reel on IG, it went viral with comments screaming 'WHERE IS THE APP'. He built it in 48 hours, sold it for $5, and made $5K in 3 days. The pattern: viral moment → instant demand → nobody has productized it yet. This keeps happening but most developers miss the window or don't know how to ship fast enough.",
+    "problem_zh": "一個開發者看到 GitHub 上拍 MacBook 會發出聲音的 repo，在 IG 發了評測短片就爆紅，評論都在喊「APP 在哪裡」。他 48 小時做出來，賣 $5，3 天賺了 $5K。模式：病毒時刻 → 即時需求 → 沒人產品化。這種事一直發生但大多數開發者錯過時間窗口或不知道怎麼快速出貨。",
+    "who": "Tech-savvy consumers, especially Mac/iPhone users who follow tech memes and want novelty apps. The buyer is impulsive, entertained, and willing to drop $5-10 on something funny.",
+    "currentSolution": "People share the open-source repo link but it requires developer skills to install. Or the moment just passes without anyone productizing it.",
+    "whyItSucks": "Open source repos need git clone + terminal setup. Non-developers can't use them. By the time someone makes an app, the viral moment is often over. No one is systematically watching for these opportunities.",
+    "whyItSucks_zh": "開源 repo 需要 git clone + 終端機設定，非開發者不會用。等有人做成 app 時，病毒時刻通常已經過了。沒人在系統性地監控這些機會。",
+    "opportunityAngle": "Set up a systematic 'viral trend → instant app' pipeline. Monitor Reddit/TikTok/IG for tech-related viral moments, use vibe-coding to ship a polished $5 app within 24-48 hours, launch on Product Hunt + the original comment threads. Jones's edge: fast shipping with AI coding tools, bilingual reach (English viral + Chinese communities like 小紅書). Each app doesn't need to be a business — it's a $1-10K lottery ticket. Do 2-3 per month.",
+    "opportunityAngle_zh": "建立系統性「病毒趨勢 → 即時 App」的流水線。監控 Reddit/TikTok/IG 上的科技相關病毒時刻，用 vibe-coding 在 24-48 小時內出貨 $5 的精緻小 app，在 Product Hunt + 原始評論串上發佈。Jones 優勢：AI 編程工具快速出貨、雙語觸及（英文病毒 + 小紅書等華人社群）。每個 app 不需要是一個事業——是 $1-10K 的彩券。每月做 2-3 個。",
+    "evidence": [
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1s41iv8/i_made_an_app_that_moans_when_you_slap_your/",
+        "quote": "Last week I posted a reel on IG reviewing a GitHub repo that make sounds when you slap your MacBook. And... It went viral. Comments were all 'WHERE IS THE APP' 'I NEED THIS' over and over. So I built it. 48 hours from zero to shipped. Threw it up for $5. As of now, it made me $5K revenue in 3 days."
+      }
+    ],
+    "scores": {
+      "painIntensity": 2,
+      "frequency": 3,
+      "willingnessToPay": 4,
+      "automationPotential": 3,
+      "jonesFit": 5,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 3,
+      "scrappiness": 5,
+      "total": 29
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Set up a monitoring system (Reddit + TikTok + IG) for viral tech moments. When the next one hits, ship a polished app within 48 hours using AI coding tools. Track the pipeline and revenue.",
+      "description_zh": "建立病毒科技時刻的監控系統（Reddit + TikTok + IG）。下次出現時，48 小時內用 AI 編程工具出貨精緻 app。追蹤流水線和營收。",
+      "timeEstimate": "2 hours setup, then ongoing"
+    },
+    "signalStrength": {
+      "numMentions": 697,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": true,
+    "tags": ["viral", "novelty-app", "vibe-coding", "fast-shipping", "meme-economy"],
+    "category": "content",
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-27T07:00:00Z",
+    "updatedAt": "2026-03-27T07:00:00Z",
+    "sourceDate": "2026-03-27"
+  },
+  {
+    "id": "opp_20260327_003",
+    "title": "Admin Autopilot: Done-for-You Business Operations Cleanup for Solo Entrepreneurs",
+    "title_zh": "行政自動駕駛：幫獨立創業者搞定營運雜務的代辦服務",
+    "problem": "Solo entrepreneurs and small business owners are drowning in repetitive admin work — managing SaaS subscriptions, handling refunds/disputes, responding to routine customer messages, paying bills. They know they should systematize it but don't know where to start. It interrupts their real work and burns them out.",
+    "problem_zh": "獨立創業者和小企業主被重複性行政工作淹沒——管理 SaaS 訂閱、處理退款/爭議、回覆例行客戶訊息、付帳單。他們知道該系統化但不知道從何開始。這打斷了他們真正的工作，讓他們精疲力竭。",
+    "who": "Solo entrepreneurs and 1-5 person businesses doing $100K-1M/year. Active on r/Entrepreneur. Technical enough to run a business but not enough to set up automations.",
+    "currentSolution": "Hiring virtual assistants ($500-2000/month ongoing), manually doing everything themselves, or using a patchwork of Zapier automations they half-set-up and forgot about.",
+    "whyItSucks": "VAs need training and management (another task). Zapier requires technical setup and breaks silently. Most automation consultants sell $5K+ projects. Nobody offers a quick, affordable 'audit your admin chaos and set up 5 automations' service for under $500.",
+    "whyItSucks_zh": "VA 需要培訓和管理（又一個任務）。Zapier 需要技術設定而且會無聲故障。大多數自動化顧問賣 $5K+ 的案子。沒人提供快速、便宜的「審計你的行政混亂並設定 5 個自動化」服務，低於 $500。",
+    "opportunityAngle": "Offer a '$297 Admin Autopilot Audit': (1) 30-min screen share to map their daily admin tasks, (2) identify the top 5 time-wasting tasks, (3) set up automations using Make/Zapier/AI tools, (4) record a Loom tutorial for each. Deliver in 1 week. Upsell to $97/month maintenance. Jones's edge: can use AI coding tools to build custom integrations non-technical consultants can't, and serve the growing Chinese entrepreneur community in the US.",
+    "opportunityAngle_zh": "提供 $297 的「行政自動駕駛審計」：(1) 30 分鐘螢幕共享映射每日行政任務 (2) 找出前 5 個最浪費時間的任務 (3) 用 Make/Zapier/AI 工具設定自動化 (4) 每個錄一個 Loom 教學。一週內交付。追加銷售 $97/月維護。Jones 優勢：AI 編程能力做非技術顧問做不了的客製整合，服務美國華人創業者社群。",
+    "evidence": [
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1s4vkho/running_my_own_business_has_made_me_notice_how/",
+        "quote": "After starting my own business, I realized how much time gets eaten up by repetitive admin work. Stuff like dealing with bills, SaaS subscriptions, refunds or disputes, daily customer messages, and little operational issues... it ends up interrupting the work that actually moves the business forward."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 5,
+      "jonesFit": 5,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 2,
+      "scrappiness": 5,
+      "total": 33
+    },
+    "firstTest": {
+      "type": "reddit_post",
+      "description": "Post on r/Entrepreneur offering 3 free 'Admin Autopilot Audits' in exchange for a testimonial. Do the audit via Zoom, document common patterns, and see what automations have the highest ROI.",
+      "description_zh": "在 r/Entrepreneur 發文提供 3 個免費「行政自動駕駛審計」換取推薦信。透過 Zoom 做審計，記錄常見模式，看哪些自動化投報率最高。",
+      "timeEstimate": "1-2 hours to post, then 3-4 hours per audit"
+    },
+    "signalStrength": {
+      "numMentions": 8,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["automation", "admin", "solo-entrepreneur", "service", "zapier"],
+    "category": "service",
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-27T07:00:00Z",
+    "updatedAt": "2026-03-27T07:00:00Z",
+    "sourceDate": "2026-03-27"
+  },
+  {
+    "id": "opp_20260327_004",
+    "title": "NYC Sublet & Room-Finding Concierge for Digital Nomads and Relocators",
+    "title_zh": "紐約短租/找房管家服務：為數位遊牧者和搬遷者代找房",
+    "problem": "Digital nomads and remote workers trying NYC for 1-3 months spend hours scouring Reddit, Facebook groups, Craigslist, and Listings Project for sublets. The process is fragmented across 10+ platforms, full of scams, and requires constant messaging. Someone who just did 3 months in NYC spent $1,400/mo in Bed-Stuy and documented how much effort it took to find a good deal.",
+    "problem_zh": "數位遊牧者和遠端工作者想在紐約住 1-3 個月，要花好幾個小時在 Reddit、Facebook 群組、Craigslist 和 Listings Project 上找短租。過程分散在 10+ 個平台，充滿詐騙，需要不斷發訊息。一個剛在紐約住 3 個月的人花 $1,400/月在 Bed-Stuy，記錄了找到好房子有多費力。",
+    "who": "Digital nomads, remote workers, and people relocating to NYC for 1-6 months. Age 25-40, earning $60K-150K remotely. Active on r/digitalnomad. Also: international students, visiting researchers, people between leases.",
+    "currentSolution": "Manually checking 10+ platforms daily, messaging dozens of listings, getting scammed or ghosted, or overpaying for Furnished Finder/Airbnb ($2500+/mo vs $1400 for a sublet).",
+    "whyItSucks": "No single platform aggregates NYC sublets. Scams are rampant on Craigslist and FB. Airbnb is 2-3x more expensive than sublets. The best deals require local knowledge and fast response times. International visitors face extra friction (no US credit history, unfamiliarity with neighborhoods).",
+    "whyItSucks_zh": "沒有單一平台整合紐約短租。Craigslist 和 FB 上詐騙猖獗。Airbnb 比短租貴 2-3 倍。最好的交易需要在地知識和快速回應。國際訪客面臨額外阻力（沒有美國信用紀錄、不熟悉社區）。",
+    "opportunityAngle": "Offer a '$249 NYC Room-Finding Package': monitor all 10+ sublet platforms daily using scraping + AI filtering, curate 5-10 vetted options per week matching the client's criteria, handle initial messaging, flag scams. Jones's edge: lives in NYC (local knowledge of neighborhoods), bilingual (massive demand from Taiwanese/Chinese visitors), can automate scraping with AI tools. The $249 pays for itself vs. overpaying $500+/mo on Airbnb. Cross-border play: same service for Taipei → NYC or NYC → Taipei relocators.",
+    "opportunityAngle_zh": "提供 $249 的「紐約找房包」：每天監控 10+ 個短租平台用爬蟲 + AI 篩選，每週精選 5-10 個符合條件的已審核選項，處理初始聯繫，標記詐騙。Jones 優勢：住在紐約（在地社區知識）、雙語（台灣/中國訪客需求龐大）、能用 AI 工具自動化爬蟲。$249 比多付 $500+/月 Airbnb 划算。跨國玩法：台北 → 紐約或紐約 → 台北搬遷者同樣服務。",
+    "evidence": [
+      {
+        "source": "r/digitalnomad",
+        "url": "https://www.reddit.com/r/digitalnomad/comments/1s4l5x3/3_months_in_nyc_expenses_pros_and_cons/",
+        "quote": "There's way more options than people realize. Reddit has dedicated subs for NYC sublets and roommates, there's 10+ Facebook groups, Facebook Marketplace, Craigslist, and sites like Listings Project. If you're flexible on dates you can find solid deals. Lots of people are trying to get out of leases or traveling for a few months. Just check everything and message consistently."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 3,
+      "willingnessToPay": 4,
+      "automationPotential": 4,
+      "jonesFit": 5,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 5,
+      "scrappiness": 4,
+      "total": 33
+    },
+    "firstTest": {
+      "type": "reddit_post",
+      "description": "Post on r/digitalnomad offering to help 5 people find NYC sublets for free (in exchange for feedback). Build the scraping pipeline while doing it manually first. Track how many hours it takes and what people value most.",
+      "description_zh": "在 r/digitalnomad 發文免費幫 5 個人找紐約短租（換取回饋）。先手動做同時建爬蟲流水線。記錄花多少時間和人們最重視什麼。",
+      "timeEstimate": "3-4 hours initial setup, 1 hour/day ongoing"
+    },
+    "signalStrength": {
+      "numMentions": 15,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["nyc", "housing", "digital-nomad", "cross-border", "scraping", "concierge"],
+    "category": "cross-border",
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-27T07:00:00Z",
+    "updatedAt": "2026-03-27T07:00:00Z",
+    "sourceDate": "2026-03-27"
+  },
+  {
+    "id": "opp_20260327_005",
+    "title": "DIY Project Scope & Cost Estimator for Homeowners",
+    "title_zh": "DIY 專案範圍和費用估算器：幫屋主避免踩坑",
+    "problem": "Every DIY homeowner has the same experience: a project they thought would take 2 hours and $50 ends up taking 12 hours, 3 trips to the hardware store, and $300. Running Ethernet, installing shelves, even hanging curtain rods — the hidden complexity (double top plates, unexpected studs, wrong drill bits) makes everything 4x harder than expected. They don't know what they don't know before they start.",
+    "problem_zh": "每個 DIY 屋主都有同樣經驗：以為 2 小時 $50 能搞定的專案，結果花了 12 小時、跑了 3 趟五金行、花了 $300。拉網路線、裝層架、甚至掛窗簾桿——隱藏的複雜性（雙層頂板、意外出現的橫柱、錯誤的鑽頭）讓一切都比預期難 4 倍。他們在開始之前不知道自己不知道什麼。",
+    "who": "Homeowners who do their own maintenance/improvement, age 25-55. Very active on r/DIY (1,686 upvotes on a relatable vent post this week). Also: new homeowners, renters wanting to customize.",
+    "currentSolution": "Watch YouTube videos (which make everything look easy), ask r/DIY, or just dive in and discover problems as they go. No tool gives a realistic scope assessment before starting.",
+    "whyItSucks": "YouTube tutorials are filmed by experts in perfect conditions. Reddit advice is after-the-fact. No tool says 'Based on your house type/age, running Ethernet to your garage will likely require X, Y, Z tools, expect these common obstacles, and budget 6 hours not 2.' Hardware store employees rarely know enough to help with edge cases.",
+    "whyItSucks_zh": "YouTube 教學是專家在完美條件下拍的。Reddit 建議是事後的。沒有工具能說「根據你的房屋類型/年份，拉網路線到車庫可能需要 X、Y、Z 工具，預期這些常見障礙，預算 6 小時不是 2 小時。」五金行員工很少懂得夠多能處理邊緣情況。",
+    "opportunityAngle": "Build an AI-powered DIY Project Estimator: user describes the project + uploads photos of the area, AI asks clarifying questions (house age, wall type, existing infrastructure), then generates a realistic scope including tools needed, potential obstacles, time estimate, cost range, and 'should you just hire someone?' recommendation. Monetize with affiliate links to tools/supplies. Start as a free Telegram/Discord bot to gather data, then launch as a simple web app. Jones's edge: AI + dev skills to build the conversational interface, cross-cultural angle serving Asian-American homeowners who may be less familiar with US home construction standards.",
+    "opportunityAngle_zh": "做一個 AI 驅動的 DIY 專案估算器：用戶描述專案 + 上傳照片，AI 問澄清問題（房屋年份、牆壁類型、現有基礎設施），然後生成寫實的範圍，包括需要的工具、潛在障礙、時間估算、費用範圍、以及「你該直接請人嗎？」建議。用工具/材料的聯盟連結變現。先做免費 Telegram/Discord bot 收集數據，再做簡單 web app。Jones 優勢：AI + 開發能力做對話介面，跨文化角度服務可能不太熟悉美國住宅建築標準的亞裔屋主。",
+    "evidence": [
+      {
+        "source": "r/DIY",
+        "url": "https://www.reddit.com/r/DIY/comments/1s1o7ym/every_time_i_diy_something_i_realize_why_it_costs/",
+        "quote": "Every time I try to DIY something, I realize it's going to take me 4x longer than I expected, multiple minor cuts/bruises, multiple trips to the hardware store, and a lot of cursing. I'm multiple hours into the project and I thought this was gonna be the easier of the two runs I needed to do."
+      }
+    ],
+    "scores": {
+      "painIntensity": 3,
+      "frequency": 4,
+      "willingnessToPay": 3,
+      "automationPotential": 4,
+      "jonesFit": 4,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 1,
+      "scrappiness": 3,
+      "total": 26
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Create a simple AI prompt/bot that takes a DIY project description and outputs a realistic scope estimate. Test it by responding to 10 posts on r/DIY with helpful estimates. Track engagement and DMs.",
+      "description_zh": "做一個簡單的 AI 提示/bot，接受 DIY 專案描述並輸出寫實範圍估算。在 r/DIY 上回覆 10 篇貼文用有用的估算來測試。追蹤互動和私訊。",
+      "timeEstimate": "3-4 hours"
+    },
+    "signalStrength": {
+      "numMentions": 1686,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["diy", "homeowner", "ai-estimator", "affiliate", "content"],
+    "category": "life-friction",
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-27T07:00:00Z",
+    "updatedAt": "2026-03-27T07:00:00Z",
+    "sourceDate": "2026-03-27"
+  },
+  {
+    "id": "cool_20260327_001",
+    "title": "DOOM Over DNS: Playing DOOM Entirely Through DNS TXT Records",
+    "title_zh": "DNS 上的 DOOM：完全透過 DNS TXT 記錄玩 DOOM",
+    "problem": "Someone compressed the entirety of shareware DOOM, split it into ~1,964 DNS TXT records across a Cloudflare zone, and plays it back at runtime using nothing but a PowerShell script and public DNS queries. The WAD file never touches disk. As they put it: 'DNS TXT records can hold arbitrary text. Cloudflare will serve them globally, for free, cached at the edge. They are not a file storage system. Nobody at the IETF was thinking about them being used as a file storage system. And yet here we are.'",
+    "problem_zh": "有人把共享版 DOOM 整個壓縮後，拆成約 1,964 個 DNS TXT 記錄放在 Cloudflare zone 上，用 PowerShell 腳本和公共 DNS 查詢就能在執行時讀取並遊玩。WAD 檔案完全不碰硬碟。正如作者說的：「DNS TXT 記錄能存任意文字。Cloudflare 免費全球分發，邊緣快取。它們不是檔案儲存系統。IETF 寫 RFC 1035 時沒人想過它們會被當檔案儲存系統。然而，我們就在這裡。」",
+    "evidence": [
+      {
+        "source": "Hacker News / GitHub",
+        "url": "https://github.com/resumex/doom-over-dns",
+        "quote": "This project compresses the entirety of shareware DOOM, splits it into ~1,964 DNS TXT records across a single Cloudflare zone, and plays it back at runtime using nothing but a PowerShell script and public DNS queries."
+      }
+    ],
+    "category": "cool-finds",
+    "status": "new",
+    "createdAt": "2026-03-27T07:00:00Z",
+    "updatedAt": "2026-03-27T07:00:00Z",
+    "sourceDate": "2026-03-27"
+  },
+  {
+    "id": "cool_20260327_002",
+    "title": "AI Agent on a $7/Month VPS with IRC as Transport Layer",
+    "title_zh": "用 $7/月 VPS + IRC 當傳輸層跑 AI Agent",
+    "problem": "A developer put a fully functional AI agent on a $7/month VPS, using IRC (Internet Relay Chat — a protocol from 1988) as its communication transport layer instead of modern APIs or websockets. The agent operates through IRC channels, responding to commands and performing tasks. It's a beautiful collision of ancient internet infrastructure with cutting-edge AI — proving you don't need fancy infrastructure to run an AI agent.",
+    "problem_zh": "一個開發者在 $7/月的 VPS 上放了一個功能完整的 AI agent，用 IRC（1988 年的協議）而不是現代 API 或 websocket 當通訊傳輸層。Agent 透過 IRC 頻道運作，回應指令和執行任務。這是古老網路基礎設施與尖端 AI 的美麗碰撞——證明你不需要花俏的基礎設施就能跑 AI agent。",
+    "evidence": [
+      {
+        "source": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=47536761",
+        "quote": "Show HN: I put an AI agent on a $7/month VPS with IRC as its transport layer"
+      }
+    ],
+    "category": "cool-finds",
+    "status": "new",
+    "createdAt": "2026-03-27T07:00:00Z",
+    "updatedAt": "2026-03-27T07:00:00Z",
+    "sourceDate": "2026-03-27"
+  },
+  {
+    "id": "cool_20260327_003",
+    "title": "Vestaboard Alternative: Turning Any TV into a Split-Flap Display for $199",
+    "title_zh": "Vestaboard 平替：$199 把任何電視變成翻頁時鐘顯示器",
+    "problem": "Vestaboards (those beautiful split-flap letter displays) cost $3,000+. Someone built a software alternative that turns any old TV into a digital split-flap display for a one-time $199 fee — no subscription. It can project quotes, weather, data, anything. 178 upvotes on r/SideProject with people DMing to buy it. It's a perfect example of 'take an expensive luxury product and make a 95% version for 7% of the price.'",
+    "problem_zh": "Vestaboard（那種很美的翻頁字母顯示板）要 $3,000+。有人做了軟體替代方案，$199 一次性費用把任何舊電視變成數位翻頁顯示器——無訂閱制。可以投射語錄、天氣、數據，任何東西。在 r/SideProject 拿了 178 讚，一堆人私訊要買。完美示範「拿一個昂貴奢侈品，做一個 95% 的版本只要 7% 的價格」。",
+    "evidence": [
+      {
+        "source": "r/SideProject",
+        "url": "https://www.reddit.com/r/SideProject/comments/1s44uxo/i_built_an_alternative_to_vestaboard_that_turns/",
+        "quote": "I built an alternative to vestaboard that turns any TV into a digital split-flap display. Project any quotes / weather / data. No subscription, one time fee $199."
+      }
+    ],
+    "category": "cool-finds",
+    "status": "new",
+    "createdAt": "2026-03-27T07:00:00Z",
+    "updatedAt": "2026-03-27T07:00:00Z",
+    "sourceDate": "2026-03-27"
+  }
+]
