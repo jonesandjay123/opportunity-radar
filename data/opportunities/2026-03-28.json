@@ -1,0 +1,364 @@
+[
+  {
+    "id": "opp_20260328_001",
+    "title": "SaaS Spend Reduction Broker: Performance-Based Software Cost Cutting for SMBs",
+    "title_zh": "SaaS 費用削減經紀人：按績效收費的小企業軟體成本優化",
+    "problem": "Small businesses with 5-50 employees are paying $30K-80K/year on 15-25+ SaaS subscriptions. Prices creep up 15-20% annually while features get moved to premium tiers. Tool sprawl means they need more subscriptions to cover what one tool used to handle. Nobody is helping them systematically audit, negotiate, and consolidate.",
+    "problem_zh": "5-50 人的小企業每年花 $30K-80K 在 15-25+ 個 SaaS 訂閱上。價格每年悄悄漲 15-20%，同時功能被移到高級方案。工具碎片化讓他們需要更多訂閱才能覆蓋以前一個工具就能做的事。沒人系統性地幫他們審計、議價和整合。",
+    "who": "Small business owners with 5-50 employees spending $2K-7K/month on software. Particularly frustrated ones on r/Entrepreneur and r/smallbusiness who realize they're paying 3x more than 5 years ago for the same functionality.",
+    "currentSolution": "Manually reviewing subscriptions once a year, canceling a few obvious ones. Some use apps like Trim or Rocket Money for personal subscriptions but nothing for business SaaS stacks.",
+    "whyItSucks": "Personal subscription managers don't understand business SaaS stacks. Nobody negotiates enterprise pricing for small businesses. Founders don't know which tools can replace 3 others. The complexity of migration keeps them paying for tools they hate.",
+    "whyItSucks_zh": "個人訂閱管理工具不懂商業 SaaS 技術堆疊。沒人幫小企業談企業級定價。創辦人不知道哪些工具可以取代其他 3 個。遷移的複雜性讓他們繼續為討厭的工具付費。",
+    "opportunityAngle": "Offer a performance-based SaaS cost reduction service: audit their full software stack, identify consolidation opportunities, negotiate prices with vendors (many SaaS companies will discount 20-40% to prevent churn), and handle migrations. Charge 30% of first-year savings — zero risk for the client. Jones's edge: technical enough to evaluate alternatives and set up integrations that non-technical consultants can't. Start with 3 free audits, document the playbook, then productize.",
+    "opportunityAngle_zh": "提供按績效收費的 SaaS 成本削減服務：審計完整軟體堆疊、找整合機會、跟廠商議價（很多 SaaS 公司為防止流失會折 20-40%）、處理遷移。收取第一年節省金額的 30%——客戶零風險。Jones 優勢：技術能力足以評估替代方案並設定非技術顧問做不到的整合。先做 3 個免費審計，記錄 playbook，再產品化。",
+    "evidence": [
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1s5i577/the_saas_model_is_quietly_falling_apart_for_small/",
+        "quote": "We are paying for 23 separate software subscriptions right now... the total monthly spend across all of them is $4,100 which is almost $50,000 a year on software for a 12 person company. Five years ago that number was about $1,200/month for roughly the same functionality."
+      }
+    ],
+    "scores": {
+      "painIntensity": 5,
+      "frequency": 4,
+      "willingnessToPay": 5,
+      "automationPotential": 3,
+      "jonesFit": 4,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 2,
+      "scrappiness": 4,
+      "total": 31
+    },
+    "firstTest": {
+      "type": "reddit_post",
+      "description": "Reply to the r/Entrepreneur SaaS cost thread offering 3 free 'SaaS Stack Audits'. Collect their tool list and monthly spend, then produce a 1-page report showing exactly where they can save and how much. See if they engage and what the average savings potential is.",
+      "description_zh": "回覆 r/Entrepreneur 的 SaaS 成本討論文，提供 3 個免費「SaaS 堆疊審計」。收集他們的工具清單和月費，產出一頁報告顯示可以省多少錢、怎麼省。看他們是否參與，平均節省潛力多大。",
+      "timeEstimate": "2 hours to respond + 3-4 hours per audit"
+    },
+    "signalStrength": {
+      "numMentions": 208,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": true,
+    "tags": ["saas", "cost-reduction", "small-business", "consulting", "performance-fee"],
+    "category": "service",
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-28T07:00:00Z",
+    "updatedAt": "2026-03-28T07:00:00Z",
+    "sourceDate": "2026-03-28"
+  },
+  {
+    "id": "opp_20260328_002",
+    "title": "SOP-in-a-Day: AI-Powered Process Documentation for First-Time Hirers",
+    "title_zh": "一日 SOP：用 AI 幫首次招聘的老闆自動產出流程文件",
+    "problem": "Small business owners hire their first employee and discover all their processes exist only in their heads. They spend 3+ weeks onboarding instead of the expected few days, answering the same questions repeatedly, and realize they have zero documentation. Writing SOPs feels overwhelming and they don't know where to start.",
+    "problem_zh": "小企業主招了第一個員工才發現所有流程都只在自己腦袋裡。入職花了 3 週以上而不是預期的幾天，反覆回答同樣的問題，才意識到完全沒有文件。寫 SOP 感覺太龐大，不知道從何開始。",
+    "who": "Solo business owners and micro-business operators (1-5 people) who are hiring their first or second employee. Active on r/smallbusiness. Typically service businesses, agencies, or e-commerce.",
+    "currentSolution": "Answering questions verbally over and over. Some record Loom videos haphazardly. A few try Google Docs but give up after 2 pages. Most just 'figure it out as they go'.",
+    "whyItSucks": "Writing SOPs from scratch takes days and nobody teaches you how. Loom videos are unsearchable and hard to update. Google Docs become a graveyard of half-finished pages. There's no service that says 'give me 2 hours and I'll document your top 10 processes for you'.",
+    "whyItSucks_zh": "從零寫 SOP 要花好幾天而且沒人教你怎麼做。Loom 影片無法搜尋且難以更新。Google Docs 變成半成品的墳場。沒有服務說「給我 2 小時，我幫你記錄前 10 個流程」。",
+    "opportunityAngle": "Offer a $497 'SOP-in-a-Day' service: join a 2-hour Zoom where the owner screen-shares their daily workflows while talking through them. Use AI transcription + Claude/GPT to auto-generate structured SOP documents from the recording. Deliver polished, searchable Google Docs with screenshots within 24 hours. Jones's edge: can build the AI pipeline to turn raw screen recordings into formatted SOPs semi-automatically, scaling what would normally take a VA days into hours.",
+    "opportunityAngle_zh": "提供 $497 的「一日 SOP」服務：加入 2 小時 Zoom，老闆邊螢幕共享日常工作流程邊口述。用 AI 語音轉文字 + Claude/GPT 從錄影自動生成結構化 SOP 文件。24 小時內交付精緻、可搜尋的 Google Docs（含截圖）。Jones 優勢：能建立 AI 流水線，把原始螢幕錄影半自動轉成格式化 SOP，將 VA 需要數天的工作壓縮到數小時。",
+    "evidence": [
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1s4wyzz/hired_my_first_employee_last_month_and_it_doubled/",
+        "quote": "Brought on a part-time bookkeeper in February to free up my time. Instead I've spent the last three weeks onboarding her, fixing her access to every tool, and answering the same questions about how we do things. Realized I have zero documentation for any of our processes — it's all just in my head."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 4,
+      "willingnessToPay": 4,
+      "automationPotential": 5,
+      "jonesFit": 5,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 2,
+      "scrappiness": 5,
+      "total": 33
+    },
+    "firstTest": {
+      "type": "manual_service",
+      "description": "Reply to the r/smallbusiness 'first employee' thread offering to do one free SOP-in-a-Day session in exchange for a testimonial. Record the Zoom, use AI to generate SOPs, and measure how long the end-to-end process takes. Document the pipeline.",
+      "description_zh": "回覆 r/smallbusiness 的「第一個員工」討論文，提供一次免費 SOP-in-a-Day 換取推薦信。錄製 Zoom、用 AI 生成 SOP，測量端到端流程花多少時間。記錄整個流水線。",
+      "timeEstimate": "2 hours call + 3 hours processing"
+    },
+    "signalStrength": {
+      "numMentions": 52,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["sop", "documentation", "first-hire", "onboarding", "ai-automation", "service"],
+    "category": "service",
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-28T07:00:00Z",
+    "updatedAt": "2026-03-28T07:00:00Z",
+    "sourceDate": "2026-03-28"
+  },
+  {
+    "id": "opp_20260328_003",
+    "title": "Co-Founder Legal Protection Kit: Vesting Agreements & Operating Docs for Bootstrappers",
+    "title_zh": "共同創辦人法律保護包：給 Bootstrapper 的股權歸屬協議和營運文件",
+    "problem": "Technical founders form partnerships with handshakes and LLC filings but no vesting schedules, operating agreements, or cliff provisions. When one co-founder leaves, they walk away with equity they no longer earn. The remaining founder is stuck with a dead-weight equity holder who contributes nothing. Lawyers cost $3K-10K and founders think they can't afford it at the start.",
+    "problem_zh": "技術創辦人用握手和 LLC 申請成立合作關係，但沒有股權歸屬時程、營運協議或懸崖條款。當一個共同創辦人離開時，帶走他們不再賺取的股權。留下的創辦人卡住一個不貢獻任何東西的股權佔有者。律師費 $3K-10K，創辦人認為剛開始負擔不起。",
+    "who": "First-time SaaS founders, indie hackers, and bootstrappers who are partnering with friends or acquaintances. Active on r/SaaS, r/startups, r/Entrepreneur. Typically technical, not legal-savvy.",
+    "currentSolution": "Handshake deals, 50/50 splits 'because it feels fair', maybe an LLC filing from LegalZoom with default terms. Some Google template operating agreements they don't fully understand.",
+    "whyItSucks": "LegalZoom templates are generic and don't include vesting provisions by default. Real startup lawyers charge $5K+ for proper founder agreements. Most online resources just say 'get a lawyer' without explaining what you actually need. By the time founders realize they need protection, it's too late.",
+    "whyItSucks_zh": "LegalZoom 模板是通用的，預設不含股權歸屬條款。真正的創業律師收 $5K+ 才能做正式的創辦人協議。大多數網路資源只說「找律師」但不解釋你到底需要什麼。等創辦人意識到需要保護時已經太遲了。",
+    "opportunityAngle": "Create a $197-497 'Co-Founder Protection Kit': (1) Video course explaining vesting, cliffs, IP assignment, and operating agreements in plain English, (2) Template operating agreement with 4-year vesting and 1-year cliff, (3) Checklist of 15 things to agree on before starting, (4) Optional $297 add-on: 30-min review session with a partner attorney (revenue share with a startup lawyer). Jones's edge: technical background means he can explain this to technical founders in their language. Bilingual version for Taiwanese/Chinese founders starting US companies.",
+    "opportunityAngle_zh": "做一個 $197-497 的「共同創辦人保護包」：(1) 影片課程用白話解釋股權歸屬、懸崖期、IP 轉讓和營運協議 (2) 含 4 年歸屬和 1 年懸崖期的模板營運協議 (3) 開始前要達成共識的 15 項清單 (4) 可選 $297 附加項：跟合作律師的 30 分鐘審查（跟創業律師分潤）。Jones 優勢：技術背景能用技術創辦人的語言解釋這些。可做台灣/華人創辦人在美國開公司的雙語版。",
+    "evidence": [
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1s5gsxj/cofounder_left_after_14_months_no_vesting/",
+        "quote": "Now I run a SaaS doing $8K MRR, growing it alone, and 40% of the company belongs to someone who contributes nothing and answers my texts about once a month. The cost of 3 hours of lawyer time would have saved me a problem I might carry for the life of this company."
+      }
+    ],
+    "scores": {
+      "painIntensity": 5,
+      "frequency": 3,
+      "willingnessToPay": 4,
+      "automationPotential": 3,
+      "jonesFit": 4,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 4,
+      "scrappiness": 4,
+      "total": 30
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Write a detailed blog post / Twitter thread titled 'The $80K Mistake: Why Every Co-Founder Needs a Vesting Agreement (Template Included)' and share it on r/SaaS and r/startups. Include a free checklist download and gauge interest for a paid kit.",
+      "description_zh": "寫一篇詳細文章/Twitter 串文標題「$80K 的教訓：為什麼每個共同創辦人都需要股權歸屬協議（附模板）」分享到 r/SaaS 和 r/startups。附免費清單下載，評估付費套件的興趣。",
+      "timeEstimate": "3-4 hours"
+    },
+    "signalStrength": {
+      "numMentions": 356,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["legal", "co-founder", "vesting", "templates", "startup-legal", "cross-border"],
+    "category": "cross-border",
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-28T07:00:00Z",
+    "updatedAt": "2026-03-28T07:00:00Z",
+    "sourceDate": "2026-03-28"
+  },
+  {
+    "id": "opp_20260328_004",
+    "title": "Southeast Asia Dental Tourism Concierge for Western Expats & Nomads",
+    "title_zh": "東南亞牙科旅遊管家：幫西方人到越南/泰國看牙省大錢",
+    "problem": "Digital nomads and expats in Southeast Asia discover that dental work costs 80-90% less than their home countries with equal or better quality. But finding trustworthy clinics, navigating language barriers, understanding what procedures they actually need, and coordinating travel/accommodation is stressful. Most learn through word-of-mouth on Reddit and make costly mistakes before finding good providers.",
+    "problem_zh": "在東南亞的數位游牧者和外派人員發現牙科費用比母國便宜 80-90%，品質相當甚至更好。但找到值得信賴的診所、克服語言障礙、了解實際需要什麼治療、協調交通/住宿都很壓力大。大多數人在 Reddit 口耳相傳中學習，在找到好的之前先犯了昂貴的錯誤。",
+    "who": "Western digital nomads, expats, and even medical tourists who specifically travel for dental work. The dental tourism market is $5.6B globally. Active on r/digitalnomad, r/expats, and dental tourism Facebook groups. Typical savings: $3K-15K per person vs. home country prices.",
+    "currentSolution": "Asking on Reddit threads, random Facebook group recommendations, Googling 'best dentist Ho Chi Minh City', or just walking into whatever clinic looks decent. Some use medical tourism agencies that charge large markups.",
+    "whyItSucks": "Reddit recommendations are scattered and outdated. Medical tourism agencies take 30-50% commissions making it not as cheap. No one provides a curated, vetted list with transparent pricing, English-speaking staff confirmation, and treatment plan review. Language barriers mean patients often don't understand what they're getting.",
+    "whyItSucks_zh": "Reddit 推薦散亂且過時。醫療旅遊仲介抽 30-50% 佣金讓它沒那麼便宜。沒人提供策劃過、經審核的清單，附透明定價、確認有英語人員、和治療計劃審查。語言障礙意味著患者常常不了解自己得到什麼。",
+    "opportunityAngle": "Build a curated dental tourism concierge for Vietnam and Thailand: (1) Vetted clinic directory with transparent pricing (2) Free treatment plan review — patient uploads their home country quote, you get a counter-quote from 2-3 vetted clinics (3) Booking coordination including accommodation near the clinic (4) Revenue model: referral fee from clinics ($50-200 per patient) + optional $99 concierge package. Jones's edge: Taiwan ↔ Southeast Asia cultural bridge, understands Asian medical systems, can personally vet clinics. Physical × AI × Inefficiency model: physical dental clinics + AI for translation/comparison + massively inefficient discovery process.",
+    "opportunityAngle_zh": "做越南和泰國的策劃牙科旅遊管家：(1) 經審核的診所目錄附透明定價 (2) 免費治療計劃審查——患者上傳母國報價，你從 2-3 家審核診所取得對比報價 (3) 預訂協調包括診所附近住宿 (4) 營收模式：診所推薦費（每位患者 $50-200）+ 可選 $99 管家套裝。Jones 優勢：台灣 ↔ 東南亞文化橋梁，了解亞洲醫療系統，可以親自審核診所。Physical × AI × Inefficiency 模型：實體牙科診所 + AI 翻譯/比價 + 極低效的搜尋過程。",
+    "evidence": [
+      {
+        "source": "r/digitalnomad",
+        "url": "https://www.reddit.com/r/digitalnomad/comments/1s5aavs/i_cut_my_cost_of_living_by_70_by_moving_to/",
+        "quote": "Dental/health: This is the one that really blows my mind. I've gotten more dental work done here in 6 months than I did in the last 5 years in Australia. The clinic I go to has treated thousands of international patients and honestly the experience was more professional than any dentist I've ever been to back home. I spent a few hundred dollars total on stuff that would've cost me thousands."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 3,
+      "willingnessToPay": 5,
+      "automationPotential": 3,
+      "jonesFit": 5,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 5,
+      "scrappiness": 3,
+      "total": 31
+    },
+    "firstTest": {
+      "type": "reddit_post",
+      "description": "Post on r/digitalnomad offering a free 'Dental Quote Comparison' — people share their home country dental quotes, you get counter-quotes from 2 vetted clinics in Vietnam. Measure response rate and savings differential.",
+      "description_zh": "在 r/digitalnomad 發文提供免費「牙科報價比較」——人們分享母國牙科報價，你從越南 2 家審核診所取得對比報價。測量回應率和價差。",
+      "timeEstimate": "2 hours to post + research clinics"
+    },
+    "signalStrength": {
+      "numMentions": 522,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["dental-tourism", "medical-tourism", "vietnam", "thailand", "cross-border", "digital-nomad"],
+    "category": "cross-border",
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-28T07:00:00Z",
+    "updatedAt": "2026-03-28T07:00:00Z",
+    "sourceDate": "2026-03-28"
+  },
+  {
+    "id": "opp_20260328_005",
+    "title": "Dashboard-to-Chat Migration Consulting: Help SaaS Companies Replace UIs with Conversational Interfaces",
+    "title_zh": "儀表板轉聊天介面顧問：幫 SaaS 公司把 UI 換成對話式介面",
+    "problem": "SaaS founders are realizing that users don't want to learn complex dashboards — they want to say what they want and get it done. A growing wave of products (like conversational AI tools) are proving that 'the product IS the conversation'. But existing SaaS companies have years of UI investment and don't know how to transition. They see the threat but lack the technical know-how to add a conversational layer without rebuilding everything.",
+    "problem_zh": "SaaS 創辦人開始意識到用戶不想學複雜的儀表板——他們想說出需求然後完成。越來越多產品（如對話式 AI 工具）正在證明「產品就是對話」。但現有 SaaS 公司有多年 UI 投資，不知道怎麼轉型。他們看到威脅但缺乏技術能力在不重建一切的情況下加上對話層。",
+    "who": "SaaS founders with existing products ($5K-100K MRR) who see AI-first competitors emerging. Particularly B2B SaaS in analytics, reporting, project management, and CRM verticals. Active on r/SaaS, Indie Hackers, and Hacker News.",
+    "currentSolution": "Some bolt on a basic chatbot. Others ignore it and hope dashboards survive. A few rebuild from scratch (expensive). Most are paralyzed by the scope of the change.",
+    "whyItSucks": "Generic chatbots don't understand domain-specific queries. Building a proper AI layer requires LLM expertise most SaaS teams don't have. Consulting firms charge $50K+ for AI integration projects. No one offers a focused, affordable 'add a conversational layer to your existing SaaS' service.",
+    "whyItSucks_zh": "通用聊天機器人不懂特定領域的查詢。建立適當的 AI 層需要大多數 SaaS 團隊不具備的 LLM 專業知識。顧問公司收 $50K+ 做 AI 整合案。沒人提供專注、可負擔的「幫你的現有 SaaS 加上對話層」服務。",
+    "opportunityAngle": "Offer a $2K-5K 'Chat Layer Sprint': (1) 1-week engagement to add a conversational AI interface to an existing SaaS product (2) Connect to their existing API/database (3) Use Claude/GPT function calling to translate natural language into existing product actions (4) Deliver a working prototype that handles the top 10 user queries. Jones's edge: deep understanding of both AI tooling and SaaS architecture. Can position as the affordable alternative to big consulting firms. The meta-irony: this is literally what Jones already does with his own AI setup.",
+    "opportunityAngle_zh": "提供 $2K-5K 的「聊天層衝刺」：(1) 一週合約幫現有 SaaS 產品加對話式 AI 介面 (2) 連接他們現有的 API/資料庫 (3) 用 Claude/GPT function calling 把自然語言轉成現有產品操作 (4) 交付處理前 10 大用戶查詢的可用原型。Jones 優勢：深度理解 AI 工具和 SaaS 架構。可定位為大顧問公司的可負擔替代方案。超諷刺：這就是 Jones 已經在自己 AI 設定中做的事。",
+    "evidence": [
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1s5jvrg/runlobster_openclaw_made_me_massrefactor_how_i/",
+        "quote": "I have been building intermediate layers for 8 years. Lovingly crafted UIs that are basically translation layers between what a user wants and what the software does. What if that whole layer is unnecessary now? The SaaS products that survive the next 3 years will not be the ones with the best dashboards."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 3,
+      "willingnessToPay": 5,
+      "automationPotential": 4,
+      "jonesFit": 5,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 2,
+      "scrappiness": 3,
+      "total": 30
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Write a case study showing how you'd add a conversational layer to a well-known SaaS tool (e.g., 'How I'd make Asana work via Slack in 1 week'). Post on r/SaaS and Hacker News. Include a 'Want this for your product? DM me' CTA.",
+      "description_zh": "寫一個案例研究展示如何幫一個知名 SaaS 工具加對話層（例如「我如何在 1 週內讓 Asana 透過 Slack 運作」）。發到 r/SaaS 和 Hacker News。加上「想幫你的產品做這個？私訊我」的行動呼籲。",
+      "timeEstimate": "4-5 hours for the case study + demo"
+    },
+    "signalStrength": {
+      "numMentions": 96,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "signals": {
+      "workaroundDetected": false,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["ai-consulting", "conversational-ui", "saas", "llm-integration", "chat-interface"],
+    "category": "tech-gap",
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-28T07:00:00Z",
+    "updatedAt": "2026-03-28T07:00:00Z",
+    "sourceDate": "2026-03-28"
+  },
+  {
+    "id": "cool_20260328_001",
+    "title": "Velxio: Emulate 19 Hardware Boards in Your Browser",
+    "title_zh": "Velxio：在瀏覽器中模擬 19 種硬體開發板",
+    "problem": "An open-source project that lets you emulate Arduino Uno, ESP32, Raspberry Pi Pico, Raspberry Pi 3, and 14 other boards — all running in your browser with real CPU emulation across 5 architectures (AVR, ARM, RISC-V, Xtensa, Cortex-A53). Write code, wire 48+ components, and simulate complete circuits without any hardware. You can even run multiple boards simultaneously connected via serial.",
+    "problem_zh": "一個開源專案讓你在瀏覽器中模擬 Arduino Uno、ESP32、Raspberry Pi Pico、Raspberry Pi 3 等 19 種開發板——用真正的 CPU 模擬跨 5 種架構（AVR、ARM、RISC-V、Xtensa、Cortex-A53）。寫程式、連接 48+ 個元件、模擬完整電路，不需要任何硬體。甚至可以同時跑多個板子透過序列埠連接。",
+    "evidence": [
+      {
+        "source": "Hacker News",
+        "url": "https://github.com/davidmonterocrespo24/velxio",
+        "quote": "A fully local, open-source multi-board emulator. 19 boards · 5 CPU architectures. Write Arduino C++ or Python, compile it, and simulate it with real CPU emulation and 48+ interactive electronic components — all running in your browser."
+      }
+    ],
+    "category": "cool-finds",
+    "status": "new",
+    "createdAt": "2026-03-28T07:00:00Z",
+    "updatedAt": "2026-03-28T07:00:00Z",
+    "sourceDate": "2026-03-28"
+  },
+  {
+    "id": "cool_20260328_002",
+    "title": "Burn Before Reading: A Chrome Flamethrower for the Internet",
+    "title_zh": "閱後即焚：網頁火焰噴射器 Chrome 擴充",
+    "problem": "A developer got so tired of internet noise — 'Vibe-coded in 2 hours, MRR $40K' posts, corporate LinkedIn announcements, AI chatbot filler — that he built a Chrome extension to literally incinerate web elements. Shift-click anything on any page and watch it burn with a fire animation, leaving behind site-specific epitaphs like 'Happy to announce my deletion 🔥 #grateful' on LinkedIn or 'As a language model, I did not see this coming' on AI chatbots. 501 upvotes, 98% upvote ratio. Seven free burns, then pay-what-you-want for unlimited.",
+    "problem_zh": "一個開發者受夠了網路噪音——「2 小時 vibe-coded，MRR $40K」的文章、企業 LinkedIn 公告、AI 聊天機器人的廢話——所以他做了一個 Chrome 擴充來「焚燒」網頁元素。在任何頁面上 Shift-click 任何東西，看它燃燒成灰，留下特定網站的墓誌銘，像 LinkedIn 上的「很高興宣布我的刪除 🔥 #grateful」或 AI 聊天機器人上的「作為一個語言模型，我沒料到這個」。501 票、98% 好評。7 次免費燃燒，之後隨意付費。",
+    "evidence": [
+      {
+        "source": "r/SideProject",
+        "url": "https://www.reddit.com/r/SideProject/comments/1s50nhs/i_got_tired_of_the_internet_so_i_built_a/",
+        "quote": "Burn Before Reading lets you shift-click anything on any webpage and watch it incinerate in a fire animation. The element turns to ash. A site-specific epitaph appears. You exhale. You move on."
+      }
+    ],
+    "category": "cool-finds",
+    "status": "new",
+    "createdAt": "2026-03-28T07:00:00Z",
+    "updatedAt": "2026-03-28T07:00:00Z",
+    "sourceDate": "2026-03-28"
+  },
+  {
+    "id": "cool_20260328_003",
+    "title": "Nashville Library Launches Free 'Memory Lab' to Digitize Home Movies",
+    "title_zh": "納什維爾圖書館開設免費「記憶實驗室」幫民眾數位化家庭影片",
+    "problem": "Nashville Public Library opened a free Memory Lab where anyone can walk in and digitize their old home movies, VHS tapes, photos, and slides using professional equipment. No appointment needed, no cost. The library provides the hardware (film scanners, VHS-to-digital converters, photo scanners) and staff to help. The idea: millions of families have irreplaceable memories degrading in boxes, and most can't afford or don't know about professional digitization services. A public library solving this is brilliant.",
+    "problem_zh": "納什維爾公共圖書館開設了免費的記憶實驗室，任何人都可以走進去，用專業設備數位化他們的舊家庭影片、VHS 錄影帶、照片和幻燈片。不需預約、不收費。圖書館提供硬體（底片掃描器、VHS 轉數位轉換器、照片掃描器）和工作人員協助。概念是：數百萬家庭有不可取代的記憶在箱子裡退化，大多數人負擔不起或不知道專業數位化服務。公共圖書館來解決這問題真的很天才。",
+    "evidence": [
+      {
+        "source": "Hacker News / Axios",
+        "url": "https://www.axios.com/local/nashville/2026/03/16/nashville-library-digitize-home-movies",
+        "quote": "Nashville library launches Memory Lab for digitizing home movies"
+      }
+    ],
+    "category": "cool-finds",
+    "status": "new",
+    "createdAt": "2026-03-28T07:00:00Z",
+    "updatedAt": "2026-03-28T07:00:00Z",
+    "sourceDate": "2026-03-28"
+  }
+]
