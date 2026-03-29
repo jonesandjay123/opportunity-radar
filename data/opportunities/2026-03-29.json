@@ -1,0 +1,367 @@
+[
+  {
+    "id": "opp_20260329_001",
+    "title": "AI Home Energy Audit: Remote Utility Bill Optimization for Homeowners",
+    "title_zh": "AI 居家能源審計：遠端幫屋主優化水電費",
+    "problem": "Homeowners are overpaying on energy bills due to simple, fixable issues — water heaters set too high, blocked dryer vents, inefficient appliance settings. Most utility companies offer free audits but they're buried on websites and require scheduling an in-person visit. A viral r/Frugal post (4,200+ upvotes) showed that a 45-minute audit saved consistent money monthly just by turning the water heater from 140°F to 120°F. People want this but the friction of scheduling and waiting is too high.",
+    "problem_zh": "屋主因為簡單可修的問題在能源帳單上多花錢——熱水器設太高、烘衣機排氣管堵塞、家電設定不對。大部分電力公司提供免費審計，但藏在網站深處，且需要安排到場。r/Frugal 一篇爆文（4,200+ 讚）顯示，45 分鐘的審計只靠把熱水器從 140°F 調到 120°F 就能每月省一筆。人們想要但預約和等待的摩擦力太大。",
+    "who": "Homeowners and renters in the US frustrated with rising utility bills. Particularly active on r/Frugal (6.7M subscribers), r/homeowners, and personal finance communities. Typical household could save $200-600/year with simple fixes.",
+    "currentSolution": "Utility company free audits (buried, require in-person visit). Smart thermostats ($200+ investment). Generic 'save energy' articles that say 'turn off lights'. Random YouTube videos. Most people do nothing because the first step is unclear.",
+    "whyItSucks": "Free utility audits require scheduling weeks out and being home for a stranger. Smart home devices are expensive upfront and only solve one problem. Online advice is generic ('turn off lights') and doesn't address the real culprits like water heater settings and dryer vent blockages. Nobody provides a personalized, actionable checklist.",
+    "whyItSucks_zh": "免費電力審計要排好幾週還得在家等陌生人來。智慧家電前期花費高且只解決一個問題。網路建議太通用（「關燈」），沒解決真正問題如熱水器設定和烘衣機排氣管堵塞。沒人提供個人化的可執行清單。",
+    "opportunityAngle": "Build a $29 'Remote Energy Audit' service: customer fills a 10-min questionnaire (home size, appliance ages, current thermostat/water heater settings, photos of utility bills), AI generates a personalized action plan ranked by savings impact. Include video walkthroughs for each fix. Upsell: $79 for a 30-min video call where they walk through their home on camera and get real-time guidance. Jones's edge: can build the AI questionnaire + recommendation engine quickly, and the content is evergreen.",
+    "opportunityAngle_zh": "做一個 $29 的「遠端能源審計」服務：客戶填 10 分鐘問卷（房屋大小、家電年份、目前溫度設定、電費帳單照片），AI 產出按節省影響排序的個人化行動計劃。附每個修復的影片教學。加購：$79 做 30 分鐘視訊通話，客戶用手機帶你逛家裡，即時給建議。Jones 優勢：能快速建 AI 問卷 + 推薦引擎，內容長青。",
+    "evidence": [
+      {
+        "source": "r/Frugal",
+        "url": "https://www.reddit.com/r/Frugal/comments/1s1robz/electric_company_offered_a_free_home_energy_audit/",
+        "quote": "mine was set to 140f which apparently is what they come preset at from the factory. he said most households are totally fine at 120f and the difference in energy use is actually pretty significant because its heating and reheating all day. dropped it down that week and my next bill was noticeably lower."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 3,
+      "automationPotential": 5,
+      "jonesFit": 4,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 1,
+      "scrappiness": 5,
+      "total": 31
+    },
+    "firstTest": {
+      "type": "manual_service",
+      "description": "Create a Google Form with 15 energy audit questions. Post on r/Frugal offering 10 free remote energy audits in exchange for feedback. Manually generate the reports using AI, measure average savings identified, and see if people would pay $29 for this.",
+      "description_zh": "建一個 15 題 Google 表單。在 r/Frugal 發文提供 10 次免費遠端能源審計換取回饋。手動用 AI 產出報告，測量平均能識別多少節省，看人們是否願意付 $29。",
+      "timeEstimate": "2 hours setup + 30 min per audit"
+    },
+    "signalStrength": {
+      "numMentions": 402,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": false
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["energy", "home", "frugal", "utility-savings", "ai-audit", "service"],
+    "category": "service",
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-29T07:00:00Z",
+    "updatedAt": "2026-03-29T07:00:00Z",
+    "sourceDate": "2026-03-29"
+  },
+  {
+    "id": "opp_20260329_002",
+    "title": "MVP Reality Check: Bridging the $5K Fantasy to $50K Reality Gap for Non-Technical Founders",
+    "title_zh": "MVP 現實檢查：幫非技術創辦人認清 $5K 幻想 vs $50K 現實的差距",
+    "problem": "Non-technical founders arrive at dev agencies with a $5K budget for an app that actually costs $50K-80K. They get a $3K quote from overseas, go with it, and come back 8 months later with a broken product and zero budget left. A US dev agency owner (10+ years, 30-person team) says this happens every single week. 50% of clients have already mentally committed to the cheap quote before the first call.",
+    "problem_zh": "非技術創辦人帶著 $5K 預算去開發公司，但真正需要 $50K-80K。他們拿到海外 $3K 報價就選了，8 個月後帶著壞掉的產品和零預算回來。一個美國開發公司老闆（10+ 年經驗、30 人團隊）說這每週都在發生。50% 的客戶在第一通電話前就已經心理承諾了便宜報價。",
+    "who": "Non-technical founders with app ideas, typically with $5K-15K budgets. They're on r/smallbusiness, r/Entrepreneur, and r/startups. Usually first-time founders who don't understand software development scope.",
+    "currentSolution": "Getting multiple quotes and picking the cheapest. Trying no-code tools but hitting walls. Asking friends who 'know someone who codes'. Going on Upwork/Fiverr. All roads lead to either overspending or getting a broken product.",
+    "whyItSucks": "Dev agencies have incentive to either upsell or turn away small clients. Overseas devs deliver cheap but broken products. No-code platforms have steep learning curves and limitations. Nobody sits between 'full custom app' and 'do nothing' to help founders figure out what they ACTUALLY need first.",
+    "whyItSucks_zh": "開發公司有動機加價或拒絕小客戶。海外開發者交付便宜但壞掉的產品。無程式碼平台學習曲線陡且有限制。沒人站在「全客製 app」和「什麼都不做」之間幫創辦人搞清楚他們到底需要什麼。",
+    "opportunityAngle": "Offer a $297 'MVP Reality Check' package: (1) 60-min Zoom deep dive into their idea (2) Written scope document showing exactly what features they need for v1 vs v2 vs v3 (3) Realistic budget ranges for each approach (custom dev, no-code, hybrid) (4) Recommendation: build a landing page + waitlist first to validate demand before spending a dime on development. For qualifying ideas, offer to build the actual MVP using AI-assisted vibe coding for $2K-5K (fraction of agency prices). Jones's edge: technical enough to scope accurately, bilingual for TW founders trying to build in the US market.",
+    "opportunityAngle_zh": "提供 $297 的「MVP 現實檢查」套餐：(1) 60 分鐘 Zoom 深入了解他們的想法 (2) 書面範圍文件精確說明 v1/v2/v3 需要什麼功能 (3) 每種方法（客製開發、無程式碼、混合）的實際預算範圍 (4) 建議：先做 landing page + waitlist 驗證需求，再花一毛錢在開發上。合格的想法可加購用 AI 輔助 vibe coding 建 MVP，$2K-5K（開發公司零頭）。Jones 優勢：技術能力夠精確確認範圍，雙語可服務台灣創辦人在美國建產品。",
+    "evidence": [
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1s17ffi/how_do_you_tell_a_client_their_5k_app_idea_costs/",
+        "quote": "Client arrives with an app idea. In their head it costs $5,000. They show a quote from an overseas dev for $3,000. In reality the backend, admin panel, integrations, security and testing put the real number at $50,000 to $80,000 minimum. Eight months later they come back with a broken product and zero budget left to fix it."
+      }
+    ],
+    "scores": {
+      "painIntensity": 5,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 3,
+      "jonesFit": 5,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 4,
+      "scrappiness": 4,
+      "total": 34
+    },
+    "firstTest": {
+      "type": "reddit_post",
+      "description": "Reply to the r/smallbusiness thread offering 5 free 'MVP Reality Checks' — founders describe their app idea, you write back a 1-page scope doc with realistic budget ranges and a recommendation. See how many takers and what follow-up interest looks like.",
+      "description_zh": "回覆 r/smallbusiness 討論文，提供 5 次免費「MVP 現實檢查」——創辦人描述 app 想法，你回一頁範圍文件附實際預算和建議。看有多少人參與，後續興趣如何。",
+      "timeEstimate": "1 hour to post + 45 min per review"
+    },
+    "signalStrength": {
+      "numMentions": 154,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": true,
+    "tags": ["mvp", "consulting", "non-technical-founder", "app-development", "scope", "cross-border"],
+    "category": "service",
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-29T07:00:00Z",
+    "updatedAt": "2026-03-29T07:00:00Z",
+    "sourceDate": "2026-03-29"
+  },
+  {
+    "id": "opp_20260329_003",
+    "title": "Viral Micro-App Factory: Ship Novelty Apps in 48 Hours From Social Media Signals",
+    "title_zh": "病毒式微應用工廠：從社群媒體訊號 48 小時內出貨搞笑 App",
+    "problem": "A developer posted an IG reel reviewing a GitHub repo that makes sounds when you slap your MacBook. It went viral. Comments were all 'WHERE IS THE APP' and 'I NEED THIS'. He built it in 48 hours, sold it for $5, and made $5K in 3 days. This pattern — viral social media moment → rapid product → quick revenue — is repeatable but most developers are too slow or too 'serious' to capitalize.",
+    "problem_zh": "一個開發者在 IG 發了一個影片評測一個「拍 MacBook 就會發出聲音」的 GitHub repo。爆紅了。留言全是「APP 在哪」和「我需要這個」。他 48 小時內做出來，賣 $5，3 天賺 $5K。這種模式——社群媒體爆紅時刻 → 快速產品 → 快速收入——是可重複的，但大多數開發者太慢或太「正經」抓不住。",
+    "who": "The market is internet-native consumers (18-35) willing to spend $3-10 on fun, quirky apps. The BUILDER is a developer who monitors social media for viral moments. Active on r/SaaS (958 upvotes, 97% ratio), r/SideProject, and Twitter/X.",
+    "currentSolution": "Most developers build what THEY think is cool, spend months on it, then struggle to get users. The reverse approach — find proven demand first, then build — is talked about but rarely executed at this speed.",
+    "whyItSucks": "Traditional indie hacking takes months of building in isolation. By the time you launch, the moment has passed. Product Hunt launches are a gamble. SEO takes months. Ads are expensive. But viral social media demand is FREE and IMMEDIATE — if you can ship fast enough.",
+    "whyItSucks_zh": "傳統獨立開發需要好幾個月閉門造車。等你發佈時，時機已過。Product Hunt 上架是賭博。SEO 要好幾個月。廣告很貴。但病毒式社群媒體需求是免費且即時的——如果你能出貨夠快的話。",
+    "opportunityAngle": "Build a systematic 'Viral App Factory' process: (1) Monitor Twitter/IG/TikTok/Reddit daily for 'I NEED THIS' and 'WHERE CAN I BUY THIS' signals (2) When a viral moment hits, assess if a simple app can be built in 24-48 hours (3) Ship with a simple landing page + Gumroad/Lemon Squeezy (4) Ride the viral wave. Jones's edge: AI-assisted vibe coding means he can actually ship quality apps in 48 hours. The $5K in 3 days SlapMac proves the model. Target 1-2 attempts per month, average $1K-5K per hit.",
+    "opportunityAngle_zh": "建立系統性的「病毒式 App 工廠」流程：(1) 每天監測 Twitter/IG/TikTok/Reddit 的「我需要這個」和「哪裡可以買」訊號 (2) 病毒時刻來臨時，評估能否 24-48 小時做出簡單 app (3) 用簡單 landing page + Gumroad/Lemon Squeezy 出貨 (4) 乘病毒浪潮。Jones 優勢：AI 輔助 vibe coding 讓他真能 48 小時出貨品質 app。SlapMac 3 天 $5K 證明模式可行。目標每月 1-2 次嘗試，平均每次 $1K-5K。",
+    "evidence": [
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1s41iv8/i_made_an_app_that_moans_when_you_slap_your/",
+        "quote": "Last week I posted a reel on IG reviewing a GitHub repo that make sounds when you slap your MacBook. And... It went viral. Comments were all 'WHERE IS THE APP' 'I NEED THIS' over and over. So I built it. 48 hours from zero to shipped. Threw it up for $5. As of now, it made me $5K revenue in 3 days."
+      }
+    ],
+    "scores": {
+      "painIntensity": 2,
+      "frequency": 3,
+      "willingnessToPay": 3,
+      "automationPotential": 4,
+      "jonesFit": 5,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 1,
+      "scrappiness": 5,
+      "total": 26
+    },
+    "firstTest": {
+      "type": "competitor_test",
+      "description": "Set up a monitoring system: create a Twitter list + Reddit multi of viral-potential subreddits. Spend 1 week watching for 'I NEED THIS' moments. When one hits, try to ship something in 48 hours. Even if the first attempt flops, you'll learn the pipeline.",
+      "description_zh": "建立監控系統：建 Twitter 列表 + Reddit multi 追蹤有病毒潛力的板。花 1 週觀察「我需要這個」的時刻。當一個出現時，嘗試 48 小時內出貨。即使第一次失敗，也能學到流水線。",
+      "timeEstimate": "1 hour setup + ongoing monitoring"
+    },
+    "signalStrength": {
+      "numMentions": 255,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "signals": {
+      "workaroundDetected": false,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["viral", "micro-app", "rapid-shipping", "social-media", "novelty", "side-hustle"],
+    "category": "other",
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-29T07:00:00Z",
+    "updatedAt": "2026-03-29T07:00:00Z",
+    "sourceDate": "2026-03-29"
+  },
+  {
+    "id": "opp_20260329_004",
+    "title": "Small-Town Brick & Mortar Operations Playbook: Seasonal Cash Flow + Vendor Management for Service Businesses",
+    "title_zh": "小鎮實體店營運寶典：季節性現金流 + 供應商管理指南",
+    "problem": "Small-town brick & mortar owners (gas stations, tire shops, restaurants) face a unique bundle of operational pains that nobody packages solutions for: extreme seasonal cash flow swings (feast May-Nov, famine Dec-Apr), vendors pushing unwanted inventory, customers demanding service outside business hours, and finding reliable employees in rural areas. A Missouri gas station owner's detailed post (340 upvotes, 134 comments) listed 10 things nobody told him before buying.",
+    "problem_zh": "小鎮實體店老闆（加油站、輪胎店、餐廳）面臨一堆沒人打包解決的營運痛點：極端季節性現金流波動（5-11 月豐收、12-4 月寒冬）、供應商硬塞不要的庫存、客戶要求營業時間外的服務、以及在鄉下地區找到可靠的員工。一個密蘇里加油站老闆的詳細發文（340 讚、134 評論）列了 10 件買之前沒人告訴他的事。",
+    "who": "Small-town service business owners in the US. Typically buy existing businesses (gas stations, laundromats, car washes, restaurants) thinking it's 'passive income'. Reality hits hard. Active on r/smallbusiness, local Facebook groups, and trade-specific forums.",
+    "currentSolution": "Learning everything the hard way. Asking on Reddit. Talking to other local business owners. SCORE mentors (free but generic). No tailored playbook exists for the specific bundle of small-town operational challenges.",
+    "whyItSucks": "Business advice online is all for SaaS or e-commerce. Nobody writes about vendor negotiation for gas stations, or seasonal cash flow management for tire shops. SCORE mentors are generic. MBA programs are irrelevant for a 5-person gas station. The knowledge exists but it's trapped in the heads of individual owners.",
+    "whyItSucks_zh": "網路上的商業建議都是給 SaaS 或電商的。沒人寫加油站的供應商談判，或輪胎店的季節性現金流管理。SCORE 導師太通用。MBA 課程跟 5 人加油站無關。知識存在但困在個別老闆腦子裡。",
+    "opportunityAngle": "Create a '$97 Small-Town Business Survival Kit' — industry-specific playbooks (gas station, tire shop, laundromat, restaurant) with: (1) Seasonal cash flow templates with reserve calculations (2) Vendor negotiation scripts and return policies (3) Facebook Marketplace marketing templates (the gas station owner said it's their best advertising) (4) Employee retention tactics for rural areas (5) Customer boundary-setting scripts. Start with gas stations since the signal is fresh. Jones's edge: can use AI to interview owners, synthesize knowledge, and package it faster than traditional publishing.",
+    "opportunityAngle_zh": "做一個 $97 的「小鎮生意生存包」——按行業（加油站、輪胎店、自助洗衣店、餐廳）的 playbook：(1) 季節性現金流模板含儲備金計算 (2) 供應商談判腳本和退貨政策 (3) Facebook Marketplace 行銷模板（加油站老闆說這是最好的廣告）(4) 鄉村地區員工留任策略 (5) 客戶界線設定腳本。先從加油站開始因為訊號新鮮。Jones 優勢：能用 AI 訪談老闆、綜合知識、比傳統出版更快打包。",
+    "evidence": [
+      {
+        "source": "r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1s2d0ho/things_i_wish_i_knew_before_buying_a_gas_station/",
+        "quote": "how big of a difference there is between the feast and the famine. From May through November it's a great feast but December through April is terrible famine... vendors will get lazy and try to stock you full of items that your customers don't want and make you jump through hoops to send them back... Facebook marketplace is one of the best advertisers for a tire shop in a small town"
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 3,
+      "automationPotential": 3,
+      "jonesFit": 3,
+      "competitionGap": 5,
+      "crossBorderArbitrage": 1,
+      "scrappiness": 4,
+      "total": 28
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Write a detailed 'Gas Station Owner's First Year Survival Guide' blog post synthesizing the Reddit thread + research. Post on r/smallbusiness. Add a CTA: 'I'm compiling a complete playbook — want early access? Drop your email.' Gauge interest.",
+      "description_zh": "寫一篇詳細的「加油站老闆第一年生存指南」文章，綜合 Reddit 討論 + 研究。發到 r/smallbusiness。加 CTA：「我在整理完整 playbook——要搶先看嗎？留 email。」評估興趣。",
+      "timeEstimate": "3-4 hours"
+    },
+    "signalStrength": {
+      "numMentions": 134,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": false
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["brick-mortar", "small-town", "operations", "playbook", "gas-station", "seasonal"],
+    "category": "life-friction",
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-29T07:00:00Z",
+    "updatedAt": "2026-03-29T07:00:00Z",
+    "sourceDate": "2026-03-29"
+  },
+  {
+    "id": "opp_20260329_005",
+    "title": "Geo-Arbitrage Relocation Planner: Detailed Cost Comparison for Remote Workers Considering SEA Moves",
+    "title_zh": "地理套利搬遷規劃師：幫遠端工作者做東南亞搬遷成本精算",
+    "problem": "Remote workers are realizing they can live 70% cheaper in Southeast Asia ($900/month in Vietnam vs $3,500 in Australia). But the decision to relocate involves hundreds of unknowns: visa logistics, healthcare quality, tax implications, banking, real cost breakdowns, and social/lifestyle tradeoffs. A viral r/digitalnomad post from an Australian in Vietnam (detailed monthly budget breakdown) shows massive interest but zero structured tools to help people actually plan the move.",
+    "problem_zh": "遠端工作者開始意識到在東南亞可以便宜 70%（越南每月 $900 vs 澳洲 $3,500）。但搬遷決定涉及數百個未知：簽證物流、醫療品質、稅務影響、銀行、真實成本細目、社交/生活取捨。r/digitalnomad 一個澳洲人在越南的爆文（詳細月預算分解）顯示大量興趣但零結構化工具幫人規劃搬遷。",
+    "who": "Remote workers aged 25-40 earning $3K-10K/month from Western employers, considering relocating to Thailand, Vietnam, Bali, or other SEA destinations. Active on r/digitalnomad (2.3M subscribers), r/expats, and nomad Facebook groups.",
+    "currentSolution": "Reading scattered Reddit posts. Nomad List ($100/year, data-focused but no personalized planning). Asking in Facebook groups. YouTube vlogs that show lifestyle but not real financials. Making a spreadsheet from scratch.",
+    "whyItSucks": "Nomad List gives city scores but not personalized cost projections. Reddit advice is anecdotal and country-specific. Nobody connects the dots between visa rules + tax implications + actual costs + lifestyle fit into one coherent plan. People make the move based on incomplete info and get burned by visa issues or hidden costs.",
+    "whyItSucks_zh": "Nomad List 給城市評分但不做個人化成本預測。Reddit 建議是軼事型且只限特定國家。沒人把簽證規則 + 稅務影響 + 實際成本 + 生活方式適配連接成一個完整計劃。人們基於不完整資訊搬遷，被簽證問題或隱藏成本搞到。",
+    "opportunityAngle": "Create a $49 'Geo-Arbitrage Relocation Calculator': interactive web tool where remote workers input their current city, salary, lifestyle preferences, and target countries. Outputs: (1) Side-by-side monthly cost comparison with real breakdowns (2) Net savings projection over 1-3 years (3) Visa requirements and renewal costs (4) Tax implications (many don't realize they may owe taxes in both countries) (5) Top 3 recommended cities based on their profile. Upsell: $149 for a 45-min personal planning call. Jones's edge: TW↔US↔SEA triangle knowledge, personal experience with cross-border living, can build the calculator tool quickly.",
+    "opportunityAngle_zh": "做一個 $49 的「地理套利搬遷計算器」：互動式 web 工具，遠端工作者輸入目前城市、薪水、生活偏好和目標國家。輸出：(1) 並排月成本比較含真實細目 (2) 1-3 年淨節省預測 (3) 簽證要求和續簽費用 (4) 稅務影響（很多人不知道可能兩邊都要繳稅）(5) 基於個人資料的前 3 推薦城市。加購：$149 做 45 分鐘個人規劃通話。Jones 優勢：台灣↔美國↔東南亞三角知識，跨境生活個人經驗，能快速建計算器工具。",
+    "evidence": [
+      {
+        "source": "r/digitalnomad",
+        "url": "https://www.reddit.com/r/digitalnomad/comments/1s5aavs/i_cut_my_cost_of_living_by_70_by_moving_to/",
+        "quote": "I used to spend around $3,500 USD a month back in Australia just existing. Now I spend under $1,000 USD a month in Vietnam and I'm living better than I ever did back home... The hardest part is knowing that if I go back I'm looking at 3-4x the cost of living for honestly a worse day to day quality of life."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 4,
+      "willingnessToPay": 4,
+      "automationPotential": 4,
+      "jonesFit": 5,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 5,
+      "scrappiness": 4,
+      "total": 33
+    },
+    "firstTest": {
+      "type": "landing_page",
+      "description": "Build a simple landing page for the 'Geo-Arbitrage Calculator' with a waitlist signup. Share on r/digitalnomad and nomad Twitter. Even before building the full tool, offer 10 free manual 'relocation plans' to validate what info people actually need.",
+      "description_zh": "做一個簡單 landing page 附 waitlist 給「地理套利計算器」。分享到 r/digitalnomad 和 nomad Twitter。在建完整工具前，先提供 10 次免費手動「搬遷計劃」來驗證人們實際需要什麼資訊。",
+      "timeEstimate": "3 hours for landing page + outreach"
+    },
+    "signalStrength": {
+      "numMentions": 306,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["digital-nomad", "geo-arbitrage", "relocation", "cost-of-living", "cross-border", "calculator"],
+    "category": "cross-border",
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-29T07:00:00Z",
+    "updatedAt": "2026-03-29T07:00:00Z",
+    "sourceDate": "2026-03-29"
+  },
+  {
+    "id": "cool_20260329_001",
+    "title": "Verilog to Factorio Compiler: A Working RISC-V CPU Inside a Video Game",
+    "title_zh": "Verilog 轉 Factorio 編譯器：在遊戲裡造出一顆可運作的 RISC-V CPU",
+    "problem": "A developer built a compiler that takes real Verilog hardware description language code and compiles it into Factorio game circuit networks — then used it to create a fully working RISC-V CPU inside the game. Not a simplified model — actual Verilog that synthesizes into Factorio's combinator logic. The CPU can execute real RISC-V instructions. Hardware design meets gaming meets insane dedication.",
+    "problem_zh": "一個開發者建了一個編譯器，把真正的 Verilog 硬體描述語言程式碼編譯成 Factorio 遊戲電路網路——然後用它在遊戲裡造出一顆完全可運作的 RISC-V CPU。不是簡化模型——真正的 Verilog 合成成 Factorio 的組合器邏輯。CPU 可以執行真正的 RISC-V 指令。硬體設計 × 遊戲 × 瘋狂的毅力。",
+    "evidence": [
+      {
+        "source": "Hacker News",
+        "url": "https://github.com/ben-j-c/verilog2factorio",
+        "quote": "A Verilog to Factorio Compiler and Simulator with a working RISC-V CPU implementation"
+      }
+    ],
+    "category": "cool-finds",
+    "status": "new",
+    "id": "cool_20260329_001",
+    "title": "Verilog to Factorio Compiler: A Working RISC-V CPU Inside a Video Game",
+    "title_zh": "Verilog 轉 Factorio 編譯器：在遊戲裡造出一顆可運作的 RISC-V CPU",
+    "createdAt": "2026-03-29T07:00:00Z",
+    "updatedAt": "2026-03-29T07:00:00Z",
+    "sourceDate": "2026-03-29"
+  },
+  {
+    "id": "cool_20260329_002",
+    "title": "CSS is DOOMed: Rendering 3D DOOM Entirely in CSS",
+    "title_zh": "CSS 末日：純用 CSS 渲染 3D DOOM 遊戲",
+    "problem": "A developer rendered the classic DOOM game in 3D using nothing but CSS — no JavaScript, no Canvas, no WebGL. Pure CSS transforms, gradients, and animations to create a playable 3D first-person shooter. 273 points on Hacker News. It pushes CSS to absurd limits, proving that any sufficiently advanced stylesheet is indistinguishable from a game engine.",
+    "problem_zh": "一個開發者只用 CSS 渲染了經典 DOOM 遊戲的 3D 畫面——沒有 JavaScript、沒有 Canvas、沒有 WebGL。純 CSS transforms、漸層和動畫，做出一個可玩的 3D 第一人稱射擊遊戲。Hacker News 273 分。把 CSS 推到荒謬的極限，證明任何足夠先進的樣式表都跟遊戲引擎無異。",
+    "evidence": [
+      {
+        "source": "Hacker News",
+        "url": "https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/",
+        "quote": "CSS is DOOMed — rendering DOOM in 3D with CSS"
+      }
+    ],
+    "category": "cool-finds",
+    "status": "new",
+    "createdAt": "2026-03-29T07:00:00Z",
+    "updatedAt": "2026-03-29T07:00:00Z",
+    "sourceDate": "2026-03-29"
+  },
+  {
+    "id": "cool_20260329_003",
+    "title": "Spanish Legislation as a Git Repo: Version-Controlled Laws",
+    "title_zh": "西班牙法律變成 Git Repo：用版本控制管理法律",
+    "problem": "A developer converted the entire body of Spanish legislation into a Git repository — every law is a file, every amendment is a commit, and you can diff any two versions of a law to see exactly what changed. 715 points on Hacker News, 217 comments. It makes legal changes transparent and trackable, applying software engineering best practices to democracy. Imagine git blame on a controversial law change.",
+    "problem_zh": "一個開發者把整部西班牙法律轉成 Git repository——每條法律是一個檔案、每次修正是一個 commit，你可以 diff 任何兩個版本的法律看到底改了什麼。Hacker News 715 分、217 評論。讓法律修改變得透明可追蹤，把軟體工程最佳實踐應用到民主制度。想像對一個爭議性法律修改做 git blame。",
+    "evidence": [
+      {
+        "source": "Hacker News",
+        "url": "https://github.com/EnriqueLop/legalize-es",
+        "quote": "Spanish legislation as a Git repo — every law is a file, every amendment is a commit"
+      }
+    ],
+    "category": "cool-finds",
+    "status": "new",
+    "createdAt": "2026-03-29T07:00:00Z",
+    "updatedAt": "2026-03-29T07:00:00Z",
+    "sourceDate": "2026-03-29"
+  }
+]
