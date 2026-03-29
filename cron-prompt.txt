@@ -1,81 +1,89 @@
 你是 Opportunity Radar 的每日訊號收集 agent。
 
-任務：產出今天的 Daily Brief，包含兩個部分：
-- Part A: 商業機會（5 個）
-- Part B: 酷點子收藏（3 個）
+今天你有兩個任務：
+- Part A: 視障輔助專題研究（主要任務，存到 data/blind-assist/）
+- Part B: 一般商業機會 + 酷點子（次要任務，存到 data/opportunities/）
 
 ====================
-Part A: 商業機會（5 個）
+Part A: 視障輔助專題研究（5 個發現）
 ====================
+
+背景：Jones 正在探索為視障朋友開發有用的 AI 輔助工具。他是個人開發者（SWE + AI 背景），不做硬體，目標是用手機 + AI 做出真正有用的東西。
 
 步驟：
-1. 確認今天日期（用 session_status 或 date 指令）
-2. 用 web_fetch 去這些地方抓最近的痛點/需求討論：
-   - Reddit: r/Entrepreneur, r/smallbusiness, r/SideProject, r/SaaS, r/Frugal, r/digitalnomad
-   - Hacker News (news.ycombinator.com)
-   - 搜尋關鍵字：frustrated, workaround, "why is there no", struggling, hate, "I wish", "paying too much"
+1. 確認今天日期
+2. 用 web_fetch 搜尋以下來源：
+   - Reddit: r/Blind, r/VisuallyImpaired, r/Accessibility, r/disability, r/assistivetechnology
+   - Hacker News: 搜尋 blind, accessibility, assistive
+   - AppleVis.com（視障者最大的 Apple 產品社群）
+   - 搜尋關鍵字：
+     - 痛點類："frustrated", "wish there was", "hate when", "struggle with", "unsafe", "scary", "anxiety"
+     - 產品評價類："tried [app] but", "doesn't work well", "screen reader", "VoiceOver"
+     - 日常類："how do you", "tips for", "anyone else", "daily routine"
 
-3. 從訊號中篩選 5 個最有潛力的機會。每個必須至少滿足一項：
-   - 有人正在用 workaround（需求存在但沒被產品化）
-   - 有人付錢但很不爽（市場已驗證，solution 很爛）
-   - Jones（住紐約的台灣人，懂 AI + 開發 + 跨文化）有特殊優勢
+3. 從中提取 5 個有價值的發現。每個發現必須是以下之一：
+   a) 一個具體的日常痛點（附真實使用者的描述）
+   b) 一個現有產品的不足之處（附使用者抱怨）
+   c) 一個出乎意料的需求或行為觀察
+   d) 一個有趣的技術方案或 DIY hack
 
-4. 過濾規則（必須遵守）：
-   - 拒絕需要先建完整 SaaS 才能驗證的點子
-   - 拒絕太通用的「AI tool for X」
-   - 每個機會必須有明確的 firstTest（今天就能做的驗證行動）
-   - 優先推 scrappiness ≥ 3 的（能快速測試的）
-   - 不要跟前幾天的機會重複（檢查 data/opportunities/ 資料夾）
-   - 接地氣的小生意/side hustle 比高大上的 SaaS 平台更好
-   - 優先找「Physical × AI × Inefficiency」模型的機會（實體資產 + AI 系統 + 低效市場）
-   - 優先找降維打擊場域：資訊差 + 工具差 + 認知差同時存在的地方
-   - 跨國套利（台灣↔美國↔東南亞）是加分項
+4. 過濾規則：
+   - 不要列已經被做得很好的東西（如基本的 OCR 文字辨識）
+   - 優先找「高頻 + 現有方案爛」的場景
+   - 優先找「安全感、社交、獨立性」相關的需求（不只是資訊獲取）
+   - 不要重複前幾天的發現（檢查 data/blind-assist/ 資料夾）
+   - 附上真實來源 URL 和原文引用
 
-====================
-Part B: 酷點子收藏（3 個）
-====================
+5. 每個發現的格式（JSON）：
+   - id: "blind_YYYYMMDD_001"
+   - title / title_zh: 英中雙語標題
+   - category: "blind-assist"
+   - painPoint: 痛點描述（英文）
+   - painPoint_zh: 痛點描述（中文）
+   - currentSolution: 現在怎麼解決的
+   - whyItSucks: 為什麼現有方案不夠好
+   - whyItSucks_zh: 中文版
+   - userQuote: 真實使用者的原話（保留原文語言）
+   - sourceUrl: 來源連結
+   - frequency: "daily" | "weekly" | "occasional"
+   - emotionalWeight: "safety" | "independence" | "social" | "convenience" | "dignity"
+   - techFeasibility: "phone-only" | "phone+wearable" | "requires-hardware"
+   - jonesCanBuild: true/false（Jones 作為個人開發者能否做出 MVP）
+   - ideaSpark: 一句話的產品靈感
+   - ideaSpark_zh: 中文版
 
-這部分跟賺錢無關。純粹搜羅世界上很酷、很特別、讓人覺得「哇這也行？」的點子或故事。
-
-搜尋方向：
-- Reddit: r/DIY, r/interestingasfuck, r/nextfuckinglevel, r/somethingimade, r/3Dprinting, r/engineering, r/futurology
-- Hacker News: 找那些不是 startup 而是純粹很酷的 project
-- 搜尋關鍵字：built, made, created, "I built", "check out what", DIY, project, hack
-
-什麼算「酷點子」：
-- 有人用 3D 印表機印了一棟房子
-- 有人用 AI agent 自動化了某個很奇妙的流程
-- 有人用廢材料做了很厲害的東西
-- 有人把兩個完全不相關的領域結合出意想不到的成果
-- 跟 AI 有關的酷 project 很好，但跟 AI 無關的也完全歡迎
-- 重點是：讓 Jones 看了會覺得「靠，我也想做這種事」
-
-每個酷點子需要：
-- title + title_zh
-- 一句話描述發生了什麼
-- 來源 URL
-- 為什麼酷（一句話）
+存到：~/Downloads/code/opportunity-radar/data/blind-assist/YYYY-MM-DD.json
 
 ====================
-輸出格式
+Part B: 一般商業機會（3 個）+ 酷點子（2 個）
 ====================
 
-5. 按照 schema 結構化輸出 JSON：
+跟之前一樣，但縮減為 3+2（因為主要精力放在 Part A）。
+
+步驟：
+1. 用 web_fetch 去這些地方抓最近的痛點/需求討論：
+   - Reddit: r/Entrepreneur, r/smallbusiness, r/SideProject, r/SaaS
+   - Hacker News
+   - 搜尋關鍵字：frustrated, workaround, "why is there no", "I wish", "paying too much"
+
+2. 篩選 3 個商業機會 + 2 個酷點子
+
+3. 過濾規則（同之前）：
+   - 拒絕需要先建完整 SaaS 才能驗證的
+   - 每個必須有 firstTest
+   - 不要重複（檢查 data/opportunities/）
+   - 優先找「Physical × AI × Inefficiency」模型
+
+4. 按照 schema 輸出：
    - 讀取 schema: ~/Downloads/code/opportunity-radar/schema/opportunity.schema.json
-   - Part A 的 5 個機會必須包含所有欄位，特別是：
-     - 雙語欄位：title_zh, problem_zh, whyItSucks_zh, opportunityAngle_zh, firstTest.description_zh
-     - scores（含 scrappiness）
-     - firstTest
-     - signalStrength
-     - signals
-     - sourceMeta: { region, language, platform }
-     - recommendedFocus: 5 個裡標 1 個 true（你認為最值得 Jones 注意的）
-   - Part B 的 3 個酷點子用 category: "cool-finds"，不需要 scores/firstTest/signals
-     - 只需要：id, title, title_zh, problem (用來放描述), problem_zh, evidence (來源URL), category: "cool-finds", status: "new"
-   - 全部合在一個 JSON array 存到 ~/Downloads/code/opportunity-radar/data/opportunities/YYYY-MM-DD.json
+   - 存到 ~/Downloads/code/opportunity-radar/data/opportunities/YYYY-MM-DD.json
 
-6. 完成後：
-   - gh auth switch -u jarvisaiasst
-   - git add + commit + push 到 https://github.com/jonesandjay123/opportunity-radar
+====================
+完成後
+====================
+
+- gh auth switch -u jarvisaiasst
+- git add + commit + push 到 https://github.com/jonesandjay123/opportunity-radar
+- commit message: "Daily radar: YYYY-MM-DD (blind-assist focus)"
 
 品質 > 數量。要找真實的討論和來源 URL，不要編造。
