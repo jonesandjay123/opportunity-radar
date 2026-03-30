@@ -1,0 +1,302 @@
+[
+  {
+    "id": "opp_20260330_001",
+    "title": "Viral Novelty Mac Apps: Sensor-Triggered Sound Effects as Impulse Products",
+    "title_zh": "病毒式 Mac 新奇 App：感測器觸發音效的衝動消費產品",
+    "problem": "Developers see viral social media moments but don't have the speed to capitalize on them. A developer turned an open-source GitHub repo (MacBook slap sounds) into a $5 app after an IG reel went viral, making $5K in 3 days. The pattern: find viral tech demo → polish into paid app → ride the wave.",
+    "problem_zh": "開發者看到社群媒體爆紅時刻但反應不夠快。有人把一個開源 GitHub repo（MacBook 拍打音效）在 IG reel 爆紅後做成 $5 App，3 天賺了 $5K。模式：找到爆紅技術 demo → 包裝成付費 App → 乘浪而行。",
+    "who": "Indie developers who can ship fast (Swift/macOS/iOS). Target market: tech-enthusiast consumers who impulse buy fun $5-10 apps from viral content.",
+    "currentSolution": "Open-source repos sit on GitHub. Most viral tech demos never get commercialized because the original creators don't think to monetize, or can't ship a polished product fast enough.",
+    "whyItSucks": "By the time most people build a polished version, the viral moment has passed. The gap between 'cool GitHub repo' and 'paid product with landing page' requires marketing + dev speed that few possess simultaneously.",
+    "whyItSucks_zh": "等大多數人做出精美版本時，爆紅時刻已經過去了。從「酷的 GitHub repo」到「有著陸頁的付費產品」之間的鴻溝需要市場行銷 + 開發速度的同時兼備。",
+    "opportunityAngle": "Build a 'viral tech opportunity radar' — monitor trending GitHub repos, tech Twitter/IG, and HN for demos with viral potential. When one hits, Jones can ship a polished macOS/iOS app within 48 hours. The SlapMac case study proves the model works: viral content → fast shipping → $5 impulse purchase × thousands of buyers.",
+    "opportunityAngle_zh": "建立「爆紅科技機會雷達」——監控 GitHub trending repos、科技 Twitter/IG、HN 上有爆紅潛力的 demo。一旦命中，Jones 可以在 48 小時內出貨精美 macOS/iOS App。SlapMac 案例證明模式可行：爆紅內容 → 快速出貨 → $5 衝動購買 × 數千買家。",
+    "evidence": [
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1s41iv8/i_made_an_app_that_moans_when_you_slap_your/",
+        "quote": "48 hours from zero to shipped. Threw it up for $5. Sales started coming in, and never stopped! As of now, it made me $5K revenue in 3 days."
+      }
+    ],
+    "scores": {
+      "painIntensity": 2,
+      "frequency": 2,
+      "willingnessToPay": 4,
+      "automationPotential": 3,
+      "jonesFit": 5,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 1,
+      "scrappiness": 5,
+      "total": 25
+    },
+    "firstTest": {
+      "type": "competitor_test",
+      "description": "Set up a GitHub trending + HN monitoring script that alerts when repos with 'fun/novelty' themes gain >100 stars in 24h. When one hits, prototype a polished Swift app within 48 hours.",
+      "description_zh": "設置 GitHub trending + HN 監控腳本，當「有趣/新奇」主題的 repo 在 24 小時內獲得 >100 星時發出警報。命中時，在 48 小時內原型化一個精美的 Swift App。",
+      "timeEstimate": "4 hours for monitoring setup"
+    },
+    "signalStrength": {
+      "numMentions": 15,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["novelty-app", "viral-marketing", "impulse-purchase", "macOS", "swift"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": false,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-30T07:00:00Z",
+    "sourceDate": "2026-03-30"
+  },
+  {
+    "id": "opp_20260330_002",
+    "title": "AI Amazon Review Analyzer: Extract Product Flaws for Sellers and Buyers",
+    "title_zh": "AI Amazon 評論分析器：為賣家和買家提取產品缺陷",
+    "problem": "Amazon sellers and product researchers spend hours manually reading hundreds of 1-star competitor reviews to understand what's actually wrong with products. It's tedious, time-consuming, and most people give up before extracting actionable insights.",
+    "problem_zh": "Amazon 賣家和產品研究者花好幾個小時手動閱讀數百條 1 星競品評論來了解產品到底有什麼問題。這很乏味、耗時，大多數人在提取到可執行洞察前就放棄了。",
+    "who": "Amazon FBA sellers (millions globally), product researchers, e-commerce entrepreneurs, and savvy buyers who want to avoid bad purchases.",
+    "currentSolution": "Manual review reading, generic 'review summary' features on Amazon (useless for specifics), or expensive SaaS tools like Helium 10 ($97+/mo) that focus on keywords not pain points.",
+    "whyItSucks": "Manual reading doesn't scale. Amazon's own summary is too generic ('customers like the quality'). Existing tools focus on SEO keywords, not actual product flaws. No tool extracts the specific failure patterns (e.g., 'zipper breaks after 3 weeks') that matter for product development.",
+    "whyItSucks_zh": "手動閱讀無法規模化。Amazon 自己的摘要太通用（「客戶喜歡品質」）。現有工具聚焦 SEO 關鍵字而非實際產品缺陷。沒有工具能提取對產品開發重要的特定故障模式（如「拉鏈 3 週後壞掉」）。",
+    "opportunityAngle": "Build a lightweight Chrome extension that sits on Amazon product pages and uses AI to summarize reviews by extracting specific pain points, failure patterns, and quality issues. Free version with basic summaries, paid tier ($9/mo) for competitor analysis across multiple products. Jones can build this as a Chrome extension + API backend.",
+    "opportunityAngle_zh": "做一個輕量 Chrome 擴充功能，嵌入 Amazon 產品頁面，用 AI 摘要評論並提取特定痛點、故障模式和品質問題。免費版提供基本摘要，付費版（$9/月）支援跨多產品的競品分析。Jones 可以做成 Chrome 擴充 + API 後端。",
+    "evidence": [
+      {
+        "source": "r/SideProject",
+        "url": "https://www.reddit.com/r/SideProject/comments/1s7j616/",
+        "quote": "I noticed how soul-crushing it is for Amazon sellers (and even regular buyers) to spend countless hours manually scrolling through hundreds of 1-star competitor reviews just to figure out what is actually wrong with a product."
+      }
+    ],
+    "scores": {
+      "painIntensity": 3,
+      "frequency": 4,
+      "willingnessToPay": 4,
+      "automationPotential": 5,
+      "jonesFit": 5,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 2,
+      "scrappiness": 5,
+      "total": 31
+    },
+    "firstTest": {
+      "type": "landing_page",
+      "description": "Build a minimal Chrome extension that scrapes Amazon reviews and sends them to an LLM API to extract top 5 pain points. Share on r/AmazonFBA and r/SideProject for feedback.",
+      "description_zh": "做一個最小化 Chrome 擴充功能，抓取 Amazon 評論並送到 LLM API 提取前 5 大痛點。在 r/AmazonFBA 和 r/SideProject 分享取得回饋。",
+      "timeEstimate": "6-8 hours"
+    },
+    "signalStrength": {
+      "numMentions": 8,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["chrome-extension", "amazon", "AI", "e-commerce", "product-research"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-30T07:00:00Z",
+    "sourceDate": "2026-03-30"
+  },
+  {
+    "id": "opp_20260330_003",
+    "title": "Co-Founder Equity Dispute Resolution: Vesting Agreement Templates + Mediation Service",
+    "title_zh": "共同創辦人股權糾紛解決：歸屬協議範本 + 調解服務",
+    "problem": "Startup co-founders who split equity on a handshake without vesting agreements end up trapped when one person leaves. A viral post (1014 upvotes) describes a founder running $8K MRR SaaS alone while 40% equity belongs to someone who left months ago and wants $80K buyout.",
+    "problem_zh": "只靠握手分配股權、沒有歸屬協議的共同創辦人，在一方離開時陷入困境。一篇爆文（1014 讚）描述一位獨自經營 $8K MRR SaaS 的創辦人，40% 股權屬於幾個月前離開的人，對方要求 $80K 買回。",
+    "who": "Early-stage startup co-founders, especially first-time founders who don't know about vesting. Thousands of new startups form with handshake agreements every month.",
+    "currentSolution": "Hire a lawyer ($2K-5K for operating agreements), use generic online templates (LegalZoom at $500+), or do nothing and hope for the best.",
+    "whyItSucks": "Lawyers are expensive for bootstrapped founders. Online templates are generic and don't address the nuances of co-founder splits. By the time people realize they need a vesting agreement, it's often too late — the damage is done. No one teaches first-time founders this lesson proactively.",
+    "whyItSucks_zh": "律師對於自力更生的創辦人來說太貴。線上範本太通用，沒處理共同創辦人分配的細節。等人們意識到需要歸屬協議時，通常為時已晚——傷害已造成。沒人主動教第一次創業的人這個教訓。",
+    "opportunityAngle": "Build a $49 'Co-Founder Shield Kit': AI-powered questionnaire that generates customized vesting agreements, operating agreements, and IP assignment docs based on the specific situation. Include a 'relationship health check' tool that flags common founder breakup patterns. Premium tier: $199 for mediation facilitation with a lawyer network.",
+    "opportunityAngle_zh": "做一個 $49 的「共同創辦人保護組」：AI 驅動問卷，根據具體情況生成客製化歸屬協議、營運協議和 IP 轉讓文件。包含「關係健康檢查」工具，標記常見的創辦人分裂模式。進階版：$199 含律師網絡調解服務。",
+    "evidence": [
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1s41iv8/",
+        "quote": "No vesting schedule. No cliff. No operating agreement. Handshake and an LLC filing... Now I run a SaaS doing $8K MRR, growing it alone, and 40% of the company belongs to someone who contributes nothing."
+      }
+    ],
+    "scores": {
+      "painIntensity": 5,
+      "frequency": 3,
+      "willingnessToPay": 4,
+      "automationPotential": 4,
+      "jonesFit": 3,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 2,
+      "scrappiness": 4,
+      "total": 28
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Write a detailed 'Co-Founder Vesting Agreement Checklist' post on r/Entrepreneur and r/startups with a CTA to a landing page for the full template kit. Measure interest through email signups.",
+      "description_zh": "在 r/Entrepreneur 和 r/startups 寫一篇詳細的「共同創辦人歸屬協議檢查清單」文章，CTA 導向完整範本組的著陸頁。用 email 註冊量衡量興趣。",
+      "timeEstimate": "3-4 hours"
+    },
+    "signalStrength": {
+      "numMentions": 20,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": true,
+    "tags": ["legal-tech", "startups", "co-founder", "templates", "AI"],
+    "category": "life-friction",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-30T07:00:00Z",
+    "sourceDate": "2026-03-30"
+  },
+  {
+    "id": "cool_20260330_001",
+    "title": "MCP-Powered API Context Plugins: Giving AI Coding Assistants Accurate API Knowledge",
+    "title_zh": "MCP 驅動的 API 上下文插件：讓 AI 編程助手擁有準確的 API 知識",
+    "problem": "AI coding assistants (Cursor, Copilot) generate broken API integration code because they rely on outdated training data. Benchmarks show 87% of runs generate deprecated HTTP calls and 13% pull in deprecated SDKs when integrating APIs like PayPal.",
+    "problem_zh": "AI 編程助手（Cursor、Copilot）因為依賴過時的訓練資料而生成壞掉的 API 整合代碼。基準測試顯示 87% 的執行會生成已棄用的 HTTP 呼叫，13% 會拉入已棄用的 SDK（以 PayPal API 為例）。",
+    "who": "Developers using AI coding assistants, API providers wanting their SDKs used correctly.",
+    "currentSolution": "Developers manually debug AI-generated code and rewrite it. API providers maintain documentation that AI assistants ignore.",
+    "whyItSucks": "Defeats the purpose of using AI for speed. Each debugging session can take longer than writing from scratch. API providers have no way to ensure AI assistants use their latest docs.",
+    "whyItSucks_zh": "違背了用 AI 加速的初衷。每次除錯可能比從頭寫更耗時。API 提供商沒有辦法確保 AI 助手使用最新文件。",
+    "opportunityAngle": "The MCP protocol creates a new market: 'API context as a service.' Jones could build MCP servers for popular APIs that don't have official ones yet (Stripe, Twilio, Shopify, etc.), either as open source for reputation or as a paid service to API companies.",
+    "opportunityAngle_zh": "MCP 協議創造了新市場：「API 上下文即服務」。Jones 可以為尚未有官方 MCP server 的熱門 API（Stripe、Twilio、Shopify 等）建構 MCP server，作為開源專案建立聲望或作為付費服務賣給 API 公司。",
+    "evidence": [
+      {
+        "source": "Hacker News (Show HN)",
+        "url": "https://news.ycombinator.com/item?id=47530870",
+        "quote": "87% generated HTTP calls based on deprecated documentation... Cursor generated integration code 2x faster with 65% lower token usage compared to baseline Cursor without the plugin."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 3,
+      "automationPotential": 5,
+      "jonesFit": 4,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 1,
+      "scrappiness": 3,
+      "total": 29
+    },
+    "firstTest": {
+      "type": "manual_service",
+      "description": "Build an MCP server for one popular API (e.g., Stripe) and publish it as open-source. Share on HN as 'Show HN' and measure stars/adoption.",
+      "description_zh": "為一個熱門 API（如 Stripe）建構 MCP server 並開源發佈。在 HN 上以 'Show HN' 分享，衡量星數/採用率。",
+      "timeEstimate": "8-12 hours"
+    },
+    "signalStrength": {
+      "numMentions": 6,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "hn"
+    },
+    "recommendedFocus": false,
+    "tags": ["developer-tools", "MCP", "AI-coding", "API", "open-source"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-30T07:00:00Z",
+    "sourceDate": "2026-03-30"
+  },
+  {
+    "id": "cool_20260330_002",
+    "title": "One-Handed Chord Keyboards: Accessible Input for Mobile and Assistive Use",
+    "title_zh": "單手和弦鍵盤：行動和輔助使用的無障礙輸入",
+    "problem": "People with limited mobility, one-hand use cases (holding coffee, laying in bed), or those who need to type without looking away from a screen lack good input alternatives to full keyboards. The DecaTxt 10-key Bluetooth chord keyboard produces every keystroke using just 3 fingers.",
+    "problem_zh": "行動受限者、單手使用場景（拿咖啡、躺在床上）、或需要不看螢幕就打字的人缺乏全鍵盤的好替代品。DecaTxt 10 鍵藍牙和弦鍵盤只用 3 根手指就能產出所有按鍵。",
+    "who": "People with hand/arm disabilities, mobile workers who type on-the-go, VR/AR users who need text input, assistive tech users.",
+    "currentSolution": "On-screen keyboards (slow), voice dictation (not always appropriate), adapted keyboards ($300-500+), or standard Bluetooth keyboards (require two hands and a surface).",
+    "whyItSucks": "Voice dictation fails in noisy/quiet environments. Adapted keyboards are expensive and bulky. Standard keyboards require a flat surface and both hands. No mainstream chord keyboard has gained traction because the learning curve is steep.",
+    "whyItSucks_zh": "語音輸入在嘈雜/安靜環境失效。改裝鍵盤貴又笨重。標準鍵盤需要平面和雙手。沒有主流和弦鍵盤成功普及，因為學習曲線太陡。",
+    "opportunityAngle": "The hardware exists but the software training is terrible. Jones could build an AI-powered 'chord keyboard tutor' app — gamified learning that teaches chord patterns progressively, with adaptive difficulty and speed challenges. Works with any chord keyboard via Bluetooth.",
+    "opportunityAngle_zh": "硬體已存在但軟體訓練做得很差。Jones 可以做一個 AI 驅動的「和弦鍵盤教練」App——遊戲化學習，漸進式教授和弦模式，有自適應難度和速度挑戰。透過藍牙配對任何和弦鍵盤。",
+    "evidence": [
+      {
+        "source": "r/accessibility + r/AssistiveTechnology",
+        "url": "https://www.reddit.com/r/accessibility/comments/1s6mbk2/my_10_key_chord_keyboard/",
+        "quote": "This is the DecaTxt one handed Bluetooth keyboard, designed for typing without looking away from a desktop. It produces every keystroke of a standard keyboard using no more than three fingers."
+      }
+    ],
+    "scores": {
+      "painIntensity": 3,
+      "frequency": 4,
+      "willingnessToPay": 3,
+      "automationPotential": 3,
+      "jonesFit": 3,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 1,
+      "scrappiness": 3,
+      "total": 24
+    },
+    "firstTest": {
+      "type": "survey",
+      "description": "Post in r/AssistiveTechnology and r/accessibility asking what the biggest barrier to chord keyboard adoption is. If 'learning curve' dominates, build a prototype gamified tutor.",
+      "description_zh": "在 r/AssistiveTechnology 和 r/accessibility 發文詢問和弦鍵盤採用的最大障礙是什麼。如果「學習曲線」是主要答案，原型化一個遊戲化教練。",
+      "timeEstimate": "2 hours for survey, 8 hours for prototype"
+    },
+    "signalStrength": {
+      "numMentions": 5,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["assistive-tech", "hardware", "accessibility", "input-devices", "gamification"],
+    "category": "human-needs",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": false
+    },
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-30T07:00:00Z",
+    "sourceDate": "2026-03-30"
+  }
+]
