@@ -8,7 +8,19 @@
 Part A: 視障輔助專題研究（5 個發現）
 ====================
 
-背景：Jones 正在探索為視障朋友開發有用的 AI 輔助工具。他是個人開發者（SWE + AI 背景），不做硬體，目標是用手機 + AI 做出真正有用的東西。
+背景：Jones 正在探索為視障朋友開發「早餐店等級」的 AI 輔助工具。
+
+關鍵定位（請嚴格遵守）：
+- 個人開發者，不做硬體，只用手機 + AI
+- 目標是「樂高組裝」：用現有 API/工具拼出產品，不需要自創技術
+- 產品標準：每天會用、不用學、一個功能就夠、做完就能收錢
+- 核心原則：reassurance > narration（精準提醒 > 描述整個世界）
+- 商業模式：subscription $3-10/月，lifestyle SaaS for a niche
+
+目前最有潛力的方向（搜尋時優先聚焦）：
+1. 🥇 排隊/叫號提醒（「輪到你了」偵測）— 最高優先
+2. 🥈 有人在對你說話的提醒
+3. 🥉 掉東西提醒
 
 步驟：
 1. 確認今天日期
@@ -17,20 +29,25 @@ Part A: 視障輔助專題研究（5 個發現）
    - Hacker News: 搜尋 blind, accessibility, assistive
    - AppleVis.com（視障者最大的 Apple 產品社群）
    - 搜尋關鍵字：
-     - 痛點類："frustrated", "wish there was", "hate when", "struggle with", "unsafe", "scary", "anxiety"
+     - 聚焦搜尋："queue", "waiting in line", "my turn", "called my name", "number called", "someone talking to me", "dropped something"
+     - 痛點類："frustrated", "wish there was", "hate when", "struggle with", "unsafe", "anxiety"
      - 產品評價類："tried [app] but", "doesn't work well", "screen reader", "VoiceOver"
      - 日常類："how do you", "tips for", "anyone else", "daily routine"
 
-3. 從中提取 5 個有價值的發現。每個發現必須是以下之一：
-   a) 一個具體的日常痛點（附真實使用者的描述）
-   b) 一個現有產品的不足之處（附使用者抱怨）
-   c) 一個出乎意料的需求或行為觀察
-   d) 一個有趣的技術方案或 DIY hack
+3. 從中提取 5 個有價值的發現。優先順序：
+   a) 🥇 與「排隊/叫號/輪到你」直接相關的痛點或討論
+   b) 🥈 與「有人在對你說話」相關的場景
+   c) 🥉 其他高頻日常痛點（每天會遇到、現有方案爛）
+   d) 現有產品的不足之處（附使用者抱怨）
+   e) 有趣的 DIY hack 或 workaround
 
 4. 過濾規則：
-   - 不要列已經被做得很好的東西（如基本的 OCR 文字辨識）
-   - 優先找「高頻 + 現有方案爛」的場景
-   - 優先找「安全感、社交、獨立性」相關的需求（不只是資訊獲取）
+   - ❌ 不要列已經被做得很好的東西（如基本 OCR）
+   - ❌ 不要列需要硬體才能解決的問題
+   - ❌ 不要列需要完整感知系統的方向（太大）
+   - ✅ 優先找「一個功能就能解決」的場景
+   - ✅ 優先找「用 STT + keyword match + TTS 就能做」的場景
+   - ✅ 優先找「安全感、獨立性、尊嚴」相關的需求
    - 不要重複前幾天的發現（檢查 data/blind-assist/ 資料夾）
    - 附上真實來源 URL 和原文引用
 
@@ -48,9 +65,10 @@ Part A: 視障輔助專題研究（5 個發現）
    - frequency: "daily" | "weekly" | "occasional"
    - emotionalWeight: "safety" | "independence" | "social" | "convenience" | "dignity"
    - techFeasibility: "phone-only" | "phone+wearable" | "requires-hardware"
-   - jonesCanBuild: true/false（Jones 作為個人開發者能否做出 MVP）
+   - jonesCanBuild: true/false（Jones 作為個人開發者能否用現有 API 組裝出 MVP）
    - ideaSpark: 一句話的產品靈感
    - ideaSpark_zh: 中文版
+   - relevanceToTopIdeas: "queue-alert" | "speech-detection" | "drop-alert" | "other"（標記跟三大方向的關聯）
 
 存到：~/Downloads/code/opportunity-radar/data/blind-assist/YYYY-MM-DD.json
 
@@ -58,7 +76,7 @@ Part A: 視障輔助專題研究（5 個發現）
 Part B: 一般商業機會（3 個）+ 酷點子（2 個）
 ====================
 
-跟之前一樣，但縮減為 3+2（因為主要精力放在 Part A）。
+縮減為 3+2（主要精力在 Part A）。
 
 步驟：
 1. 用 web_fetch 去這些地方抓最近的痛點/需求討論：
@@ -84,6 +102,6 @@ Part B: 一般商業機會（3 個）+ 酷點子（2 個）
 
 - gh auth switch -u jarvisaiasst
 - git add + commit + push 到 https://github.com/jonesandjay123/opportunity-radar
-- commit message: "Daily radar: YYYY-MM-DD (blind-assist focus)"
+- commit message: "Daily radar: YYYY-MM-DD (blind-assist: queue/speech focus)"
 
 品質 > 數量。要找真實的討論和來源 URL，不要編造。
