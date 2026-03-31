@@ -1,0 +1,302 @@
+[
+  {
+    "id": "opp_20260331_001",
+    "title": "AI-Powered Landing Page Validation: Pre-Build Demand Testing for App Ideas",
+    "title_zh": "AI 驅動的著陸頁驗證：App 開發前的需求測試",
+    "problem": "First-time founders build entire apps before validating demand. A recurring pattern on r/Entrepreneur: founders create landing pages but then don't know where or how to drive traffic to validate. They're torn between paid ads (expensive) and organic Reddit posts (uncertain). No tool combines landing page generation + traffic strategy + conversion tracking for pre-build validation.",
+    "problem_zh": "初次創業者在驗證需求前就建了整個 App。r/Entrepreneur 上反覆出現的模式：創辦人建了著陸頁但不知道去哪裡或如何導流來驗證。他們在付費廣告（昂貴）和自然 Reddit 貼文（不確定）之間猶豫。沒有工具同時整合著陸頁生成 + 流量策略 + 轉換追蹤的預建驗證。",
+    "who": "First-time founders, indie developers, side project builders who want to validate before coding.",
+    "currentSolution": "Manually build landing pages (Carrd, Framer), guess at traffic channels, run scattered experiments. Or skip validation entirely and build the full product.",
+    "whyItSucks": "Building a landing page is easy; knowing where to send traffic is the hard part. Most founders waste money on Facebook/Google ads targeting the wrong audience. Reddit organic posting is free but requires community knowledge. No tool tells you 'for THIS idea, post in THESE subreddits with THIS angle.'",
+    "whyItSucks_zh": "建著陸頁很容易；知道往哪裡導流才是難點。大多數創辦人在 Facebook/Google 廣告上浪費錢投錯受眾。Reddit 自然貼文免費但需要社群知識。沒有工具告訴你「對於這個點子，在這些 subreddit 用這個角度發文」。",
+    "opportunityAngle": "Build 'ValidateFirst' — AI tool that takes a startup idea, generates an optimized landing page, and provides a specific distribution plan: which subreddits, which communities, what messaging angle, what to measure. Charge $29/validation round. Jones can build this with AI + scraping of subreddit data.",
+    "opportunityAngle_zh": "建構「ValidateFirst」——AI 工具接收創業點子，生成優化著陸頁，並提供具體的分發計劃：哪些 subreddit、哪些社群、什麼訊息角度、要衡量什麼。每次驗證收 $29。Jones 可以用 AI + subreddit 資料爬取來建。",
+    "evidence": [
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1s8amb6/built_a_landing_page_for_my_app_before/",
+        "quote": "So before I spend money on developing my app, I went ahead and created a landing page that has the problem, the solution, and a waitlist sign up. Now how should I advertise the page? Should I go through paid ads or just subreddits?"
+      }
+    ],
+    "scores": {
+      "painIntensity": 3,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 5,
+      "jonesFit": 5,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 1,
+      "scrappiness": 5,
+      "total": 31
+    },
+    "firstTest": {
+      "type": "manual_service",
+      "description": "Offer free 'validation strategy reports' for 10 founders on r/Entrepreneur — manually research the best distribution channels for their landing pages, then package the process into an AI tool.",
+      "description_zh": "在 r/Entrepreneur 上為 10 位創辦人提供免費「驗證策略報告」——手動研究他們著陸頁的最佳分發管道，然後將流程包裝成 AI 工具。",
+      "timeEstimate": "5 hours for 10 manual reports"
+    },
+    "signalStrength": {
+      "numMentions": 12,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["validation", "landing-page", "indie-dev", "AI", "distribution"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-31T07:00:00Z",
+    "sourceDate": "2026-03-31"
+  },
+  {
+    "id": "opp_20260331_002",
+    "title": "Frontend-Only AI Prototyping: Simulated Agent UIs That Feel Real",
+    "title_zh": "純前端 AI 原型：感覺真實的模擬 Agent UI",
+    "problem": "A developer from India built a full AI multi-agent startup tool prototype entirely in React with mock data — no backend, no API calls — yet 3 out of 3 people he showed it to thought it was real. The pattern: there's a growing demand for realistic AI product prototypes that can be used for fundraising, hackathons, and validation BEFORE paying for expensive AI APIs.",
+    "problem_zh": "一位印度開發者用 React 和模擬資料建了完整的 AI 多代理創業工具原型——沒有後端、沒有 API 呼叫——但他展示給的 3 個人中有 3 個都以為是真的。模式：在付費使用昂貴 AI API 之前，對逼真 AI 產品原型的需求越來越大，用於募資、黑客松和驗證。",
+    "who": "Early-stage founders, hackathon participants, UX designers building AI product demos, indie devs who can't afford API costs upfront.",
+    "currentSolution": "Build custom React prototypes from scratch (like this developer did), use Figma mockups, or go straight to building with real APIs and eat the cost.",
+    "whyItSucks": "Building realistic prototypes from scratch takes weeks of frontend work. Figma can't simulate real-time agent-like behavior. Using real APIs for demos wastes money on inference costs. No template library exists for 'AI agent UI patterns' (progress bars, streaming logs, multi-step workflows).",
+    "whyItSucks_zh": "從頭建逼真原型需要數週前端工作。Figma 無法模擬即時 agent 行為。用真 API 做 demo 浪費推論費用。沒有「AI agent UI 模式」的範本庫（進度條、串流日誌、多步驟工作流程）。",
+    "opportunityAngle": "Build 'AgentUI Kit' — a React component library with pre-built AI agent interface patterns: streaming log feeds, agent progress indicators, multi-step workflows, chat interfaces. All with convincing animations and mock data generation. Open-source core + paid premium templates for specific verticals.",
+    "opportunityAngle_zh": "建構「AgentUI Kit」——React 元件庫，含預建 AI agent 介面模式：串流日誌動態、agent 進度指示器、多步驟工作流程、聊天介面。全部附帶逼真動畫和模擬資料生成。開源核心 + 付費高級垂直領域範本。",
+    "evidence": [
+      {
+        "source": "r/SideProject",
+        "url": "https://www.reddit.com/r/SideProject/comments/1s8g6qn/",
+        "quote": "No real API is called. It's pure frontend simulation. But it feels genuinely alive — 3 people I showed it to thought it was actually running something in the background."
+      }
+    ],
+    "scores": {
+      "painIntensity": 3,
+      "frequency": 4,
+      "willingnessToPay": 3,
+      "automationPotential": 4,
+      "jonesFit": 5,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 1,
+      "scrappiness": 4,
+      "total": 28
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Extract the common UI patterns from this prototype (streaming logs, agent progress bars, multi-step workflows) into a small open-source React library. Post as 'Show HN' and on r/reactjs to gauge developer interest.",
+      "description_zh": "將此原型的常見 UI 模式（串流日誌、agent 進度條、多步驟工作流程）提取到小型開源 React 庫。在 HN 以 'Show HN' 和 r/reactjs 發佈以測量開發者興趣。",
+      "timeEstimate": "8-10 hours"
+    },
+    "signalStrength": {
+      "numMentions": 5,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "IN",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["developer-tools", "react", "UI-kit", "AI-agents", "prototyping"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-31T07:00:00Z",
+    "sourceDate": "2026-03-31"
+  },
+  {
+    "id": "opp_20260331_003",
+    "title": "SEO Content Automation That Actually Ranks: AI-Ready Architecture as a Service",
+    "title_zh": "真正能排名的 SEO 內容自動化：AI-Ready 架構即服務",
+    "problem": "Website owners and small businesses are drowning in AI-generated content that doesn't rank. The missing piece isn't content generation — it's the technical architecture: Schema Markup, Semantic HTML, LLM Summary sections, IndexNow integration, and Search Console automation. Most AI content tools focus on writing but ignore the technical SEO foundation.",
+    "problem_zh": "網站擁有者和小企業被不會排名的 AI 生成內容淹沒。缺少的不是內容生成——而是技術架構：Schema Markup、語義 HTML、LLM 摘要區段、IndexNow 整合、Search Console 自動化。大多數 AI 內容工具專注寫作但忽略技術 SEO 基礎。",
+    "who": "Small business website owners, SEO agencies managing multiple client sites, WordPress/Webflow site operators.",
+    "currentSolution": "Pay SEO agencies $2K-5K/month, use generic AI writing tools (Jasper, SurferSEO), or manually optimize each post. Some use Yoast/RankMath but still miss Schema and AI-readiness.",
+    "whyItSucks": "AI writing tools produce content that looks good but doesn't rank. Technical SEO requires specialized knowledge most content creators don't have. Schema markup is tedious to maintain. No tool makes sites 'AI-search ready' (optimized for being cited by LLMs in search results).",
+    "whyItSucks_zh": "AI 寫作工具產出看起來好但排不上去的內容。技術 SEO 需要大多數內容創作者沒有的專業知識。Schema markup 維護繁瑣。沒有工具讓網站「AI 搜尋就緒」（針對被 LLM 在搜尋結果中引用而優化）。",
+    "opportunityAngle": "Build a WordPress plugin or API service that auto-injects AI-optimized technical SEO: Schema markup, Semantic HTML wrappers, LLM citation-friendly summaries, and automatic IndexNow pinging. The novel angle: optimize for AI citation, not just Google ranking. Jones can build the WordPress plugin and charge $19/mo.",
+    "opportunityAngle_zh": "建構 WordPress 外掛或 API 服務，自動注入 AI 優化技術 SEO：Schema markup、語義 HTML 包裝、LLM 引用友好摘要、自動 IndexNow ping。新穎角度：為 AI 引用優化，不只是 Google 排名。Jones 可以建 WordPress 外掛收 $19/月。",
+    "evidence": [
+      {
+        "source": "r/SaaS",
+        "url": "https://www.reddit.com/r/SaaS/comments/1s8g2nj/seo_automation_tool_for_your_saas/",
+        "quote": "Every post includes Semantic HTML, Schema Markup, and an LLM Summary section so AI search bots find and cite your business."
+      }
+    ],
+    "scores": {
+      "painIntensity": 4,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 5,
+      "jonesFit": 4,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 2,
+      "scrappiness": 4,
+      "total": 31
+    },
+    "firstTest": {
+      "type": "manual_service",
+      "description": "Offer to audit 5 WordPress sites for AI-search readiness (Schema, Semantic HTML, LLM summary tags) for free. Document what's missing, build a simple script to auto-fix common issues, then validate if site owners would pay for ongoing automation.",
+      "description_zh": "免費為 5 個 WordPress 網站進行 AI 搜尋就緒審計（Schema、語義 HTML、LLM 摘要標籤）。記錄缺少什麼，建立簡單腳本自動修復常見問題，然後驗證網站擁有者是否願意為持續自動化付費。",
+      "timeEstimate": "4-6 hours"
+    },
+    "signalStrength": {
+      "numMentions": 10,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": true,
+    "tags": ["SEO", "WordPress", "AI-search", "automation", "SaaS"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-31T07:00:00Z",
+    "sourceDate": "2026-03-31"
+  },
+  {
+    "id": "cool_20260331_001",
+    "title": "Gamified Braille Learning: 'Whack-A-Mole' Pattern for Accessibility Education",
+    "title_zh": "遊戲化點字學習：「打地鼠」模式的無障礙教育",
+    "problem": "Learning braille is boring and has high dropout rates. A blind developer just released 'Whack A Braille' — a gamified braille practice app modeled after Whack-A-Mole that received 15 upvotes (very high for r/Blind). The pattern: gamification of accessibility skills is severely underexplored. Every accessibility skill (braille, screen reader gestures, keyboard shortcuts) could use gamified learning.",
+    "problem_zh": "學習點字很無聊且退出率高。一位視障開發者剛發佈「Whack A Braille」——仿打地鼠的遊戲化點字練習 App，在 r/Blind 獲得 15 讚（這個社群來說很高）。模式：無障礙技能的遊戲化嚴重不足。每個無障礙技能（點字、螢幕閱讀器手勢、鍵盤快捷鍵）都可以用遊戲化學習。",
+    "who": "People learning braille (newly blind, students, parents of blind children), screen reader learners, accessibility professionals.",
+    "currentSolution": "Boring repetition drills, expensive braille courses, self-study with physical materials.",
+    "whyItSucks": "Traditional braille learning feels like homework. No engagement mechanics. High dropout because there's no reward loop. Screen reader gesture learning is entirely self-directed with no structured progression.",
+    "whyItSucks_zh": "傳統點字學習感覺像做功課。沒有互動機制。因為沒有獎勵循環所以退出率高。螢幕閱讀器手勢學習完全自學，沒有結構化進程。",
+    "opportunityAngle": "Build a gamified 'Accessibility Skills Academy' — progressive levels for braille typing, VoiceOver gestures, TalkBack navigation, and keyboard shortcuts. Leaderboards, streaks, and achievements. Free for individuals, sell site licenses to vision rehabilitation centers and schools for the blind.",
+    "opportunityAngle_zh": "建構遊戲化「無障礙技能學院」——點字打字、VoiceOver 手勢、TalkBack 導航和鍵盤快捷鍵的漸進關卡。排行榜、連續天數和成就。個人免費，向視覺復健中心和盲校出售授權。",
+    "evidence": [
+      {
+        "source": "r/Blind",
+        "url": "https://www.reddit.com/r/Blind/comments/1s81iua/whack_a_braille_for_ios_just_released/",
+        "quote": "Practice your touch-typing, Perkins braille entry, or braille screen input by playing Whack A Mole! I made up a bunch of hilarious prizes, plus added more general features for gameplay and overall accessibility."
+      }
+    ],
+    "scores": {
+      "painIntensity": 3,
+      "frequency": 3,
+      "willingnessToPay": 3,
+      "automationPotential": 4,
+      "jonesFit": 4,
+      "competitionGap": 5,
+      "crossBorderArbitrage": 2,
+      "scrappiness": 4,
+      "total": 28
+    },
+    "firstTest": {
+      "type": "survey",
+      "description": "Post in r/Blind asking what accessibility skills people wish had gamified learning tools. If screen reader gestures rank high, build a prototype VoiceOver gesture trainer game.",
+      "description_zh": "在 r/Blind 發文詢問人們希望哪些無障礙技能有遊戲化學習工具。如果螢幕閱讀器手勢排名高，建構 VoiceOver 手勢訓練遊戲原型。",
+      "timeEstimate": "2 hours survey + 6 hours prototype"
+    },
+    "signalStrength": {
+      "numMentions": 15,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["gamification", "accessibility", "education", "braille", "iOS"],
+    "category": "human-needs",
+    "signals": {
+      "workaroundDetected": false,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-31T07:00:00Z",
+    "sourceDate": "2026-03-31"
+  },
+  {
+    "id": "cool_20260331_002",
+    "title": "AI-Powered Accessibility Audit for Wild Touchscreens: Camera-Based Interface Reading",
+    "title_zh": "野外觸控螢幕的 AI 無障礙審計：基於相機的介面辨識",
+    "problem": "The blind community's biggest frustration isn't smartphones (VoiceOver/TalkBack work great) — it's every OTHER touchscreen: car infotainment, restaurant kiosks, store checkout, gym equipment, hotel room controls. There's no screen reader for these 'wild' touchscreens and no incentive for manufacturers to add one.",
+    "problem_zh": "視障社群最大的挫折不是智慧型手機（VoiceOver/TalkBack 很好用）——而是其他所有觸控螢幕：車載娛樂、餐廳自助機、結帳台、健身器材、飯店房間控制。這些「野外」觸控螢幕沒有螢幕閱讀器，製造商也沒有動機加裝。",
+    "who": "8+ million blind/low-vision Americans, plus 253 million globally, who encounter inaccessible touchscreens daily.",
+    "currentSolution": "Ask for help, avoid businesses with touchscreens, or use Be My Eyes to have a remote volunteer read the screen.",
+    "whyItSucks": "Be My Eyes requires a volunteer to be available and connected. Asking staff is unreliable and dignity-reducing. The number of inaccessible touchscreens is growing exponentially (EV chargers, parking meters, restaurant ordering, etc.).",
+    "whyItSucks_zh": "Be My Eyes 需要志工在線且連接。求助店員不可靠且損尊嚴。不可及觸控螢幕數量正指數增長（電動車充電站、停車計費器、餐廳點餐等）。",
+    "opportunityAngle": "Build a real-time 'wild touchscreen reader' app: point phone camera at any public touchscreen, AI identifies the UI elements, reads them aloud, and guides the user through the interaction with spatial audio ('the OK button is at the bottom right, 3 inches from your finger'). This is the phone-based proxy for the universal gesture the community wants.",
+    "opportunityAngle_zh": "建構即時「野外觸控螢幕閱讀器」App：將手機相機對準任何公共觸控螢幕，AI 辨識 UI 元素，大聲朗讀，並用空間音訊引導使用者互動（「OK 按鈕在右下角，離你手指 3 英寸」）。這是社群想要的通用手勢的手機端代理方案。",
+    "evidence": [
+      {
+        "source": "r/Blind",
+        "url": "https://www.reddit.com/r/Blind/comments/1s7x2hb/hot_take_touchscreens_arent_the_problem_bad_ui_is/",
+        "quote": "I would LOVE if there was a universal gesture for all touchscreens that turned on a Voice Assist for the duration of the transaction... Technology is supposed to make life easier for everyone. I just want us to be included on the ride to the future."
+      }
+    ],
+    "scores": {
+      "painIntensity": 5,
+      "frequency": 5,
+      "willingnessToPay": 5,
+      "automationPotential": 4,
+      "jonesFit": 4,
+      "competitionGap": 5,
+      "crossBorderArbitrage": 3,
+      "scrappiness": 3,
+      "total": 34
+    },
+    "firstTest": {
+      "type": "competitor_test",
+      "description": "Test existing apps (Be My AI, Seeing AI, Lookout) on 5 different public touchscreens to evaluate how well current AI vision handles 'wild' UI recognition. Document the gaps — this is your MVP specification.",
+      "description_zh": "在 5 個不同公共觸控螢幕上測試現有 App（Be My AI、Seeing AI、Lookout），評估目前 AI 視覺對「野外」UI 辨識的處理能力。記錄差距——這就是你的 MVP 規格。",
+      "timeEstimate": "4 hours field testing + 2 hours documentation"
+    },
+    "signalStrength": {
+      "numMentions": 30,
+      "recency": "high",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["accessibility", "computer-vision", "AI", "mobile-app", "assistive-tech"],
+    "category": "human-needs",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-03-31T07:00:00Z",
+    "sourceDate": "2026-03-31"
+  }
+]
