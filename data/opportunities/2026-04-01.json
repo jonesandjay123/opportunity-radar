@@ -1,0 +1,302 @@
+[
+  {
+    "id": "opp_20260401_001",
+    "title": "Supplier Verification SaaS: Pre-Wire Due Diligence for China Manufacturing",
+    "title_zh": "供應商驗證 SaaS：中國製造匯款前的盡職調查",
+    "problem": "An entrepreneur wired $28K (50% upfront) to a Chinese supplier who claimed 2,500 units/month capacity — turns out they can only do 600/month and were lying to multiple clients. His customer is threatening legal action. The pattern: founders importing from China have no reliable way to verify supplier production capacity before wiring money. They trust Alibaba profiles and WeChat conversations.",
+    "problem_zh": "一位創業者匯了 $28K（50% 預付）給一個聲稱月產能 2,500 單位的中國供應商——結果他們只能做 600/月，而且對多個客戶說謊。他的客戶正在威脅法律行動。模式：從中國進口的創辦人沒有可靠方法在匯款前驗證供應商的生產能力。他們信任阿里巴巴頁面和微信對話。",
+    "who": "First-time importers, DTC brand founders, Amazon FBA sellers, small hardware companies sourcing from China.",
+    "currentSolution": "Trust supplier claims on Alibaba, ask for factory photos/videos (easily faked), hire expensive sourcing agents ($3K-5K per trip), or learn the hard way by losing money.",
+    "whyItSucks": "Alibaba supplier ratings are pay-to-play. Factory videos can be borrowed or staged. Sourcing agents are expensive and their incentives aren't aligned (they get paid regardless). No tool aggregates public signals about a supplier's actual capacity — business registration data, export records, worker count, facility size from satellite imagery, cross-referencing claims across clients.",
+    "whyItSucks_zh": "阿里巴巴供應商評分是付費排名。工廠影片可以借用或作假。採購代理很貴且激勵不一致（不管結果都收費）。沒有工具整合供應商實際產能的公開信號——商業登記資料、出口記錄、員工數、衛星圖像的廠房面積、跨客戶交叉驗證聲明。",
+    "opportunityAngle": "Build 'SupplyCheck' — enter a Chinese supplier's company name, get an automated capacity report: business registration age, registered capital, employee count from social insurance records, export volume from customs data, facility size from satellite imagery, and a 'claimed vs likely' capacity score. Charge $49-99 per report. Jones's cross-border advantage + data scraping skills are a perfect fit.",
+    "opportunityAngle_zh": "建構「SupplyCheck」——輸入中國供應商公司名，獲得自動化產能報告：商業登記年限、註冊資本、社保記錄的員工數、海關資料的出口量、衛星圖像的廠房面積、以及「聲稱 vs 實際可能」的產能評分。每份報告收 $49-99。Jones 的跨境優勢 + 資料爬取技能完美適合。",
+    "evidence": [
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1s9b4i8/supplier_lied_about_production_capacity_and_now/",
+        "quote": "Chinese suppliers told me they do 2500 units/month. I believed it, sent my biggest order yet 1800 units, paid 50% upfront $28k. Now it's week 6 and suddenly they're like actually we can only do 600/month. Is there even a way to check what a supplier can actually handle before wiring money or is it all just guesswork?"
+      }
+    ],
+    "scores": {
+      "painIntensity": 5,
+      "frequency": 4,
+      "willingnessToPay": 5,
+      "automationPotential": 4,
+      "jonesFit": 5,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 5,
+      "scrappiness": 3,
+      "total": 35
+    },
+    "firstTest": {
+      "type": "manual_service",
+      "description": "Offer to manually verify 5 Chinese suppliers for r/Entrepreneur members for free using public business registry (天眼查/企查查), satellite imagery, and customs data databases. Document the process, then automate it.",
+      "description_zh": "在 r/Entrepreneur 為 5 位成員免費手動驗證中國供應商，使用公開商業登記（天眼查/企查查）、衛星圖像和海關資料庫。記錄流程，然後自動化。",
+      "timeEstimate": "8 hours for 5 manual reports"
+    },
+    "signalStrength": {
+      "numMentions": 23,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": true,
+    "tags": ["cross-border", "supply-chain", "verification", "China", "import"],
+    "category": "cross-border",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": true,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-04-01T07:00:00Z",
+    "sourceDate": "2026-04-01"
+  },
+  {
+    "id": "opp_20260401_002",
+    "title": "LinkedIn Content Factory: Founders Struggle Most with Visual Content and Consistency",
+    "title_zh": "LinkedIn 內容工廠：創辦人最掙扎的是視覺內容和一致性",
+    "problem": "A poll on r/Entrepreneur asking small business owners about LinkedIn content creation pain points reveals the breakdown: idea generation, visual creation (carousels/infographics), organizing a content plan, and staying consistent are all cited as major blockers. The pattern: founders know LinkedIn works for growth but the overhead of producing polished visual content (not just text posts) kills consistency.",
+    "problem_zh": "在 r/Entrepreneur 上一個詢問小企業主 LinkedIn 內容創作痛點的投票揭示：想點子、製作視覺內容（輪播/資訊圖表）、組織內容計畫和保持一致性都被列為主要障礙。模式：創辦人知道 LinkedIn 對成長有用，但製作精美視覺內容（不只是文字貼文）的開銷扼殺了一致性。",
+    "who": "Solo founders, small business owners, B2B SaaS founders who use LinkedIn for growth but struggle with content overhead.",
+    "currentSolution": "Use Canva templates (generic), hire freelance designers (expensive at $50-200/carousel), use AI writing tools for text only (miss the visual component), or just stop posting after 2 weeks.",
+    "whyItSucks": "Text-only LinkedIn posts get 3-5x less engagement than carousels. Canva templates look generic and everyone uses the same ones. Hiring designers doesn't scale for daily posting. No tool takes a founder's rough idea + brand guidelines and auto-generates a complete carousel + caption + scheduling in one step.",
+    "whyItSucks_zh": "純文字 LinkedIn 貼文的互動比輪播低 3-5 倍。Canva 範本看起來通用且大家都用一樣的。雇用設計師對每日發文不划算。沒有工具能接收創辦人的粗略想法 + 品牌指南，一步自動生成完整的輪播 + 文案 + 排程。",
+    "opportunityAngle": "Build 'CarouselPilot' — paste a rough idea or blog post, AI generates a branded LinkedIn carousel (PDF), matching caption, and suggested posting time. Use brand-kit upload for consistent look. Charge $19/mo for 10 carousels. Jones can build with PDF generation + AI copy + simple brand templating.",
+    "opportunityAngle_zh": "建構「CarouselPilot」——貼上粗略想法或部落格文章，AI 生成品牌化 LinkedIn 輪播（PDF）、配套文案和建議發文時間。用品牌包上傳確保一致外觀。$19/月含 10 個輪播。Jones 可以用 PDF 生成 + AI 文案 + 簡單品牌模板建構。",
+    "evidence": [
+      {
+        "source": "r/Entrepreneur",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1s9as0b/for_all_my_small_business_owners_who_post_on/",
+        "quote": "A lot of founders say LinkedIn helps them grow, but keeping up with content seems harder than expected. For those who try to post consistently: What part takes the most time? 1. coming up with ideas 2. creating visuals (carousels/infographics) 3. organizing a content plan 4. staying consistent"
+      }
+    ],
+    "scores": {
+      "painIntensity": 3,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 5,
+      "jonesFit": 4,
+      "competitionGap": 2,
+      "crossBorderArbitrage": 1,
+      "scrappiness": 5,
+      "total": 29
+    },
+    "firstTest": {
+      "type": "manual_service",
+      "description": "Offer to create 3 LinkedIn carousels for 5 founders for free using AI + Canva API. Measure if they actually post them and what engagement they get. If conversion from 'idea → posted carousel' improves, there's a product.",
+      "description_zh": "用 AI + Canva API 為 5 位創辦人免費製作 3 個 LinkedIn 輪播。衡量他們是否真的發佈以及獲得什麼互動。如果「想法 → 已發布輪播」的轉換率提升，就有產品。",
+      "timeEstimate": "4 hours"
+    },
+    "signalStrength": {
+      "numMentions": 7,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["LinkedIn", "content-creation", "automation", "founders", "B2B"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-04-01T07:00:00Z",
+    "sourceDate": "2026-04-01"
+  },
+  {
+    "id": "opp_20260401_003",
+    "title": "Self-Hosted Shared Radio: Sync Music Listening Across Platforms Without Accounts",
+    "title_zh": "自架共享電台：跨平台同步聽音樂不需帳號",
+    "problem": "A developer built 'Airwave' — a self-hosted shared radio that takes a YouTube/SoundCloud/Spotify playlist link and creates a single live MP3 stream everyone listens to in sync. Posted on r/SideProject. The insight: people want simple shared music experiences but every platform locks you into their ecosystem and requires everyone to have accounts.",
+    "problem_zh": "一位開發者建了「Airwave」——自架共享電台，將 YouTube/SoundCloud/Spotify 播放清單連結轉為所有人同步收聽的單一 MP3 串流。發在 r/SideProject。洞見：人們想要簡單的共享音樂體驗，但每個平台都把你鎖在他們的生態系中，要求每個人都有帳號。",
+    "who": "Office workers wanting shared background music, house parties, study groups, co-working spaces, retail shops wanting custom radio.",
+    "currentSolution": "Everyone uses their own Spotify (no sync). Use Discord music bots (clunky). One person casts to a speaker (only they control it). Paid services like Rockbot for commercial spaces ($100+/month).",
+    "whyItSucks": "Spotify collaborative playlists don't sync playback. Discord bots are unstable and require Discord. Commercial radio services (Rockbot, Soundtrack Your Brand) are expensive. No simple 'paste a link, share a URL, everyone hears the same thing' solution exists for casual use.",
+    "whyItSucks_zh": "Spotify 協作播放清單不會同步播放。Discord 機器人不穩定且需要 Discord。商業電台服務（Rockbot、Soundtrack Your Brand）很貴。不存在簡單的「貼連結、分享 URL、大家聽同一首」的休閒方案。",
+    "opportunityAngle": "Fork/improve Airwave into a hosted service: 'SharedRadio.fm' — paste any playlist link, get a shareable URL. Free for personal use (1 channel), $9/mo for commercial use (multiple channels, scheduling, Sonos integration). Jones could deploy this quickly since the open-source base exists.",
+    "opportunityAngle_zh": "將 Airwave fork/改進為托管服務：「SharedRadio.fm」——貼任何播放清單連結，獲得可分享的 URL。個人使用免費（1 個頻道），商業使用 $9/月（多頻道、排程、Sonos 整合）。Jones 可以快速部署因為開源基礎已經存在。",
+    "evidence": [
+      {
+        "source": "r/SideProject",
+        "url": "https://www.reddit.com/r/SideProject/comments/1s9d2oy/airwave_selfhosted_shared_radio/",
+        "quote": "Paste a YouTube, SoundCloud, Mixcloud, or Spotify playlist link and it generates a single live MP3 stream that everyone listens to in sync. No per-user playback. No sync issues. Because shared music should be synced, simple, and not tied to a single platform."
+      }
+    ],
+    "scores": {
+      "painIntensity": 2,
+      "frequency": 4,
+      "willingnessToPay": 3,
+      "automationPotential": 5,
+      "jonesFit": 4,
+      "competitionGap": 3,
+      "crossBorderArbitrage": 1,
+      "scrappiness": 5,
+      "total": 27
+    },
+    "firstTest": {
+      "type": "competitor_test",
+      "description": "Deploy Airwave on a VPS, test with 10 concurrent listeners across different platforms. If it works reliably, create a landing page for a hosted version and post on Product Hunt / HN.",
+      "description_zh": "在 VPS 上部署 Airwave，用 10 個跨平台的同時聽眾測試。如果穩定運作，為托管版建立著陸頁並在 Product Hunt / HN 發布。",
+      "timeEstimate": "3 hours setup + 2 hours testing"
+    },
+    "signalStrength": {
+      "numMentions": 4,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["music", "self-hosted", "streaming", "shared-experience"],
+    "category": "life-friction",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-04-01T07:00:00Z",
+    "sourceDate": "2026-04-01"
+  },
+  {
+    "id": "cool_20260401_001",
+    "title": "AI Ride Narrator: Phone Sensors as Anxiety Reducer for Passengers",
+    "title_zh": "AI 乘車播報員：手機感測器作為乘客焦慮緩解器",
+    "problem": "The blind car-fear post reveals a broader insight: the therapy technique of 'narrating the drive' (speed, turns, braking) works as anxiety treatment for anyone with motion anxiety or control issues as a passenger — not just blind people. Phone sensors (accelerometer, GPS, gyroscope) can detect all of these in real-time. No app currently uses phone sensors to provide calm, real-time ride narration.",
+    "problem_zh": "視障者搭車恐懼的貼文揭示了更廣泛的洞見：「口述駕駛」的治療技巧（速度、轉彎、煞車）對任何有動暈焦慮或控制問題的乘客都有效——不只是視障者。手機感測器（加速度計、GPS、陀螺儀）可以即時偵測所有這些。目前沒有 App 使用手機感測器提供平靜的即時乘車口述。",
+    "who": "Blind car passengers, people with motion/car anxiety, parents of anxious children, elderly passengers, anyone who gets carsick (narration helps with motion sickness too).",
+    "currentSolution": "Ask the driver to narrate (socially awkward, most refuse). White-knuckle through rides. Dissociate. Avoid cars entirely.",
+    "whyItSucks": "No one will narrate your drive for you except a dedicated therapist. Google Maps shows your route but doesn't narrate vehicle dynamics (braking, acceleration force, turn sharpness). Waze/Maps voice says 'turn left in 500 feet' — not 'we're gently slowing down now, turning left, speed is 15 mph.'",
+    "whyItSucks_zh": "除了專職治療師沒人會為你口述行程。Google Maps 顯示路線但不口述車輛動態（煞車、加速力道、轉彎銳度）。Waze/Maps 語音說「500 英尺後左轉」——不是「我們正在輕輕減速，左轉中，時速 15 英里」。",
+    "opportunityAngle": "Build 'RideCalm' — phone app that sits in your pocket during any car ride and uses accelerometer + GPS + gyroscope to provide soothing real-time narration: 'Slowing down gently... turning right... straight road, 30 miles per hour... slight curve ahead.' Calm voice, adjustable detail level. Works for blind users AND the much larger anxious-passenger market. $4.99/month.",
+    "opportunityAngle_zh": "建構「RideCalm」——手機 App 搭車時放口袋裡，用加速度計 + GPS + 陀螺儀提供舒緩的即時口述：「正在輕輕減速⋯右轉中⋯直路，時速 30 英里⋯前方有輕微彎道。」平靜語音，可調詳細程度。對視障使用者有用，也適用於更大的焦慮乘客市場。$4.99/月。",
+    "evidence": [
+      {
+        "source": "r/Blind",
+        "url": "https://www.reddit.com/r/Blind/comments/1s9393e/anyone_else_have_a_fear_of_riding_in_cars/",
+        "quote": "She also came up with the idea of narrating the whole drive. How fast we're going, when she is breaking and accelerating, what way and when she's turning. The speed thing especially helps me because then I can track how fast we are going."
+      }
+    ],
+    "scores": {
+      "painIntensity": 5,
+      "frequency": 5,
+      "willingnessToPay": 4,
+      "automationPotential": 5,
+      "jonesFit": 5,
+      "competitionGap": 5,
+      "crossBorderArbitrage": 2,
+      "scrappiness": 5,
+      "total": 36
+    },
+    "firstTest": {
+      "type": "manual_service",
+      "description": "Build a quick iOS prototype using Core Motion + GPS that speaks speed, turn direction, and braking events. Test with 5 people (2 blind users from r/Blind, 3 anxious passengers). Record if it reduces anxiety.",
+      "description_zh": "用 Core Motion + GPS 建一個快速 iOS 原型，語音播報速度、轉向和煞車事件。找 5 個人測試（2 位來自 r/Blind 的視障使用者，3 位焦慮乘客）。記錄是否降低焦慮。",
+      "timeEstimate": "6 hours prototype + 3 hours testing"
+    },
+    "signalStrength": {
+      "numMentions": 9,
+      "recency": "high",
+      "trend": "stable"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "reddit"
+    },
+    "recommendedFocus": false,
+    "tags": ["accessibility", "anxiety", "mobile-app", "sensors", "transportation"],
+    "category": "human-needs",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-04-01T07:00:00Z",
+    "sourceDate": "2026-04-01"
+  },
+  {
+    "id": "cool_20260401_002",
+    "title": "Curated Style Libraries: The 'Reference Management' Pattern for AI Creative Tools",
+    "title_zh": "策展風格庫：AI 創意工具的「文獻管理」模式",
+    "problem": "A solo dev built Promptsref — a curated Midjourney SREF library because good styles are buried in X threads and Discord chats, shared as partial prompts, and impossible to reliably reproduce. The broader pattern: every AI creative tool (Midjourney, Stable Diffusion, Suno, Udio) has the same problem — users discover amazing outputs but can't systematically save, organize, and reproduce the exact settings that created them.",
+    "problem_zh": "一位獨立開發者建了 Promptsref——策展的 Midjourney SREF 庫，因為好的風格埋在 X 推文串和 Discord 聊天中，以部分 prompt 分享，而且無法可靠重現。更廣泛的模式：每個 AI 創意工具（Midjourney、Stable Diffusion、Suno、Udio）都有同樣問題——使用者發現驚人的輸出但無法系統性地保存、組織和重現創造它們的確切設定。",
+    "who": "Midjourney power users, AI art creators, design studios using AI, content creators needing consistent visual styles.",
+    "currentSolution": "Save prompts in spreadsheets or Notion, screenshot good results, share codes in Discord. No tool systematically links output → full settings → reproducibility rating.",
+    "whyItSucks": "AI model updates break saved styles. Partial prompts don't reproduce. Good styles are scattered across platforms with no searchability. Building a personal style library is tedious manual work. No 'Zotero for AI prompts' exists.",
+    "whyItSucks_zh": "AI 模型更新破壞已保存的風格。部分 prompt 無法重現。好的風格散落在各平台沒有搜尋性。建立個人風格庫是繁瑣的手動工作。不存在「AI prompt 的 Zotero」。",
+    "opportunityAngle": "Build a cross-platform 'AI Style Manager' — browser extension that auto-captures your AI tool settings + outputs, tags them, rates reproducibility, and alerts you when model updates might break saved styles. Start with Midjourney, expand to SD/Suno. Freemium: free for 50 saved styles, $9/mo unlimited.",
+    "opportunityAngle_zh": "建構跨平台「AI 風格管理器」——瀏覽器擴充功能自動擷取你的 AI 工具設定 + 輸出，加標籤、評估可重現性、並在模型更新可能破壞已保存風格時提醒你。從 Midjourney 開始，擴展到 SD/Suno。免費增值：50 個免費保存風格，$9/月無限。",
+    "evidence": [
+      {
+        "source": "Hacker News (Show HN)",
+        "url": "https://news.ycombinator.com/item?id=46023503",
+        "quote": "I started Promptsref after getting frustrated with Midjourney. As a beginner I kept seeing amazing styles, but they were buried in long X threads or Discord chats, shared as just a code or a partial prompt, almost impossible to reliably reproduce later."
+      }
+    ],
+    "scores": {
+      "painIntensity": 3,
+      "frequency": 5,
+      "willingnessToPay": 3,
+      "automationPotential": 4,
+      "jonesFit": 4,
+      "competitionGap": 4,
+      "crossBorderArbitrage": 1,
+      "scrappiness": 4,
+      "total": 28
+    },
+    "firstTest": {
+      "type": "content_test",
+      "description": "Build a simple Chrome extension that captures Midjourney prompts + SREF codes from the web interface and saves them to a local JSON. Share on r/midjourney and measure installs.",
+      "description_zh": "建一個簡單的 Chrome 擴充功能，從網頁介面擷取 Midjourney prompt + SREF 代碼並保存到本地 JSON。在 r/midjourney 分享並衡量安裝量。",
+      "timeEstimate": "6-8 hours"
+    },
+    "signalStrength": {
+      "numMentions": 3,
+      "recency": "medium",
+      "trend": "increasing"
+    },
+    "sourceMeta": {
+      "region": "US",
+      "language": "en",
+      "platform": "hn"
+    },
+    "recommendedFocus": false,
+    "tags": ["AI-tools", "creative", "browser-extension", "Midjourney", "curation"],
+    "category": "tech-gap",
+    "signals": {
+      "workaroundDetected": true,
+      "payingButAngry": false,
+      "jonesLeverage": true
+    },
+    "status": "new",
+    "stage": "signal",
+    "assignedTo": "jarvis",
+    "createdAt": "2026-04-01T07:00:00Z",
+    "sourceDate": "2026-04-01"
+  }
+]
